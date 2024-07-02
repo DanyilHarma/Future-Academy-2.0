@@ -1,0 +1,51 @@
+.owl {
+    flex: 1;
+}
+
+.owlContainer {
+    position: relative;
+}
+
+.owlTextContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+}
+
+.owlText {
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px;
+}
+
+.owlText .bigText,
+.owlText .smallText {
+    margin-bottom: -15px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.owlText .smallText {
+    font-weight: 500;
+}
+
+.owlText .smallText:last-of-type {
+    margin-top: 30px;
+}
+
+.unionSmall {
+    position: absolute;
+    z-index: 1;
+}
+
+.owlSmall {
+    position: absolute;
+    top: 42%;
+    left: 13%;
+    z-index: 2;
+}

@@ -1,0 +1,4 @@
+.courseRow {
+    display: flex;
+    gap: 70px;
+}

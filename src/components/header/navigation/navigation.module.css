@@ -1,0 +1,59 @@
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.firstLi,
+.secondLi {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    gap: 45px;
+}
+
+.firstLi a,
+.secondLi a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+
+.firstLi a:hover,
+.secondLi a:hover {
+    color: #000;
+}
+
+.firstL li,
+.secondLi li {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #000;
+}
+
+.cityPopup {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.cityPopup img:not(.geo) {
+    position: absolute;
+    right: -25%;
+    top: 42%;
+}
+
+.city-pick-img {
+    margin-right: 5px;
+}
+
+.cityMain {
+    border-bottom: 1px solid #000;
+}
+
+.firstLi img,
+.secondLi img {
+    margin-right: 7px;
+}

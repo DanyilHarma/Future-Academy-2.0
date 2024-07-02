@@ -1,0 +1,9 @@
+:root {
+    --font-family: "Montserrat";
+    --second-family: "Roboto";
+}
+
+html,
+body {
+    padding: 0;
+}

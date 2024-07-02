@@ -1,0 +1,45 @@
+.forWho {
+    position: relative;
+    display: flex;
+    gap: 280px;
+    width: 100%;
+    max-width: 990px;
+}
+
+.forWhoPeople {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.peopleText {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.peopleText span:first-of-type {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+
+.peopleText span:last-of-type {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #4f4f4f;
+}
+
+.indicator {
+    position: absolute;
+    top: 93%;
+    left: 0;
+    width: 13.3%;
+    background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+    transition: left 0.3s ease;
+    opacity: 1;
+}
