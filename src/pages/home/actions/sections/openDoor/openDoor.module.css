@@ -1,0 +1,63 @@
+.dayOfOpenDoor {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #F7BC75;
+    border-radius: 10px;
+    padding: 15px 30px;
+    padding-bottom: 5px;
+    max-width: 1180px;
+    width: 100%;
+}
+
+.textDayOf {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.textDayOf span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 72%;
+    color: #000;
+    margin-bottom: 35px;
+}
+
+.textDayOf p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+    color: #333;
+}
+
+.buttonDayOfContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 210px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 222px;
+    height: 60px;
+}
+
+.buttonDayOf {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.buttonDayOf span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 186%;
+    color: #000
+}
+
+.buttonDayOf svg {
+    margin-left: 5px;
+}

@@ -1,0 +1,7 @@
+.forWho {
+    position: relative;
+    display: flex;
+    gap: 280px;
+    width: 100%;
+    max-width: 990px;
+}
