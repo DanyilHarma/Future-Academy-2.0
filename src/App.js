@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from './components/header/header';
-import HeaderBig from './components/headerBig/headerBig';
-import CoursesBlock from './components/coursesBlock/coursesBlock';
+import Home from './pages/home/home';
+
 
 
 
@@ -10,8 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HeaderBig />
-      <CoursesBlock />
+      <Home />
     </div>
   );
 }
