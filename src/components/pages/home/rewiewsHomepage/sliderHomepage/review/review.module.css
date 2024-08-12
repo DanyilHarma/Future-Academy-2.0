@@ -1,0 +1,58 @@
+.review {
+    display: table;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 20px;
+    max-width: 290px;
+    height: 100%;
+}
+
+.accountInfoWrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+
+    img {
+        width: 100%;
+        max-width: 40px;
+        height: 100%;
+        max-height: 40px;
+    }
+}
+
+.accountName {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+
+.accountCourse {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    color: #4f4f4f;
+}
+
+.reviewText {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 157%;
+    color: #000;
+}
+
+.reviewRating {
+    display: flex;
+    margin-top: 15px;
+    gap: 5px;
+
+    span {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 157%;
+        color: #4f4f4f;
+    }
+}

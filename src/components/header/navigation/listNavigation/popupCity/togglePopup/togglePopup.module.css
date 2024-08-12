@@ -1,0 +1,95 @@
+.popupCityContainer {
+    position: absolute;
+    top: 91%;
+    left: 15%;
+    max-width: 1185px;
+    width: 100%;
+}
+
+.shadowGradientPopupCity {
+    position: relative;
+    padding: 12px;
+}
+
+.popupCity {
+    background-color: #fff;
+    padding: 20px 20px;
+    height: 170px;
+    z-index: 3;
+    position: relative;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+.shadowGradientPopupCity::before {
+    content: "";
+    background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+    filter: blur(20px);
+    opacity: 0.6;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.titleWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleWrap h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.titleWrap img {
+    width: 100%;
+    max-width: 12px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.cities {
+    display: flex;
+    gap: 120px;
+    margin-top: 10px;
+}
+
+.citiesCol {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 200%;
+        color: #4f4f4f;
+        cursor: pointer;
+    }
+
+    span:hover {
+        font-weight: 400;
+        text-decoration: underline;
+        color: #00093c;
+    }
+}
+
+/* .cities-col span {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #4f4f4f;
+    cursor: pointer;
+}
+
+.cities-col span:hover {
+    font-weight: 400;
+    text-decoration: underline;
+    color: #00093c;
+} */
