@@ -1,0 +1,132 @@
+.formShadowContainer {
+    position: relative;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1180px;
+    height: 270px;
+    margin-bottom: -30px;
+}
+
+.formHelpChoice {
+    position: relative;
+    padding: 40px;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1180px;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 20px;
+
+    img {
+        position: absolute;
+    }
+}
+
+.formShadow {
+    background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+    filter: blur(5px);
+    opacity: 0.4;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.unionFormText {
+    position: absolute;
+    left: 23%;
+    top: 20%;
+
+    div:first-of-type {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 24px;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    div:last-of-type {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 162%;
+    }
+}
+
+.formInside {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formHelp {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 440px;
+}
+
+form>input,
+.buttomInput input {
+    width: 100%;
+    max-width: 440px;
+    height: 50px;
+    border-radius: 6px;
+    outline: none;
+    background: rgba(0, 9, 60, 0.1);
+    border: none;
+    padding: 20px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #4f4f4f;
+}
+
+.buttomInput,
+.infoButtonForm {
+    display: flex;
+    gap: 20px;
+}
+
+.infoButtonForm {
+    gap: 40px;
+}
+
+.buttomInput input {
+    width: 100%;
+    max-width: 210px;
+}
+
+.infoButtonForm p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 140%;
+    color: #4f4f4f;
+}
+
+.buttonFormHelp {
+    width: 100%;
+    max-width: 210px;
+    height: 50px;
+    text-align: center;
+    background-color: #f7941d;
+    border-radius: 6px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 50px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonFormHelp:focus,
+.buttonFormHelp:active {
+    border: none;
+    outline: none;
+}

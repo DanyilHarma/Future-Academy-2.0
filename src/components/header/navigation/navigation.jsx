@@ -5,7 +5,6 @@ import classes from "./navigation.module.css"
 
 
 const Navigation = (props) => {
-    console.log("Navigation component rendered")
     const firstLi = useSelector(state => state.liHeader.firstLi);
     const secondLi = useSelector(state => state.liHeader.secondLi);
 

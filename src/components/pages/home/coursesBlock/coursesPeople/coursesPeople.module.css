@@ -5,3 +5,14 @@
     width: 100%;
     max-width: 990px;
 }
+
+.indicator {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 13.3%;
+    border: none;
+    background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+    transition: left 0.3s ease;
+    opacity: 1;
+}

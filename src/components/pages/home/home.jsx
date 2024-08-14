@@ -3,6 +3,7 @@ import CoursesBlock from "./coursesBlock/coursesBlock"
 import VideoBlock from "./videoBlock/videoBlock";
 import Actions from "./actions/actions";
 import ReviewsHomepage from "./rewiewsHomepage/reviewHomepage";
+import WelcomeContainer from "./welcomeContainer/welcomeContainer";
 
 
 const Home = (props) => {
@@ -13,6 +14,7 @@ const Home = (props) => {
             <VideoBlock />
             <Actions />
             <ReviewsHomepage />
+            <WelcomeContainer />
         </div>
     )
 }

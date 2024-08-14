@@ -4,7 +4,6 @@ const ReviewsHomepage = (props) => {
     return (
         <div>
             <SliderHomepage />
-
         </div>
     )
 }
