@@ -1,9 +1,10 @@
+import { useSelector } from "react-redux";
 import CoursesRow from "./coursesRow/coursesRow";
 import classes from "./coursesWrapper.module.css"
 
 const CoursesWrapper = (props) => {
-    const coursesFirstRow = ["Робототехника", "Создание игр", "Web-разработка", "Мультимедиа", "Шахматы"];
-    const coursesSecondRow = ["3D-моделирование и дизайн", "Английский язык", "Блогинг", "Soft skills"];
+
+    const { coursesFirstRow, coursesSecondRow } = useSelector(state => state.coursesBlock.currentSection)
 
     return (
         <div className={classes.coursesWrapper}>

@@ -1,0 +1,13 @@
+.aFooter {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 243%;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.aFooter:hover {
+    color: #fff;
+    text-decoration: underline;
+}

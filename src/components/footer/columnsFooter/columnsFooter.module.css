@@ -1,0 +1,35 @@
+.sectionsColFooter {
+    margin-top: 55px;
+}
+
+.lastsCol {
+    display: flex;
+    gap: 50px;
+}
+
+.li {
+    display: flex;
+    flex-direction: column;
+}
+
+.li h5 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 162%;
+    color: #fff;
+}
+
+.aFooter {
+    color: rgb(255, 255, 255);
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 243%;
+    text-decoration: none;
+
+}
+
+.aFooter:hover {
+    color: #fff;
+    text-decoration: underline;
+}

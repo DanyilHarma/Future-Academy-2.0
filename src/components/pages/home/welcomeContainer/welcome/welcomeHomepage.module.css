@@ -1,0 +1,19 @@
+.welcomeInfoContent {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    img {
+        width: 100%;
+        max-width: 60px;
+        height: 60px;
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 144%;
+        color: #000;
+    }
+}
