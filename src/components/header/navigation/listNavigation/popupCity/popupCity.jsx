@@ -1,9 +1,6 @@
 import { useState } from "react";
 import classes from "./popupCity.module.css"
 import TogglePopup from "./togglePopup/togglePopup";
-import arrowTop from "../../../../../assets/images/header-top-images/Vector 197.png"
-import arrowBottom from "../../../../../assets/images/header-top-images/Vector 198.png"
-import geoImage from "../../../../../assets/images/header-top-images/Group 830.png"
 
 const PopupCity = (props) => {
 
@@ -16,12 +13,11 @@ const PopupCity = (props) => {
     return (
         <div>
             <div className={classes.cityPopup}>
-                <img src={geoImage} alt="" style={{ marginRight: '8px', cursor: 'auto' }}
+                <img src={props.isAlternate ? props.geoImage.geoImageLight : props.geoImage.geoImage} alt="" style={{ marginRight: '8px', cursor: 'auto' }}
                     className={classes.geo} />
-                <li className={classes.cityMain} onClick={handlePopup}> Дубоссары</li>
-                {!popup ? <img src={arrowTop} alt="" onClick={handlePopup} className={classes.cityPopup} />
-                    : <img src={arrowBottom} alt="" onClick={handlePopup} className={classes.cityPopup} />
-                }
+                <li className={props.isAlternate ? classes.cityMainLight : classes.cityMain} onClick={handlePopup}> Дубоссары</li>
+                <img src={props.isAlternate ? props.arrowImage.arrowImageLight : props.arrowImage.arrowImage} alt="" onClick={handlePopup} className={classes.cityPopup} />
+
 
             </div>
             {popup && <TogglePopup />}

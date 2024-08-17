@@ -1,8 +1,13 @@
-.headerTop {
+.headerTop,
+.headerDark {
     padding: 30px 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 70px;
     position: relative;
+}
+
+.headerDark {
+    background-color: #00093c;
 }

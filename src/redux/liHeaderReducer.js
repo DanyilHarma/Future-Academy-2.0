@@ -1,36 +1,60 @@
-import image from "../assets/images/header-top-images/Group 14.png"
+import coursesImage from "../assets/images/header-top-images/Group 14.png"
+import coursesImageLight from "../assets/images/header-top-images/Group 14L.png"
+
+import enterImage from "../assets/images/header-top-images/Group 593.png"
+import enterImageLight from "../assets/images/header-top-images/Group 593L.png"
+
+import arrowImage from "../assets/images/header-top-images/Vector 197.png"
+import arrowImageLight from "../assets/images/header-top-images/Vector 197L.png"
+import geoImage from "../assets/images/header-top-images/Group 830.png"
+import geoImageLight from "../assets/images/header-top-images/Group 830L.png"
 
 let initialState = {
     firstLi: [
         {
-            src: "",
-            imgSrc: image,
+            link: "/coursesAllPage",
+            imgSrc: {
+                darkImage: coursesImage,
+                lightImage: coursesImageLight
+            },
             text: "Все курсы"
         },
         {
-            src: "/main-landing/all-events/index.html",
+            link: "/main-landing/all-events/index.html",
             text: "Мероприятия"
         },
         {
-            src: "/main-landing/news/index.html",
+            link: "/main-landing/news/index.html",
             text: "Новости"
         },
         {
-            src: "",
+            link: "",
             text: "Карьера"
         },
     ],
 
     secondLi: [
         {
-            src: "+37368432044",
+            link: "+37368432044",
             text: "+37368432044"
         },
         {
-            src: "/main-landing/form-header/index.html",
+            link: "/main-landing/form-header/index.html",
+            imgSrcSecond: {
+                darkImage: enterImage,
+                lightImage: enterImageLight
+            },
             text: "Войти"
         }
-    ]
+    ],
+    popup:
+    {
+        imgSrc: {
+            geoImage: { geoImage, geoImageLight },
+            arrowImage: { arrowImage, arrowImageLight }
+        }
+    }
+
 }
 
 const liHeaderReducer = (state = initialState, action) => {

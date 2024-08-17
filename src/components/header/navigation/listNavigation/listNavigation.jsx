@@ -1,14 +1,19 @@
+import { NavLink } from "react-router-dom";
 import classes from "./listNvigation.module.css"
 
 
 
 const ListNav = (props) => {
+
+    const { darkImage, lightImage } = props.imgSrc || {};
+
     return (
         <div>
             <li>
-                <a href="">
-                    {props.imgSrc && <img src={props.imgSrc} alt={props.text} />}{props.text}
-                </a>
+                <NavLink to={props.link}>
+                    {props.imgSrc && <img src={props.isAlternate ? lightImage : darkImage} alt={props.text} />}{props.text}
+                    {props.imgSrcSecond && <img src={props.isAlternate ? lightImage : darkImage} alt={props.text} />}
+                </NavLink>
             </li>
         </div>
     )
