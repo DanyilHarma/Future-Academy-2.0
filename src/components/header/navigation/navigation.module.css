@@ -5,7 +5,9 @@
 }
 
 .firstLi,
-.secondLi {
+.firstLiLight,
+.secondLi,
+.secondLiLight {
     align-items: center;
     display: flex;
     list-style-type: none;
@@ -13,11 +15,21 @@
 }
 
 .firstLi a,
-.secondLi a {
+.firstLiLight a,
+.secondLi a,
+.secondLiLight a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #000;
+}
+
+.firstLiLight a,
+.secondLiLight a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
 }
 
 .firstLi a:hover,
@@ -54,6 +66,8 @@
 }
 
 .firstLi img,
-.secondLi img {
+.firstLiLight img,
+.secondLi img,
+.secondLiLight img {
     margin-right: 7px;
 }
