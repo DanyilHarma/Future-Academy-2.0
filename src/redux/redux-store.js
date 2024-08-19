@@ -6,11 +6,13 @@ import reviewsHomepageReducer from "./HomepageReducers/reviewsHomepageReducer";
 import welcomeHomepageReducer from "./HomepageReducers/welcomeHomepageReducer";
 import FooterReducer from "./footerReducer";
 import coursesBlockReducer from "./HomepageReducers/coursesBlockReducer";
+import coursePageFiltersReducer from "./CoursesPageReducers/coursePageFiltersReducer";
 
 let reducers = combineReducers({
     liHeader: liHeaderReducer,
     togglePopup: toggleReducer,
     coursesBlock: coursesBlockReducer,
+    filterCoursesPage: coursePageFiltersReducer,
     actionSectionHomepage: actionsSectionReducer,
     reviewHomepage: reviewsHomepageReducer,
     welcomeHomepage: welcomeHomepageReducer,

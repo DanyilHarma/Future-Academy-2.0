@@ -9,19 +9,22 @@ let initialState = {
         id: 1,
         imgSrc: childImage,
         title: "Дети",
-        age: "8 — 14 лет"
+        age: "8 — 14 лет",
+        value: "children"
     },
     {
         id: 2,
         imgSrc: teenagersImage,
         title: "Подростки",
-        age: "8 — 14 лет"
+        age: "8 — 14 лет",
+        value: "teenager"
     },
     {
         id: 3,
         imgSrc: adultImage,
         title: "Взрослые",
-        age: "18 — ∞"
+        age: "18 — ∞",
+        value: "adult"
     }],
     sections: {
         childrenSection: {

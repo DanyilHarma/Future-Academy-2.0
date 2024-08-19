@@ -1,0 +1,49 @@
+.allCoursesFilter {
+    width: 100%;
+    max-width: 260px;
+}
+
+.filterHr {
+    width: 130%;
+}
+
+.allCoursesFilter {
+    h6 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: #000;
+    }
+
+    form {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.allCourses {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    h6 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        color: #000;
+        margin-bottom: 25px;
+    }
+}
+
+.directions {
+    margin-bottom: 20px;
+}
+
+.coursesSection {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
