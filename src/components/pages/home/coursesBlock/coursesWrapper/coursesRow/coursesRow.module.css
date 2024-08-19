@@ -1,4 +1,9 @@
-.courseRow {
+.coursesRow,
+.coursesRowAlternate {
     display: flex;
     gap: 70px;
+}
+
+.coursesRowAlternate {
+    gap: 40px;
 }

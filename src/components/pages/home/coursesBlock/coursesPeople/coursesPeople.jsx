@@ -3,6 +3,8 @@ import classes from "./coursesPeople.module.css"
 import ForWho from "./forWho/forWho"
 import { useEffect, useRef, useState } from "react"
 import { changeSectionBlock } from "../../../../../redux/HomepageReducers/coursesBlockReducer"
+import useIsAlternate from "../../../../../hooks/useAlternatePaths"
+import { setCategory } from "../../../../../redux/CoursesPageReducers/coursePageFiltersReducer"
 
 
 const CoursesPeople = (props) => {
@@ -10,6 +12,9 @@ const CoursesPeople = (props) => {
     const people = useSelector(state => state.coursesBlock.people)
     const dispatch = useDispatch();
     const containerRef = useRef(null);
+
+    const alternatePaths = ["/coursesAllPage"];
+    const isAlternate = useIsAlternate(alternatePaths);
 
     useEffect(() => {
         if (containerRef.current) {
@@ -20,8 +25,9 @@ const CoursesPeople = (props) => {
         }
     }, []);
 
-    const handleChangeSection = (id, index) => {
+    const handleChangeSection = (id, index, value) => {
         dispatch(changeSectionBlock(id))
+        dispatch(setCategory(value))
         if (containerRef.current) {
             const selectedElement = containerRef.current.children[index];
             if (selectedElement) {
@@ -36,11 +42,12 @@ const CoursesPeople = (props) => {
         imgSrc={person.imgSrc}
         title={person.title}
         age={person.age}
-        onClick={() => handleChangeSection(person.id, index)}
+        value={person.value}
+        onClick={() => handleChangeSection(person.id, index, person.value)}
     />);
 
     return (
-        <div className={classes.forWho} ref={containerRef}>
+        <div className={isAlternate ? classes.forWhoAlternate : classes.forWho} ref={containerRef}>
             {personElement}
             <hr className={classes.indicator} style={{ "height": "5px", "left": `${indicatorPosition}px` }} />
         </div >

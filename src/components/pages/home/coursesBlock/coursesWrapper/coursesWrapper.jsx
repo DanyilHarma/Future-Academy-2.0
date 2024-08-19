@@ -1,15 +1,19 @@
 import { useSelector } from "react-redux";
 import CoursesRow from "./coursesRow/coursesRow";
 import classes from "./coursesWrapper.module.css"
+import useIsAlternate from "../../../../../hooks/useAlternatePaths";
 
 const CoursesWrapper = (props) => {
 
     const { coursesFirstRow, coursesSecondRow } = useSelector(state => state.coursesBlock.currentSection)
 
+    const alternatePaths = ["/coursesAllPage"];
+    const isAlternate = useIsAlternate(alternatePaths);
+
     return (
         <div className={classes.coursesWrapper}>
-            <CoursesRow courses={coursesFirstRow} />
-            <CoursesRow courses={coursesSecondRow} />
+            <CoursesRow courses={coursesFirstRow} isAlternate={isAlternate} />
+            <CoursesRow courses={coursesSecondRow} isAlternate={isAlternate} />
         </div>
     )
 }

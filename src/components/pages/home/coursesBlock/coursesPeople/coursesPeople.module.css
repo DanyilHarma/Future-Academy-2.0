@@ -1,9 +1,15 @@
-.forWho {
+.forWho,
+.forWhoAlternate {
     position: relative;
     display: flex;
     gap: 280px;
     width: 100%;
     max-width: 990px;
+}
+
+.forWhoAlternate {
+    margin-left: 350px;
+    gap: 222px;
 }
 
 .indicator {

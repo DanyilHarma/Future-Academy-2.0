@@ -16,7 +16,8 @@ const PopupCity = (props) => {
                 <img src={props.isAlternate ? props.geoImage.geoImageLight : props.geoImage.geoImage} alt="" style={{ marginRight: '8px', cursor: 'auto' }}
                     className={classes.geo} />
                 <li className={props.isAlternate ? classes.cityMainLight : classes.cityMain} onClick={handlePopup}> Дубоссары</li>
-                <img src={props.isAlternate ? props.arrowImage.arrowImageLight : props.arrowImage.arrowImage} alt="" onClick={handlePopup} className={classes.cityPopup} />
+                <img src={props.isAlternate ? props.arrowImage.arrowImageLight : props.arrowImage.arrowImage} alt="" onClick={handlePopup}
+                    className={`${classes.cityPopupImg} ${popup ? classes.cityPopupImgActive : ""}`} />
 
 
             </div>
