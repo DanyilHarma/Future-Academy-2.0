@@ -16,14 +16,16 @@ import image13 from "../../assets/images/images-all-courses-page/free-icon-progr
 const SET_DIFFICULT = "SET_DIFFICULT";
 const SET_EDUCATION = "SET_EDUCATION";
 const SET_CATEGORY = "SET_CATEGORY";
+const SET_DURATION = "SET_DURATION";
+
 
 
 
 let initialState = {
     difficult: "all",
-    education: "any",
+    education: "all",
     category: "all",
-    //duration: "all",
+    duration: [1, 24],
     courses: [
         {
             name: `«Разработка мобильных <br> приложений»`,
@@ -33,7 +35,7 @@ let initialState = {
             difficult: "cheater",
             education: "profession",
             category: ["children", "teenager", "adult"],
-            duration: `24 месяцa`,
+            duration: 24,
             backgroundColor: "#C7EEFF"
         },
         {
@@ -44,7 +46,7 @@ let initialState = {
             difficult: "cheater",
             education: "profession",
             category: ["children", "teenager", "adult"],
-            duration: `12 месяцев`,
+            duration: 12,
             sale: "-10%",
             backgroundColor: "#FFCE94"
         },
@@ -56,7 +58,7 @@ let initialState = {
             difficult: "proffessional",
             education: "profession",
             category: "children",
-            duration: `6 месяцев`,
+            duration: 6,
             backgroundColor: "#FFE38E"
         },
         {
@@ -67,7 +69,7 @@ let initialState = {
             difficult: "newbie",
             education: "profession",
             category: "children",
-            duration: `6 месяцев`,
+            duration: 6,
             backgroundColor: "#DDDDFF"
         },
         {
@@ -78,7 +80,7 @@ let initialState = {
             difficult: "newbie",
             education: "course",
             category: ["children", "teenager", "adult"],
-            duration: `3 месяца`,
+            duration: 3,
             sale: "-10%",
             backgroundColor: "#B8EFCF"
         },
@@ -90,7 +92,7 @@ let initialState = {
             difficult: "user",
             education: "profession",
             category: ["teenager", "adult"],
-            duration: `6 месяцев`,
+            duration: 6,
             sale: "-10%",
             backgroundColor: "#C7EEFF"
         },
@@ -102,7 +104,7 @@ let initialState = {
             difficult: "newbie",
             education: "course",
             category: ["children", "teenager", "adult"],
-            duration: `12 месяцев`,
+            duration: 12,
             backgroundColor: "#C5DDFF"
         },
         {
@@ -113,7 +115,7 @@ let initialState = {
             difficult: "newbie",
             education: "course",
             category: ["children", "teenager", "adult"],
-            duration: `1 месяц`,
+            duration: 1,
             backgroundColor: "#FFE9A8"
         },
         {
@@ -124,7 +126,7 @@ let initialState = {
             difficult: "newbie",
             education: "course",
             category: ["children", "teenager"],
-            duration: `2 месяца`,
+            duration: 2,
             sale: "-10%",
             backgroundColor: "#FFEEF6"
         },
@@ -136,49 +138,49 @@ let initialState = {
             difficult: "user",
             education: "course",
             category: "teenager",
-            duration: `3 месяца`,
+            duration: 3,
             backgroundColor: "#DDDDFF"
         },
         {
             name: "«Иностранные языки»",
             imgSrc: image10,
-            text: `Курс, который обучит вас софт-скиллами, включает коммуникацию, управление временем и
-                                    работу в команде. Разработан профессионалами.`,
+            text: `Курс, который обучит вас софт- скиллами, включает коммуникацию, управление временем и
+                                    работу в команде.Разработан профессионалами.`,
             difficult: "user",
             education: "course",
             category: ["children", "teenager", "adult"],
-            duration: `24 месяца`,
+            duration: 24,
             backgroundColor: "#C5DDFF"
         },
         {
             name: "«Интенсивы»",
             imgSrc: image11,
-            text: `Курс, который обучит вас софт-скиллами, включает коммуникацию, управление временем и
-                                    работу в команде. Разработан профессионалами.`,
+            text: `Курс, который обучит вас софт - скиллами, включает коммуникацию, управление временем и
+                                    работу в команде.Разработан профессионалами.`,
             difficult: "proffessional",
             education: "course",
             category: ["teenager", "adult"],
-            duration: `1 месяц`,
+            duration: 1,
             backgroundColor: "#FFE9A8"
         },
         {
             name: "«Мастер классы»",
             imgSrc: image12,
-            text: `Вы сможете принять участия в мастер-классах,на которых будут присутствовать лучшие специалисты своего дела и набираться у них опыта.`,
+            text: `Вы сможете принять участия в мастер - классах, на которых будут присутствовать лучшие специалисты своего дела и набираться у них опыта.`,
             difficult: "proffessional",
             education: "course",
             category: ["teenager", "adult"],
-            duration: `6 месяцев`,
+            duration: 6,
             backgroundColor: "#DDDDFF"
         },
         {
             name: "«Программирование»",
             imgSrc: image13,
-            text: `Курс, который обучит вас программированию, включает основы, структуры данных и разработку приложений. Разработан опытными разработчиками.`,
+            text: `Курс, который обучит вас программированию, включает основы, структуры данных и разработку приложений.Разработан опытными разработчиками.`,
             difficult: "user",
             education: "profession",
             category: ["teenager", "adult"],
-            duration: `8 месяцев`,
+            duration: 8,
             sale: "-10%",
             backgroundColor: "#FFEEF6"
         },
@@ -200,12 +202,17 @@ const coursePageFiltersReducer = (state = initialState, action) => {
             return {
                 ...state, category: action.event
             }
+        case SET_DURATION:
+            return {
+                ...state, duration: action.duration
+            }
         default: return state
     }
 }
 
 export const setDifficult = (event) => ({ type: SET_DIFFICULT, event });
-export const setEducation = (event) => ({ type: SET_EDUCATION, event })
-export const setCategory = (event) => ({ type: SET_CATEGORY, event })
+export const setEducation = (event) => ({ type: SET_EDUCATION, event });
+export const setCategory = (event) => ({ type: SET_CATEGORY, event });
+export const setDuration = (duration) => ({ type: SET_DURATION, duration });
 
 export default coursePageFiltersReducer;
