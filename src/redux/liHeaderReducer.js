@@ -9,6 +9,8 @@ import arrowImageLight from "../assets/images/header-top-images/Vector 197L.png"
 import geoImage from "../assets/images/header-top-images/Group 830.png"
 import geoImageLight from "../assets/images/header-top-images/Group 830L.png"
 
+const SET_INDICATOR_POSITION = "SET_INDICATOR_POSITION";
+
 let initialState = {
     firstLi: [
         {
@@ -17,19 +19,23 @@ let initialState = {
                 darkImage: coursesImage,
                 lightImage: coursesImageLight
             },
-            text: "Все курсы"
+            text: "Все курсы",
+            isSelected: null
         },
         {
             link: "/main-landing/all-events/index.html",
-            text: "Мероприятия"
+            text: "Мероприятия",
+            isSelected: false
         },
         {
             link: "/main-landing/news/index.html",
-            text: "Новости"
+            text: "Новости",
+            isSelected: false
         },
         {
             link: "",
-            text: "Карьера"
+            text: "Карьера",
+            isSelected: false
         },
     ],
 
@@ -44,7 +50,8 @@ let initialState = {
                 darkImage: enterImage,
                 lightImage: enterImageLight
             },
-            text: "Войти"
+            text: "Войти",
+            isSelected: false
         }
     ],
     popup:
@@ -59,8 +66,21 @@ let initialState = {
 
 const liHeaderReducer = (state = initialState, action) => {
     switch (action.type) {
+        case SET_INDICATOR_POSITION:
+            return {
+                ...state,
+                firstLi: state.firstLi.map((item, index) =>
+                    index === action.index ? { ...item, isSelected: true } : { ...item, isSelected: false }
+                ),
+                secondLi: state.secondLi.map((item, index) =>
+                    index === action.index ? { ...item, isSelected: true } : { ...item, isSelected: false }
+                )
+
+            }
         default: return state;
     }
 }
+
+export const setIndicatorPosition = (index) => ({ type: SET_INDICATOR_POSITION, index })
 
 export default liHeaderReducer;

@@ -1,0 +1,12 @@
+.liRange {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rangeFilterLabel {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}

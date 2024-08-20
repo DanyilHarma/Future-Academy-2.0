@@ -1,16 +1,21 @@
+
 import { useSelector } from "react-redux";
 import classes from "./coursesSection.module.css"
 
 
 const CoursesSection = () => {
 
-    const { difficult, education, category, courses } = useSelector(state => state.filterCoursesPage)
+    const { difficult, education, category, duration, courses } = useSelector(state => state.filterCoursesPage)
+
+
+    if (!courses) return null;
 
     const filteredCourses = courses.filter(course => {
-        const difficultMatch = difficult === 'all' || course.difficult.includes(difficult);
-        const educationMatch = education === 'any' || course.education.includes(education);
+        const difficultMatch = difficult === 'all' || course.difficult === difficult;
+        const educationMatch = education === 'all' || course.education === education;
         const categoryMatch = category === 'all' || course.category.includes(category);
-        return difficultMatch && educationMatch && categoryMatch;
+        const durationMatch = course.duration >= duration[0] && course.duration <= duration[1]
+        return difficultMatch && educationMatch && categoryMatch && durationMatch;
     });
 
     const groupedCourses = filteredCourses.reduce((result, course, index) => {
@@ -37,7 +42,7 @@ const CoursesSection = () => {
                                         <div className={classes.titleInfo} dangerouslySetInnerHTML={{ "__html": course.name }}></div>
                                     </div>
                                     <p dangerouslySetInnerHTML={{ "__html": course.text }}></p>
-                                    <span>{course.duration}</span>
+                                    <span>{course.duration} месяца</span>
                                     {course.sale ? <div className={classes.sale}>{course.sale}</div> : null}
                                 </div>
                             </div>

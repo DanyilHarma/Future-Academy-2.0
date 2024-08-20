@@ -2,6 +2,7 @@ import CoursesWrapper from "../../home/coursesBlock/coursesWrapper/coursesWrappe
 import ComplexityFilter from "./complexityFilter/complexityFilter";
 import classes from "./coursesFilter.module.css"
 import CoursesSection from "./coursesSection/coursesSection";
+import DoubleSlider from "./durationFilter/durationFilter";
 import EducationFilter from "./educationFilter/educationFilter";
 
 const CoursesFilter = () => {
@@ -13,6 +14,9 @@ const CoursesFilter = () => {
                 <hr className={classes.filterHr} />
                 <h6>Тип обучения</h6>
                 <EducationFilter />
+                <hr className={classes.filterHr} />
+                <h6>Длительность обучения</h6>
+                <DoubleSlider />
             </div>
             <div className={classes.allCourses}>
                 <h6>Направления</h6>
