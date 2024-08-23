@@ -6,6 +6,7 @@ import FormHelp from './components/formHelp/formHelp';
 import Footer from './components/footer/footer';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import CoursesPageContainer from './components/pages/coursesPage/coursesPageContainer';
+import AnyoneCoursesPage from './components/pages/coursesPage/anyoneCourse/anyoneCourse';
 
 function App(props) {
   return (
@@ -14,7 +15,8 @@ function App(props) {
       <Routes>
         <Route path="/" element={<Navigate to="homepage" />} />
         <Route path="homepage" element={<Home />} />
-        <Route path="coursesAllPage" element={<CoursesPageContainer />} />
+        <Route path="coursesAllPage/*" element={<CoursesPageContainer />} />
+        <Route path="coursesAllPage/:courseId" element={<AnyoneCoursesPage />} />
       </Routes>
       <FormHelp />
       <Footer />

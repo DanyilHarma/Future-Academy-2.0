@@ -1,0 +1,29 @@
+.goal {
+    display: flex;
+    gap: 60px;
+}
+
+.goalContent {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.goalContent img {
+    width: 26px;
+    height: 41px;
+    object-fit: contain;
+}
+
+.goalContent span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: #000;
+}
+
+.goalContent span:last-of-type {
+    font-weight: 400;
+    font-size: 14px;
+}

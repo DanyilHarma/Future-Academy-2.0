@@ -1,0 +1,138 @@
+.headerMain {
+    position: relative;
+    overflow: visible;
+    height: 536px;
+    margin-bottom: 20px;
+    background-color: #00093c;
+}
+
+.headerImages {
+    position: absolute;
+}
+
+.headerMainContent {
+    display: flex;
+    gap: 50px;
+    position: relative;
+}
+
+.headerMainCol {
+    display: flex;
+    flex-direction: column;
+}
+
+.svgLine {
+    width: 100%;
+}
+
+.infoBlock {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+.text {
+    border-top: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #F7941D, #27AAE1);
+    padding-top: 10px;
+    flex: 1;
+    margin-right: 10px;
+
+    span {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+}
+
+.headerMainCol h1 {
+    margin-top: 50px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42px;
+    color: #fff;
+}
+
+.headerMainInfo {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.headerDescription {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.headerMainInfo div {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+}
+
+.coursePrice span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+}
+
+.trialLessonHeader {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trialLessonHeader span {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.trialLessonHeader div:not(.trialLessonButton) {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.trialLessonButton {
+    margin-top: 20px;
+    background-color: #f7941d;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 285px;
+    height: 50px;
+    line-height: 48px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.headerImage {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100%;
+    max-height: 536px;
+}
+
+.headerImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

@@ -28,6 +28,7 @@ let initialState = {
     duration: [1, 24],
     courses: [
         {
+            id: "DevelopMobile",
             name: `«Разработка мобильных <br> приложений»`,
             imgSrc: image,
             text: `Разработчик мобильных приложений создаёт <br> приложения, которыми 
@@ -36,9 +37,10 @@ let initialState = {
             education: "profession",
             category: ["children", "teenager", "adult"],
             duration: 24,
-            backgroundColor: "#C7EEFF"
+            backgroundColor: "#C7EEFF",
         },
         {
+            id: 2,
             name: "«Создание игр»",
             imgSrc: image1,
             text: `Курс, который обучит вас разработке игр, включает программирование, дизайн, анимацию
@@ -51,6 +53,7 @@ let initialState = {
             backgroundColor: "#FFCE94"
         },
         {
+            id: 3,
             name: "«Web-разработка»",
             imgSrc: image2,
             text: `Курс, который обучит вас веб-разработке, включает HTML, CSS, JavaScript и создание
@@ -62,6 +65,7 @@ let initialState = {
             backgroundColor: "#FFE38E"
         },
         {
+            id: 4,
             name: "«Мультимедиа»",
             imgSrc: image3,
             text: `Курс, который обучит вас мультимедиа, включает создание и редактирование видео, аудио
@@ -73,6 +77,7 @@ let initialState = {
             backgroundColor: "#DDDDFF"
         },
         {
+            id: "cheess",
             name: "«Шахматы»",
             imgSrc: image4,
             text: `Курс, который обучит вас шахматам, включает стратегии, тактику и решения задач.
@@ -82,9 +87,10 @@ let initialState = {
             category: ["children", "teenager", "adult"],
             duration: 3,
             sale: "-10%",
-            backgroundColor: "#B8EFCF"
+            backgroundColor: "#B8EFCF",
         },
         {
+            id: 6,
             name: "«3D-моделирование и дизайн»",
             imgSrc: image5,
             text: `Курс, который обучит вас 3D моделированию и дизайну, включает создание и рендеринг
@@ -97,6 +103,7 @@ let initialState = {
             backgroundColor: "#C7EEFF"
         },
         {
+            id: 7,
             name: "«Английский язык»",
             imgSrc: image6,
             text: `Курс, который обучит вас английскому языку, включает грамматику, разговорную практику
@@ -108,6 +115,7 @@ let initialState = {
             backgroundColor: "#C5DDFF"
         },
         {
+            id: 8,
             name: "«Блогинг»",
             imgSrc: image7,
             text: `Курс, который обучит вас блогингу, включает создание контента, продвижение и
@@ -119,6 +127,7 @@ let initialState = {
             backgroundColor: "#FFE9A8"
         },
         {
+            id: 9,
             name: "«Soft-skills»",
             imgSrc: image8,
             text: `Курс, который обучит вас софт-скиллами, включает коммуникацию, управление временем и
@@ -131,6 +140,7 @@ let initialState = {
             backgroundColor: "#FFEEF6"
         },
         {
+            id: 10,
             name: "«Подготовка к ЕГЭ»",
             imgSrc: image9,
             text: `Курс, который поможет вам подготовиться к ЕГЭ, включает все необходимые предметы и
@@ -142,6 +152,7 @@ let initialState = {
             backgroundColor: "#DDDDFF"
         },
         {
+            id: 11,
             name: "«Иностранные языки»",
             imgSrc: image10,
             text: `Курс, который обучит вас софт- скиллами, включает коммуникацию, управление временем и
@@ -153,6 +164,7 @@ let initialState = {
             backgroundColor: "#C5DDFF"
         },
         {
+            id: 12,
             name: "«Интенсивы»",
             imgSrc: image11,
             text: `Курс, который обучит вас софт - скиллами, включает коммуникацию, управление временем и
@@ -164,6 +176,7 @@ let initialState = {
             backgroundColor: "#FFE9A8"
         },
         {
+            id: 13,
             name: "«Мастер классы»",
             imgSrc: image12,
             text: `Вы сможете принять участия в мастер - классах, на которых будут присутствовать лучшие специалисты своего дела и набираться у них опыта.`,
@@ -174,6 +187,7 @@ let initialState = {
             backgroundColor: "#DDDDFF"
         },
         {
+            id: 14,
             name: "«Программирование»",
             imgSrc: image13,
             text: `Курс, который обучит вас программированию, включает основы, структуры данных и разработку приложений.Разработан опытными разработчиками.`,
