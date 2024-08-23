@@ -1,0 +1,33 @@
+.containerOwl {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+.owlImage {
+    position: relative;
+    top: 90px;
+    left: 130px;
+    z-index: 3;
+}
+
+.containerAboutUnion {
+    position: relative;
+    display: inline-block;
+}
+
+.unionImage {
+    position: relative;
+    z-index: 1;
+}
+
+.unionText {
+    position: absolute;
+    top: 15%;
+    left: 22px;
+    z-index: 2;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}

@@ -7,15 +7,21 @@ import welcomeHomepageReducer from "./HomepageReducers/welcomeHomepageReducer";
 import FooterReducer from "./footerReducer";
 import coursesBlockReducer from "./HomepageReducers/coursesBlockReducer";
 import coursePageFiltersReducer from "./CoursesPageReducers/coursePageFiltersReducer";
+import everyCoursePageReducer from "./CoursesPageReducers/EveryCoursePageReducer/EveryCoursePageReducer";
+import owlReducer from "./owlReducer";
+import goalsReducer from "./goalReducer";
 
 let reducers = combineReducers({
     liHeader: liHeaderReducer,
     togglePopup: toggleReducer,
     coursesBlock: coursesBlockReducer,
+    everyCourse: everyCoursePageReducer,
     filterCoursesPage: coursePageFiltersReducer,
     actionSectionHomepage: actionsSectionReducer,
     reviewHomepage: reviewsHomepageReducer,
     welcomeHomepage: welcomeHomepageReducer,
+    owl: owlReducer,
+    goals: goalsReducer,
     footer: FooterReducer,
 })
 

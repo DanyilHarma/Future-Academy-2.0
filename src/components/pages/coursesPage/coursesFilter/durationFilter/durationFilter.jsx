@@ -22,7 +22,7 @@ const Handle = (props) => {
     );
 };
 
-const DoubleSlider = () => {
+const DoubleSliderFilter = () => {
 
     const dispatch = useDispatch();
     const [values, setValues] = useState([1, 24]);
@@ -77,4 +77,4 @@ const DoubleSlider = () => {
     )
 }
 
-export default DoubleSlider;
+export default DoubleSliderFilter;

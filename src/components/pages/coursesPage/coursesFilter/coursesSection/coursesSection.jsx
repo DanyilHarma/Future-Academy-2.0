@@ -1,6 +1,7 @@
 
 import { useSelector } from "react-redux";
 import classes from "./coursesSection.module.css"
+import { NavLink } from "react-router-dom";
 
 
 const CoursesSection = () => {
@@ -33,7 +34,7 @@ const CoursesSection = () => {
                 groupedCourses.map((group, groupIndex) => (
                     <div key={groupIndex} className={classes.sectionRow}>
                         {group.map((course, index) => (
-                            <div key={index} className={classes.coursesSectionContainer}>
+                            <NavLink to={`/coursesAllPage/${course.id}`} key={index} className={classes.coursesSectionContainer}>
                                 <div className={classes.shadowDevelop}></div>
                                 <div className={classes.developCours} style={{ backgroundColor: course.backgroundColor }}>
                                     <span>Программа</span>
@@ -45,7 +46,7 @@ const CoursesSection = () => {
                                     <span>{course.duration} месяца</span>
                                     {course.sale ? <div className={classes.sale}>{course.sale}</div> : null}
                                 </div>
-                            </div>
+                            </NavLink>
                         ))}
                     </div >
                 ))
@@ -54,6 +55,7 @@ const CoursesSection = () => {
             )}
         </>
     )
+
 }
 
 export default CoursesSection;

@@ -21,7 +21,6 @@ const Breadcrumbs = () => {
                         </li>
                     )
                 }
-
                 )}
             </ol>
         </nav>

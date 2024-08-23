@@ -5,6 +5,11 @@
 
 .coursesSectionContainer {
     position: relative;
+    text-decoration: none;
+}
+
+.coursesSectionContainer:hover {
+    text-decoration: none;
 }
 
 .developCours {

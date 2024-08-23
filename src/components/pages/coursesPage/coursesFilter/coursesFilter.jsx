@@ -1,9 +1,11 @@
+import { Route, Routes } from "react-router-dom";
 import CoursesWrapper from "../../home/coursesBlock/coursesWrapper/coursesWrapper";
 import ComplexityFilter from "./complexityFilter/complexityFilter";
 import classes from "./coursesFilter.module.css"
 import CoursesSection from "./coursesSection/coursesSection";
-import DoubleSlider from "./durationFilter/durationFilter";
+import DoubleSliderFilter from "./durationFilter/durationFilter";
 import EducationFilter from "./educationFilter/educationFilter";
+import AnyoneCoursesPage from "../anyoneCourse/anyoneCourse";
 
 const CoursesFilter = () => {
     return (
@@ -16,7 +18,7 @@ const CoursesFilter = () => {
                 <EducationFilter />
                 <hr className={classes.filterHr} />
                 <h6>Длительность обучения</h6>
-                <DoubleSlider />
+                <DoubleSliderFilter />
             </div>
             <div className={classes.allCourses}>
                 <h6>Направления</h6>

@@ -3,6 +3,8 @@ import owlImg from "../../../../../assets/images/courses-images/owl-small.png"
 import unionSmall from "../../../../../assets/images/courses-images/Union-small.png"
 
 const Owl = (props) => {
+
+
     return (
         <div className={classes.owl}>
             <div className={classes.owlContainer}>
@@ -11,7 +13,7 @@ const Owl = (props) => {
                     <div className={classes.owlText}>
                         <span className={classes.bigText}>Кем вы хотите стать?</span><br />
                         <span className={classes.smallText}>Пора найти себя <br /> и выбрать подходящий <br /> курс :)</span>
-                        <span className={classes.smallText}>Удачи!</span>
+                        <span className={classes.smallTextSecond}>Удачи!</span>
                     </div>
                 </div>
             </div>
