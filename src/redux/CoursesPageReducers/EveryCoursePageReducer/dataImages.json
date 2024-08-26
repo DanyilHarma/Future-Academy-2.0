@@ -1,0 +1,178 @@
+{
+    "chess": {
+        "headerImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector.png",
+                "top": "10%",
+                "left": "-5%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20178.png",
+                "top": "60%",
+                "left": "-10%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+                "top": "41%",
+                "left": "35%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png",
+                "top": "84%",
+                "left": "26%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+                "top": "63%",
+                "left": "58%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+                "top": "7%",
+                "left": "65%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+                "top": "31%",
+                "left": "84%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(4).png",
+                "top": "10%",
+                "left": "103%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20182.png",
+                "top": "88%",
+                "left": "97%",
+                "width": "17%"
+            }
+        ],
+        "headerImageBackground": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png",
+        "goalsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group.png",
+                "goalTitle": "Цель 1",
+                "goalText": "Привить любовь <br/> и интерес к шахматам"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group (1).png",
+                "goalTitle": "Цель 2",
+                "goalText": "Получить удовольствие <br/> от процесса игры, <br/> от факта победы <br/> в партии, от спасения"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group (2).png",
+                "goalTitle": "Цель 3",
+                "goalText": "Научить <br/> анализировать свои <br/> и чужие ошибки, <br/> учиться на них <br/> с помощью GM <br/> мирового уровня"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group (3).png",
+                "goalTitle": "Цель 4",
+                "goalText": "Получить удовольствие <br/> от процесса игры, <br/> от факта победы<br/> в партии, от спасения"
+            }
+        ],
+        "iframeData": {
+            "posterImage": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png"
+        },
+        "infoSectionsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector11.png",
+                "text": "Интересные уроки <br/> по шахматам"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group11.png",
+                "text": "Шахматы для взрослых <br/> и детей"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group12.png",
+                "text": "Обучение <br/>шахмат онлайн"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group13.png",
+                "text": "Профессиональное <br/>обучение шахматам"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group14.png",
+                "text": "Шахматные <br/> турниры"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group15.png",
+                "text": "Сеанс одновременной <br/>игры с GM"
+            }
+        ],
+        "carouselImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2019.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2020.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2021.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2022.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/51.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/1-18877-1514363749-3752.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/images.jpg"
+            }
+        ],
+        "priceImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "top": "-15%",
+                "left": "75%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "top": "-15%",
+                "left": "90%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "top": "24%",
+                "left": "81%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "top": "20%",
+                "left": "90%"
+            }
+        ],
+        "couchesData": [
+            {
+                "name": "Анастасия Кидалова",
+                "proffession": "Выпускница Гарвардского<br /> Университета.<br />Более 10 лет играет в шахматы и участвует в турнирах.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185.png"
+            },
+            {
+                "name": "Михаил Сквернослов",
+                "proffession": "Мастер спорта по шахматам,<br />обучает игре более 15 лет.<br />Призер международных<br /> турниров.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (1).png"
+            },
+            {
+                "name": "Ольга Гнилоустная",
+                "proffession": "Международный гроссмейстер,<br />преподает шахматы более 20<br /> лет.<br />Авторитетный тренер и стратег.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (2).png"
+            },
+            {
+                "name": "Максим Жалкий",
+                "proffession": "Обладатель титула чемпиона<br /> страны,<br />с 15-летним опытом тренерской<br /> работы.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (3).png"
+            }
+        ],
+        "couchesBackgroundImages": [
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+        ]
+    }
+}

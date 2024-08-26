@@ -14,7 +14,7 @@ const AnyoneCoursesPage = () => {
 
     const dispatch = useDispatch();
     const { courseId } = useParams();
-    const courses = useSelector(state => state.everyCourse.courses);
+    const courses = useSelector(state => state.everyCourse);
 
     const course = courses.find(c => c.id === courseId);
 
@@ -26,15 +26,15 @@ const AnyoneCoursesPage = () => {
             dispatch(setCourseOwlText(course.unionText))
         }
     }, [course, dispatch])
-
+    // debugger
     return (
         <>
             <AnyoneCourseHeader course={course} />
             <AboutPart course={course} />
             <CourseblockInfo infoData={course.infoCourse} benefitesData={course.benefitesFromTheCourse} />
             <CoursesOverviewSection overviewInfo={course.overviewSectionData} dataPriceInfo={course} />
-            <Couches couchesData={course.couchesData} couchesBackgroundImages={course.couchesBackgroundImages} />
-            <MyAccordion accordionData={course.accordionData} />
+            <Couches couchesData={course.overviewSectionData.couchesData} couchesBackgroundImages={course.overviewSectionData.couchesBackgroundImages} />
+            <MyAccordion accordionData={course.overviewSectionData.accordionData} />
         </>
     )
 }

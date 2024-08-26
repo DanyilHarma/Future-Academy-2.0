@@ -1,373 +1,311 @@
-import image1 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector.png"
-import image2 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 178.png"
-import image3 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 179.png"
-import image4 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 181.png"
-import image5 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (2).png"
-import image6 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (1).png"
-import image7 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (3).png"
-import image8 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (4).png"
-import image9 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 182.png"
+// // import image1 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector.png"
+// // import image2 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 178.png"
+// // import image3 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 179.png"
+// // import image4 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 181.png"
+// // import image5 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (2).png"
+// // import image6 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (1).png"
+// // import image7 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (3).png"
+// // import image8 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector (4).png"
+// // import image9 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector 182.png"
 
-import imageHeader from "../../../assets/images/images-all-courses-page/images-chess-page/shutterstock_2033756324.png"
+// // import imageHeader from "../../../assets/images/images-all-courses-page/images-chess-page/shutterstock_2033756324.png"
 
-import imageGoal1 from "../../../assets/images/images-all-courses-page/images-chess-page/Group.png"
-import imageGoal2 from "../../../assets/images/images-all-courses-page/images-chess-page/Group (1).png"
-import imageGoal3 from "../../../assets/images/images-all-courses-page/images-chess-page/Group (2).png"
-import imageGoal4 from "../../../assets/images/images-all-courses-page/images-chess-page/Group (3).png"
+// // import imageGoal1 from "../../../assets/images/images-all-courses-page/images-chess-page/Group.png"
+// // import imageGoal2 from "../../../assets/images/images-all-courses-page/images-chess-page/Group (1).png"
+// // import imageGoal3 from "../../../assets/images/images-all-courses-page/images-chess-page/Group (2).png"
+// // import imageGoal4 from "../../../assets/images/images-all-courses-page/images-chess-page/Group (3).png"
 
-import posterImgChess from "../../../assets/images/images-all-courses-page/images-chess-page/shutterstock_2033756324.png"
+// // import posterImgChess from "../../../assets/images/images-all-courses-page/images-chess-page/shutterstock_2033756324.png"
 
-import infoSectionImg1 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector11.png"
-import infoSectionImg2 from "../../../assets/images/images-all-courses-page/images-chess-page/Group11.png"
-import infoSectionImg3 from "../../../assets/images/images-all-courses-page/images-chess-page/Group12.png"
-import infoSectionImg4 from "../../../assets/images/images-all-courses-page/images-chess-page/Group13.png"
-import infoSectionImg5 from "../../../assets/images/images-all-courses-page/images-chess-page/Group14.png"
-import infoSectionImg6 from "../../../assets/images/images-all-courses-page/images-chess-page/Group15.png"
+// // import infoSectionImg1 from "../../../assets/images/images-all-courses-page/images-chess-page/Vector11.png"
+// // import infoSectionImg2 from "../../../assets/images/images-all-courses-page/images-chess-page/Group11.png"
+// // import infoSectionImg3 from "../../../assets/images/images-all-courses-page/images-chess-page/Group12.png"
+// // import infoSectionImg4 from "../../../assets/images/images-all-courses-page/images-chess-page/Group13.png"
+// // import infoSectionImg5 from "../../../assets/images/images-all-courses-page/images-chess-page/Group14.png"
+// // import infoSectionImg6 from "../../../assets/images/images-all-courses-page/images-chess-page/Group15.png"
 
-import carouselImage1 from "../../../assets/images/images-all-courses-page/images-chess-page/image 19.png"
-import carouselImage2 from "../../../assets/images/images-all-courses-page/images-chess-page/image 20.png"
-import carouselImage3 from "../../../assets/images/images-all-courses-page/images-chess-page/image 21.png"
-import carouselImage4 from "../../../assets/images/images-all-courses-page/images-chess-page/image 22.png"
-import carouselImage5 from "../../../assets/images/images-all-courses-page/images-chess-page/51.jpg"
-import carouselImage6 from "../../../assets/images/images-all-courses-page/images-chess-page/1-18877-1514363749-3752.jpg"
-import carouselImage7 from "../../../assets/images/images-all-courses-page/images-chess-page/images.jpg"
+// // import carouselImage1 from "../../../assets/images/images-all-courses-page/images-chess-page/image 19.png"
+// // import carouselImage2 from "../../../assets/images/images-all-courses-page/images-chess-page/image 20.png"
+// // import carouselImage3 from "../../../assets/images/images-all-courses-page/images-chess-page/image 21.png"
+// // import carouselImage4 from "../../../assets/images/images-all-courses-page/images-chess-page/image 22.png"
+// // import carouselImage5 from "../../../assets/images/images-all-courses-page/images-chess-page/51.jpg"
+// // import carouselImage6 from "../../../assets/images/images-all-courses-page/images-chess-page/1-18877-1514363749-3752.jpg"
+// // import carouselImage7 from "../../../assets/images/images-all-courses-page/images-chess-page/images.jpg"
 
-import priceImage1 from "../../../assets/images/images-all-courses-page/images-chess-page/Group32.png"
-import priceImage2 from "../../../assets/images/images-all-courses-page/images-chess-page/Group33.png"
-import priceImage3 from "../../../assets/images/images-all-courses-page/images-chess-page/Group34.png"
-import priceImage4 from "../../../assets/images/images-all-courses-page/images-chess-page/Group35.png"
+// // import priceImage1 from "../../../assets/images/images-all-courses-page/images-chess-page/Group32.png"
+// // import priceImage2 from "../../../assets/images/images-all-courses-page/images-chess-page/Group33.png"
+// // import priceImage3 from "../../../assets/images/images-all-courses-page/images-chess-page/Group34.png"
+// // import priceImage4 from "../../../assets/images/images-all-courses-page/images-chess-page/Group35.png"
 
-import coachImage1 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185.png"
-import coachImage2 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185 (1).png"
-import coachImage3 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185 (2).png"
-import coachImage4 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185 (3).png"
+// // import coachImage1 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185.png"
+// // import coachImage2 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185 (1).png"
+// // import coachImage3 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185 (2).png"
+// // import coachImage4 from "../../../assets/images/images-all-courses-page/images-chess-page/Ellipse 185 (3).png"
 
+// import dataImages from "./dataImages.json"
 
+// let initialState = {
+//     courses: [
+//         {
+//             id: "cheess",
+//             header: {
+//                 headerImages: dataImages.chess.headerImages.map(data => ({
+//                     imgSrc: require(`${data.imgSrc}`).default,
+//                     top: data.top,
+//                     left: data.left,
+//                     width: data.left
+//                 })),
+//                 headerImageBackground: require(`${dataImages.chess.headerImageBackground}`).default,
+//                 headerTitle: "Шахматная школа",
+//                 headerDescription: "Развитие мышления и логики",
+//                 durationOfEducation: "5 лет",
+//                 modeOfEducation: "2 раза в неделю по 2 академических часа",
+//                 coursePrice: "от 4 350 ₽ в месяц",
+//             },
+//             unionText: "Вы полюбите шахматы, <br /> и вам этого будет не хватать всегда!",
+//             goalsData: dataImages.chess.goalsImages.map(data => ({
+//                 imgSrc: require(`${data.imgSrc}`).default,
+//                 goalTitle: data.goalTitle,
+//                 goalText: data.goalText
+//             })),
+//             infoCourse: {
+//                 iframeData:
+//                 {
+//                     posterImage: require(`${dataImages.chess.iframeData.posterImage}`).default,
+//                     videoSrc: "https://www.youtube.com/embed/uEYIpdKb-OA?si=8rn-Y_Q8tZRltsvk"
+//                 }
+//                 ,
+//                 title: "Школа шахмат",
+//                 paragrafAboutCourse: `Шахматы - это отличная идея для времяпрепровождения с родителями, детьми и друзьями.<br/>
+//                                   Игра дает полезные в жизни навыки: учит побеждать и проигрывать, развивает творческие<br/>
+//                                   способности, вырабатывает стрессо-устойчивость, терпение, помогает сосредоточиться,<br/>
+//                                   а так же помогает осознать последствия своих действий.`,
+//                 chessInfoSections: dataImages.chess.infoSectionsImages.map(data => ({
+//                     imgSrc: require(`${data.imgSrc}`).default,
+//                     text: data.text
+//                 })),
+//             },
+//             benefitesFromTheCourse: {
+//                 advantages: [
+//                     `Шахматы могут помочь вам планировать наперед,<br/>
+//             не торопиться с решениями и взвешивать их<br/> плюсы и минусы.`,
+//                     `Шахматами можно наслаждаться в любом<br/> возрасте — в результате,
+//             тренировка мозга может<br/> укреплять ваше здоровье.`
+//                 ]
+//             },
+//             overviewSectionData: {
+//                 title: "Chess academy для школьников",
+//                 offerParagraf: `Обеспечиваем индивидуальный подход к учащимся. В основе процесса обучения — тесное <br/>
+//                             и открытое взаимодействие педагода и ученика. Обучение проходит по программе, созданной GM.`,
+//                 carouselImages: dataImages.chess.carouselImages.map(data => ({
+//                     imgSrc: require(`${data.imgSrc}`)
+//                 })),
+//                 contentParagraf: `Программа включает в себя изучение истории возникновения игры в шахматы, современные<br/>
+//                                 тенденции игры в онлайн-шахматы, знакомство со знаменитыми шахматистами прошлого<br/>
+//                                 и настоящего. Дети знакомятся с фигурами и правилами игры, узнают основные понятия,<br/>
+//                                 отрабатывая все в игровой практике. Дебют, мителльшпиль, эндшпиль, стратегия и тактика игры,<br/>
+//                                 особенности позиции – все это включено в первый год обучения, а пятилетний курс предполагает<br/>
+//                                 обучение ребенка до уровня КМС.`,
+//                 priceImages: dataImages.chess.priceImages.map(data => ({
+//                     imgSrc: require(`${data.imgSrc}`),
+//                     top: data.top,
+//                     left: data.left
+//                 })),
+//                 couchesData: dataImages.chess.couchesData.map(data => ({
+//                     imgSrc: require(`${data.imgSrc}`),
+//                     name: data.name,
+//                     proffession: data.proffession
+//                 })),
+//                 couchesBackgroundImages: dataImages.chess.couchesBackgroundImages.map(data => ({
+//                     imgSrc: require(`${data}`).default
+//                 })),
+//                 accordionData: [
+//                     {
+//                         title: "Кому подойдёт этот курс?",
+//                         text: `Этот курс идеально подходит для начинающих и опытных шахматистов, которые хотят улучшить свои навыки и достичь
+// новых высот в игре. Вы узнаете основные принципы и стратегии, которые помогут вам уверенно играть и побеждать
+// в шахматных партиях. Курс включает в себя лекции, практические занятия и анализ партий, что позволяет вам применять
+// полученные знания на практике и быстро прогрессировать. Кроме того, курс будет полезен тем, кто хочет развить
+// критическое и стратегическое мышление, так как шахматы являются отличным инструментом для тренировки этих навыков.
+// Вы научитесь планировать свои действия на несколько шагов вперед, анализировать позиции и принимать взвешенные решения.
+// Независимо от вашего текущего уровня, вы найдете в этом курсе много полезной информации и практических советов, которые
+// помогут вам стать лучше в шахматах и достигать успехов в турнирах и соревнованиях.`},
+//                     {
+//                         title: "Что нужно ребенку для занятий?",
+//                         text: `Для занятий ребенку понадобятся несколько ключевых вещей. Во-первых, это настольный шахматный набор, который включает
+// доску и фигуры. Он поможет ребенку практиковаться дома и отрабатывать изученные ходы и стратегии. Во-вторых,
+// доступ к компьютеру или планшету для онлайн-уроков и использования обучающих программ. Эти ресурсы дополнят
+// практическое обучение и позволят ребенку углубить свои знания. Кроме того, важно, чтобы у ребенка было удобное
+// и тихое место для занятий, где он сможет сосредоточиться и не будет отвлекаться. Ему также понадобится тетрадь и ручка для записей,
+// чтобы фиксировать ключевые моменты уроков и свои достижения. И, конечно же, большое желание учиться и совершенствоваться.
+// Энтузиазм и интерес к игре - это основные составляющие успеха в обучении шахматам. С этими инструментами и ресурсами
+// ребенок сможет эффективно заниматься и быстро прогрессировать в шахматной игре, развивая свое стратегическое мышление и навыки.`},
+//                     {
+//                         title: "Где можно узнать расписание занятий?",
+//                         text: `Расписание занятий можно узнать несколькими способами. Во-первых, оно доступно на нашем официальном сайте,
+// где вы найдете актуальную информацию о времени и датах проведения уроков. Во-вторых, вы можете обратиться
+// в наш офис или позвонить по телефону, указанному на сайте. Наши сотрудники с радостью предоставят вам всю
+// необходимую информацию. Кроме того, расписание занятий регулярно обновляется и публикуется в нашем мобильном
+// приложении. Установив его, вы сможете быстро и удобно получать уведомления о предстоящих уроках и изменениях в расписании.
+// Также можно подписаться на рассылку по электронной почте, чтобы всегда быть в курсе всех новостей и изменений.`},
+//                     {
+//                         title: "Что делать, если ребенок пропустит занятие?",
+//                         text: `Если ребенок пропустит занятие, не стоит переживать. Во-первых, все уроки записываются и доступны для
+// просмотра в любое время на нашем сайте или в мобильном приложении. Вы можете просмотреть пропущенный
+// материал и выполнить задания в удобное для вас время. Во-вторых, у нас предусмотрены дополнительные
+// консультации с тренерами, где можно задать вопросы и получить разъяснения по пропущенному материалу.
+// Кроме того, ребенок может присоединиться к следующему занятию, где тренер кратко повторит основные моменты
+// предыдущего урока. Если потребуется, можно договориться о проведении индивидуального занятия или
+// консультации для более глубокого изучения пропущенной темы. Таким образом, пропущенное занятие не станет
+// препятствием для продолжения обучения, и ребенок сможет легко восполнить упущенное, чтобы идти в ногу с программой
+// курса и эффективно продолжать свои занятия.`}
+//                 ]
+//             }
+//         },
+//         //         {
+//         //             id: "DevelopMobile",
+//         //             header: {
+//         //                 headerImages: [
+//         //                     {
+//         //                         imgSrc: image1,
+//         //                         top: "10%",
+//         //                         left: "-5%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image2,
+//         //                         top: "60%",
+//         //                         left: "-10%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image3,
+//         //                         top: "41%",
+//         //                         left: "35%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image4,
+//         //                         top: "84%",
+//         //                         left: "26%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image5,
+//         //                         top: "63%",
+//         //                         left: "58%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image6,
+//         //                         top: "7%",
+//         //                         left: "65%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image7,
+//         //                         top: "31%",
+//         //                         left: "84%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image8,
+//         //                         top: "10%",
+//         //                         left: "103%"
+//         //                     },
+//         //                     {
+//         //                         imgSrc: image9,
+//         //                         top: "88%",
+//         //                         left: "97%",
+//         //                         width: "17%"
+//         //                     },
+//         //                 ],
+//         //                 headerImageBackground: {},
+//         //                 headerTitle: "Шахматная",
+//         //                 headerDescription: "Развитие мышления и логики",
+//         //                 durationOfEducation: "5 лет",
+//         //                 modeOfEducation: "2 раза в неделю по 2 академических часа",
+//         //                 coursePrice: "от 4 350 ₽ в месяц",
+//         //             },
+//         //             unionText: "Вы полюбите шахматы,и вам этого будет не хватать всегда!",
+//         //             goalsData: [
+//         //                 { imgSrc: { imageGoal1 }, goalText: "Привить любовь <br/> и интерес к шахматам" },
+//         //                 { imgSrc: {}, goalText: "Получить удовольствие <br/> от процесса игры, <br/> от факта победы <br/> в партии, от спасения" },
+//         //                 { imgSrc: {}, goalText: "Научить <br/> анализировать свои <br/> и чужие ошибки, <br/> учиться на них <br/> с помощью GM <br/> мирового уровня" },
+//         //                 { imgSrc: {}, goalText: "Получить удовольствие <br/> от процесса игры, <br/> от факта победы<br/> в партии, от спасения" }
+//         //             ],
+//         //             infoCourse: {
+//         //                 title: "Школа шахмат",
+//         //                 paragrafAboutCourse: `Шахматы - это отличная идея для времяпрепровождения с родителями, детьми и друзьями.
+//         //                                   Игра дает полезные в жизни навыки: учит побеждать и проигрывать, развивает творческие
+//         //                                   способности, вырабатывает стрессо-устойчивость, терпение, помогает сосредоточиться,
+//         //                                   а так же помогает осознать последствия своих действий.`
+//         //             },
+//         //             bonusesFromTheCourse: {
+//         //                 imgSrc: {},
+//         //                 bonuses: ["Интересные уроки по шахматам",
+//         //                     "Шахматы для взрослых и детей", "Обучение шахмат онлайн",
+//         //                     "Профессиональное обучение шахматам", "Шахматные турниры",
+//         //                     "Сеанс одновременной игры с GM"
+//         //                 ],
+//         //                 advantages: [
+//         //                     `Шахматы могут помочь вам планировать наперед,
+//         //             не торопиться с решениями и взвешивать их плюсы и минусы.`,
+//         //                     `Шахматами можно наслаждаться в любом возрасте — в результате,
+//         //             тренировка мозга может укреплять ваше здоровье.`
+//         //                 ]
+//         //             },
+//         //             offerings: {
+//         //                 title: "Chess academy для школьников",
+//         //                 offerParagraf: `Обеспечиваем индивидуальный подход к учащимся. В основе процесса обучения — тесное
+//         //                             и открытое взаимодействие педагода и ученика. Обучение проходит по программе, созданной GM.`,
+//         //                 carouselImages: {}
+//         //             },
+//         //             content: {
+//         //                 contentParagraf: `Программа включает в себя изучение истории возникновения игры в шахматы, современные
+//         //                                 тенденции игры в онлайн-шахматы, знакомство со знаменитыми шахматистами прошлого
+//         //                                 и настоящего. Дети знакомятся с фигурами и правилами игры, узнают основные понятия,
+//         //                                 отрабатывая все в игровой практике. Дебют, мителльшпиль, эндшпиль, стратегия и тактика игры,
+//         //                                 особенности позиции – все это включено в первый год обучения, а пятилетний курс предполагает
+//         //                                 обучение ребенка до уровня КМС.`
+//         //             },
+//         //             couches: [
+//         //                 { name: "Анастасия Кидалова", proffession: `Выпускница Гарвардского Университета.Более 10 лет играет в шахматы и участвует в турнирах.`, imgSrc: {} },
+//         //                 { name: "Михаил Сквернослов", proffession: `Мастер спорта по шахматам,обучает игре более 15 лет.Призер международных турниров.`, imgSrc: {} },
+//         //                 { name: "Ольга Гнилоустная", proffession: `Международный гроссмейстер,преподает шахматы более 20 лет.Авторитетный тренер и стратег.`, imgSrc: {} },
+//         //                 { name: "Максим Жалкий", proffession: `Обладатель титула чемпиона страны,с 15-летним опытом тренерской работы.`, imgSrc: {} }
+//         //             ],
+//         //             questions: [
+//         //                 `Этот курс идеально подходит для начинающих и опытных шахматистов, которые хотят улучшить свои навыки и достичь
+//         // новых высот в игре. Вы узнаете основные принципы и стратегии, которые помогут вам уверенно играть и побеждать
+//         // в шахматных партиях. Курс включает в себя лекции, практические занятия и анализ партий, что позволяет вам применять
+//         // полученные знания на практике и быстро прогрессировать. Кроме того, курс будет полезен тем, кто хочет развить
+//         // критическое и стратегическое мышление, так как шахматы являются отличным инструментом для тренировки этих навыков.
+//         // Вы научитесь планировать свои действия на несколько шагов вперед, анализировать позиции и принимать взвешенные решения.
+//         // Независимо от вашего текущего уровня, вы найдете в этом курсе много полезной информации и практических советов, которые
+//         // помогут вам стать лучше в шахматах и достигать успехов в турнирах и соревнованиях.`,
+//         //                 `Для занятий ребенку понадобятся несколько ключевых вещей. Во-первых, это настольный шахматный набор, который включает
+//         // доску и фигуры. Он поможет ребенку практиковаться дома и отрабатывать изученные ходы и стратегии. Во-вторых,
+//         // доступ к компьютеру или планшету для онлайн-уроков и использования обучающих программ. Эти ресурсы дополнят
+//         // практическое обучение и позволят ребенку углубить свои знания. Кроме того, важно, чтобы у ребенка было удобное
+//         // и тихое место для занятий, где он сможет сосредоточиться и не будет отвлекаться. Ему также понадобится тетрадь и ручка для записей,
+//         // чтобы фиксировать ключевые моменты уроков и свои достижения. И, конечно же, большое желание учиться и совершенствоваться.
+//         // Энтузиазм и интерес к игре - это основные составляющие успеха в обучении шахматам. С этими инструментами и ресурсами
+//         // ребенок сможет эффективно заниматься и быстро прогрессировать в шахматной игре, развивая свое стратегическое мышление и навыки.`,
+//         //                 `Расписание занятий можно узнать несколькими способами. Во-первых, оно доступно на нашем официальном сайте,
+//         // где вы найдете актуальную информацию о времени и датах проведения уроков. Во-вторых, вы можете обратиться
+//         // в наш офис или позвонить по телефону, указанному на сайте. Наши сотрудники с радостью предоставят вам всю
+//         // необходимую информацию. Кроме того, расписание занятий регулярно обновляется и публикуется в нашем мобильном
+//         // приложении. Установив его, вы сможете быстро и удобно получать уведомления о предстоящих уроках и изменениях в расписании.
+//         // Также можно подписаться на рассылку по электронной почте, чтобы всегда быть в курсе всех новостей и изменений.`,
+//         //                 `Если ребенок пропустит занятие, не стоит переживать. Во-первых, все уроки записываются и доступны для
+//         // просмотра в любое время на нашем сайте или в мобильном приложении. Вы можете просмотреть пропущенный
+//         // материал и выполнить задания в удобное для вас время. Во-вторых, у нас предусмотрены дополнительные
+//         // консультации с тренерами, где можно задать вопросы и получить разъяснения по пропущенному материалу.
+//         // Кроме того, ребенок может присоединиться к следующему занятию, где тренер кратко повторит основные моменты
+//         // предыдущего урока. Если потребуется, можно договориться о проведении индивидуального занятия или
+//         // консультации для более глубокого изучения пропущенной темы. Таким образом, пропущенное занятие не станет
+//         // препятствием для продолжения обучения, и ребенок сможет легко восполнить упущенное, чтобы идти в ногу с программой
+//         // курса и эффективно продолжать свои занятия.`
+//         //             ]
+//         //         }
+//     ]
+// }
 
-let initialState = {
-    courses: [
-        {
-            id: "cheess",
-            header: {
-                headerImages: [
-                    {
-                        imgSrc: image1,
-                        top: "10%",
-                        left: "-5%"
-                    },
-                    {
-                        imgSrc: image2,
-                        top: "60%",
-                        left: "-10%"
-                    },
-                    {
-                        imgSrc: image3,
-                        top: "41%",
-                        left: "35%"
-                    },
-                    {
-                        imgSrc: image4,
-                        top: "84%",
-                        left: "26%"
-                    },
-                    {
-                        imgSrc: image5,
-                        top: "63%",
-                        left: "58%"
-                    },
-                    {
-                        imgSrc: image6,
-                        top: "7%",
-                        left: "65%"
-                    },
-                    {
-                        imgSrc: image7,
-                        top: "31%",
-                        left: "84%"
-                    },
-                    {
-                        imgSrc: image8,
-                        top: "10%",
-                        left: "103%"
-                    },
-                    {
-                        imgSrc: image9,
-                        top: "88%",
-                        left: "97%",
-                        width: "17%"
-                    },
-                ],
-                headerImageBackground: imageHeader,
-                headerTitle: "Шахматная школа",
-                headerDescription: "Развитие мышления и логики",
-                durationOfEducation: "5 лет",
-                modeOfEducation: "2 раза в неделю по 2 академических часа",
-                coursePrice: "от 4 350 ₽ в месяц",
-            },
-            unionText: "Вы полюбите шахматы, <br /> и вам этого будет не хватать всегда!",
-            goalsData: [
-                { imgSrc: imageGoal1, goalTitle: "Цель 1", goalText: "Привить любовь <br/> и интерес к шахматам" },
-                { imgSrc: imageGoal2, goalTitle: "Цель 2", goalText: "Получить удовольствие <br/> от процесса игры, <br/> от факта победы <br/> в партии, от спасения" },
-                { imgSrc: imageGoal3, goalTitle: "Цель 3", goalText: "Научить <br/> анализировать свои <br/> и чужие ошибки, <br/> учиться на них <br/> с помощью GM <br/> мирового уровня" },
-                { imgSrc: imageGoal4, goalTitle: "Цель 4", goalText: "Получить удовольствие <br/> от процесса игры, <br/> от факта победы<br/> в партии, от спасения" }
-            ],
-            infoCourse: {
-                iframeData:
-                {
-                    posterImage: posterImgChess,
-                    videoSrc: "https://www.youtube.com/embed/uEYIpdKb-OA?si=8rn-Y_Q8tZRltsvk"
-                }
-                ,
-                title: "Школа шахмат",
-                paragrafAboutCourse: `Шахматы - это отличная идея для времяпрепровождения с родителями, детьми и друзьями.<br/>
-                                  Игра дает полезные в жизни навыки: учит побеждать и проигрывать, развивает творческие<br/>
-                                  способности, вырабатывает стрессо-устойчивость, терпение, помогает сосредоточиться,<br/>
-                                  а так же помогает осознать последствия своих действий.`,
-                chessInfoSections: [
-                    { imgSrc: infoSectionImg1, text: `Интересные уроки <br/> по шахматам` },
-                    { imgSrc: infoSectionImg2, text: `Шахматы для взрослых <br/> и детей` },
-                    { imgSrc: infoSectionImg3, text: `Обучение <br/>шахмат онлайн` },
-                    { imgSrc: infoSectionImg4, text: `Профессиональное <br/>обучение шахматам` },
-                    { imgSrc: infoSectionImg5, text: `Шахматные <br/> турниры` },
-                    { imgSrc: infoSectionImg6, text: `Сеанс одновременной <br/>игры с GM` },
-                ]
-            },
-            benefitesFromTheCourse: {
-                advantages: [
-                    `Шахматы могут помочь вам планировать наперед,<br/>
-            не торопиться с решениями и взвешивать их<br/> плюсы и минусы.`,
-                    `Шахматами можно наслаждаться в любом<br/> возрасте — в результате,
-            тренировка мозга может<br/> укреплять ваше здоровье.`
-                ]
-            },
-            overviewSectionData: {
-                title: "Chess academy для школьников",
-                offerParagraf: `Обеспечиваем индивидуальный подход к учащимся. В основе процесса обучения — тесное <br/>
-                            и открытое взаимодействие педагода и ученика. Обучение проходит по программе, созданной GM.`,
-                carouselImages: [carouselImage1, carouselImage2, carouselImage3, carouselImage4, carouselImage5, carouselImage6, carouselImage7],
-                contentParagraf: `Программа включает в себя изучение истории возникновения игры в шахматы, современные<br/>
-                                тенденции игры в онлайн-шахматы, знакомство со знаменитыми шахматистами прошлого<br/>
-                                и настоящего. Дети знакомятся с фигурами и правилами игры, узнают основные понятия,<br/>
-                                отрабатывая все в игровой практике. Дебют, мителльшпиль, эндшпиль, стратегия и тактика игры,<br/>
-                                особенности позиции – все это включено в первый год обучения, а пятилетний курс предполагает<br/>
-                                обучение ребенка до уровня КМС.`,
-                priceImages: [
-                    {
-                        imgSrc: priceImage1,
-                        top: "-15%",
-                        left: "75%"
-                    },
-                    {
-                        imgSrc: priceImage2,
-                        top: "-15%",
-                        left: "90%"
-                    },
-                    {
-                        imgSrc: priceImage3,
-                        top: "24%",
-                        left: "81%"
-                    },
-                    {
-                        imgSrc: priceImage4,
-                        top: "20%",
-                        left: "90%"
-                    }
-                ]
-            },
-            couchesData: [
-                { name: "Анастасия Кидалова", proffession: `Выпускница Гарвардского<br /> Университета.<br />Более 10 лет играет в шахматы и участвует в турнирах.`, imgSrc: coachImage1 },
-                { name: "Михаил Сквернослов", proffession: `Мастер спорта по шахматам,<br />обучает игре более 15 лет.<br />Призер международных<br /> турниров.`, imgSrc: coachImage2 },
-                { name: "Ольга Гнилоустная", proffession: `Международный гроссмейстер,<br />преподает шахматы более 20<br /> лет.<br />Авторитетный тренер и стратег.`, imgSrc: coachImage3 },
-                { name: "Максим Жалкий", proffession: `Обладатель титула чемпиона<br /> страны,<br />с 15-летним опытом тренерской<br /> работы.`, imgSrc: coachImage4 },
-
-            ],
-            couchesBackgroundImages: [image3, image7, image6, image5, image4],
-            accordionData: [
-                {
-                    title: "Кому подойдёт этот курс?",
-                    text: `Этот курс идеально подходит для начинающих и опытных шахматистов, которые хотят улучшить свои навыки и достичь
-новых высот в игре. Вы узнаете основные принципы и стратегии, которые помогут вам уверенно играть и побеждать
-в шахматных партиях. Курс включает в себя лекции, практические занятия и анализ партий, что позволяет вам применять
-полученные знания на практике и быстро прогрессировать. Кроме того, курс будет полезен тем, кто хочет развить
-критическое и стратегическое мышление, так как шахматы являются отличным инструментом для тренировки этих навыков.
-Вы научитесь планировать свои действия на несколько шагов вперед, анализировать позиции и принимать взвешенные решения.
-Независимо от вашего текущего уровня, вы найдете в этом курсе много полезной информации и практических советов, которые
-помогут вам стать лучше в шахматах и достигать успехов в турнирах и соревнованиях.`},
-                {
-                    title: "Что нужно ребенку для занятий?",
-                    text: `Для занятий ребенку понадобятся несколько ключевых вещей. Во-первых, это настольный шахматный набор, который включает
-доску и фигуры. Он поможет ребенку практиковаться дома и отрабатывать изученные ходы и стратегии. Во-вторых,
-доступ к компьютеру или планшету для онлайн-уроков и использования обучающих программ. Эти ресурсы дополнят
-практическое обучение и позволят ребенку углубить свои знания. Кроме того, важно, чтобы у ребенка было удобное
-и тихое место для занятий, где он сможет сосредоточиться и не будет отвлекаться. Ему также понадобится тетрадь и ручка для записей,
-чтобы фиксировать ключевые моменты уроков и свои достижения. И, конечно же, большое желание учиться и совершенствоваться.
-Энтузиазм и интерес к игре - это основные составляющие успеха в обучении шахматам. С этими инструментами и ресурсами
-ребенок сможет эффективно заниматься и быстро прогрессировать в шахматной игре, развивая свое стратегическое мышление и навыки.`},
-                {
-                    title: "Где можно узнать расписание занятий?",
-                    text: `Расписание занятий можно узнать несколькими способами. Во-первых, оно доступно на нашем официальном сайте,
-где вы найдете актуальную информацию о времени и датах проведения уроков. Во-вторых, вы можете обратиться
-в наш офис или позвонить по телефону, указанному на сайте. Наши сотрудники с радостью предоставят вам всю
-необходимую информацию. Кроме того, расписание занятий регулярно обновляется и публикуется в нашем мобильном
-приложении. Установив его, вы сможете быстро и удобно получать уведомления о предстоящих уроках и изменениях в расписании.
-Также можно подписаться на рассылку по электронной почте, чтобы всегда быть в курсе всех новостей и изменений.`},
-                {
-                    title: "Что делать, если ребенок пропустит занятие?",
-                    text: `Если ребенок пропустит занятие, не стоит переживать. Во-первых, все уроки записываются и доступны для
-просмотра в любое время на нашем сайте или в мобильном приложении. Вы можете просмотреть пропущенный
-материал и выполнить задания в удобное для вас время. Во-вторых, у нас предусмотрены дополнительные
-консультации с тренерами, где можно задать вопросы и получить разъяснения по пропущенному материалу.
-Кроме того, ребенок может присоединиться к следующему занятию, где тренер кратко повторит основные моменты
-предыдущего урока. Если потребуется, можно договориться о проведении индивидуального занятия или
-консультации для более глубокого изучения пропущенной темы. Таким образом, пропущенное занятие не станет
-препятствием для продолжения обучения, и ребенок сможет легко восполнить упущенное, чтобы идти в ногу с программой
-курса и эффективно продолжать свои занятия.`}
-            ]
-        },
-        {
-            id: "DevelopMobile",
-            header: {
-                headerImages: [
-                    {
-                        imgSrc: image1,
-                        top: "10%",
-                        left: "-5%"
-                    },
-                    {
-                        imgSrc: image2,
-                        top: "60%",
-                        left: "-10%"
-                    },
-                    {
-                        imgSrc: image3,
-                        top: "41%",
-                        left: "35%"
-                    },
-                    {
-                        imgSrc: image4,
-                        top: "84%",
-                        left: "26%"
-                    },
-                    {
-                        imgSrc: image5,
-                        top: "63%",
-                        left: "58%"
-                    },
-                    {
-                        imgSrc: image6,
-                        top: "7%",
-                        left: "65%"
-                    },
-                    {
-                        imgSrc: image7,
-                        top: "31%",
-                        left: "84%"
-                    },
-                    {
-                        imgSrc: image8,
-                        top: "10%",
-                        left: "103%"
-                    },
-                    {
-                        imgSrc: image9,
-                        top: "88%",
-                        left: "97%",
-                        width: "17%"
-                    },
-                ],
-                headerImageBackground: {},
-                headerTitle: "Шахматная",
-                headerDescription: "Развитие мышления и логики",
-                durationOfEducation: "5 лет",
-                modeOfEducation: "2 раза в неделю по 2 академических часа",
-                coursePrice: "от 4 350 ₽ в месяц",
-            },
-            unionText: "Вы полюбите шахматы,и вам этого будет не хватать всегда!",
-            goalsData: [
-                { imgSrc: { imageGoal1 }, goalText: "Привить любовь <br/> и интерес к шахматам" },
-                { imgSrc: {}, goalText: "Получить удовольствие <br/> от процесса игры, <br/> от факта победы <br/> в партии, от спасения" },
-                { imgSrc: {}, goalText: "Научить <br/> анализировать свои <br/> и чужие ошибки, <br/> учиться на них <br/> с помощью GM <br/> мирового уровня" },
-                { imgSrc: {}, goalText: "Получить удовольствие <br/> от процесса игры, <br/> от факта победы<br/> в партии, от спасения" }
-            ],
-            infoCourse: {
-                title: "Школа шахмат",
-                paragrafAboutCourse: `Шахматы - это отличная идея для времяпрепровождения с родителями, детьми и друзьями.
-                                  Игра дает полезные в жизни навыки: учит побеждать и проигрывать, развивает творческие
-                                  способности, вырабатывает стрессо-устойчивость, терпение, помогает сосредоточиться,
-                                  а так же помогает осознать последствия своих действий.`
-            },
-            bonusesFromTheCourse: {
-                imgSrc: {},
-                bonuses: ["Интересные уроки по шахматам",
-                    "Шахматы для взрослых и детей", "Обучение шахмат онлайн",
-                    "Профессиональное обучение шахматам", "Шахматные турниры",
-                    "Сеанс одновременной игры с GM"
-                ],
-                advantages: [
-                    `Шахматы могут помочь вам планировать наперед,
-            не торопиться с решениями и взвешивать их плюсы и минусы.`,
-                    `Шахматами можно наслаждаться в любом возрасте — в результате,
-            тренировка мозга может укреплять ваше здоровье.`
-                ]
-            },
-            offerings: {
-                title: "Chess academy для школьников",
-                offerParagraf: `Обеспечиваем индивидуальный подход к учащимся. В основе процесса обучения — тесное
-                            и открытое взаимодействие педагода и ученика. Обучение проходит по программе, созданной GM.`,
-                carouselImages: {}
-            },
-            content: {
-                contentParagraf: `Программа включает в себя изучение истории возникновения игры в шахматы, современные
-                                тенденции игры в онлайн-шахматы, знакомство со знаменитыми шахматистами прошлого
-                                и настоящего. Дети знакомятся с фигурами и правилами игры, узнают основные понятия,
-                                отрабатывая все в игровой практике. Дебют, мителльшпиль, эндшпиль, стратегия и тактика игры,
-                                особенности позиции – все это включено в первый год обучения, а пятилетний курс предполагает
-                                обучение ребенка до уровня КМС.`
-            },
-            couches: [
-                { name: "Анастасия Кидалова", proffession: `Выпускница Гарвардского Университета.Более 10 лет играет в шахматы и участвует в турнирах.`, imgSrc: {} },
-                { name: "Михаил Сквернослов", proffession: `Мастер спорта по шахматам,обучает игре более 15 лет.Призер международных турниров.`, imgSrc: {} },
-                { name: "Ольга Гнилоустная", proffession: `Международный гроссмейстер,преподает шахматы более 20 лет.Авторитетный тренер и стратег.`, imgSrc: {} },
-                { name: "Максим Жалкий", proffession: `Обладатель титула чемпиона страны,с 15-летним опытом тренерской работы.`, imgSrc: {} }
-            ],
-            questions: [
-                `Этот курс идеально подходит для начинающих и опытных шахматистов, которые хотят улучшить свои навыки и достичь
-новых высот в игре. Вы узнаете основные принципы и стратегии, которые помогут вам уверенно играть и побеждать
-в шахматных партиях. Курс включает в себя лекции, практические занятия и анализ партий, что позволяет вам применять
-полученные знания на практике и быстро прогрессировать. Кроме того, курс будет полезен тем, кто хочет развить
-критическое и стратегическое мышление, так как шахматы являются отличным инструментом для тренировки этих навыков.
-Вы научитесь планировать свои действия на несколько шагов вперед, анализировать позиции и принимать взвешенные решения.
-Независимо от вашего текущего уровня, вы найдете в этом курсе много полезной информации и практических советов, которые
-помогут вам стать лучше в шахматах и достигать успехов в турнирах и соревнованиях.`,
-                `Для занятий ребенку понадобятся несколько ключевых вещей. Во-первых, это настольный шахматный набор, который включает
-доску и фигуры. Он поможет ребенку практиковаться дома и отрабатывать изученные ходы и стратегии. Во-вторых,
-доступ к компьютеру или планшету для онлайн-уроков и использования обучающих программ. Эти ресурсы дополнят
-практическое обучение и позволят ребенку углубить свои знания. Кроме того, важно, чтобы у ребенка было удобное
-и тихое место для занятий, где он сможет сосредоточиться и не будет отвлекаться. Ему также понадобится тетрадь и ручка для записей,
-чтобы фиксировать ключевые моменты уроков и свои достижения. И, конечно же, большое желание учиться и совершенствоваться.
-Энтузиазм и интерес к игре - это основные составляющие успеха в обучении шахматам. С этими инструментами и ресурсами
-ребенок сможет эффективно заниматься и быстро прогрессировать в шахматной игре, развивая свое стратегическое мышление и навыки.`,
-                `Расписание занятий можно узнать несколькими способами. Во-первых, оно доступно на нашем официальном сайте,
-где вы найдете актуальную информацию о времени и датах проведения уроков. Во-вторых, вы можете обратиться
-в наш офис или позвонить по телефону, указанному на сайте. Наши сотрудники с радостью предоставят вам всю
-необходимую информацию. Кроме того, расписание занятий регулярно обновляется и публикуется в нашем мобильном
-приложении. Установив его, вы сможете быстро и удобно получать уведомления о предстоящих уроках и изменениях в расписании.
-Также можно подписаться на рассылку по электронной почте, чтобы всегда быть в курсе всех новостей и изменений.`,
-                `Если ребенок пропустит занятие, не стоит переживать. Во-первых, все уроки записываются и доступны для
-просмотра в любое время на нашем сайте или в мобильном приложении. Вы можете просмотреть пропущенный
-материал и выполнить задания в удобное для вас время. Во-вторых, у нас предусмотрены дополнительные
-консультации с тренерами, где можно задать вопросы и получить разъяснения по пропущенному материалу.
-Кроме того, ребенок может присоединиться к следующему занятию, где тренер кратко повторит основные моменты
-предыдущего урока. Если потребуется, можно договориться о проведении индивидуального занятия или
-консультации для более глубокого изучения пропущенной темы. Таким образом, пропущенное занятие не станет
-препятствием для продолжения обучения, и ребенок сможет легко восполнить упущенное, чтобы идти в ногу с программой
-курса и эффективно продолжать свои занятия.`
-            ]
-        }
-    ]
-}
-
-const everyCoursePageReducer = (state = initialState, action) => {
+const everyCoursePageReducer = (state = {}, action) => {
     switch (action.type) {
         default: return state
     }

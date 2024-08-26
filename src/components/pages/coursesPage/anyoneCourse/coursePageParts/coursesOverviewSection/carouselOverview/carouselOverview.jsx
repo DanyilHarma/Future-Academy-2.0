@@ -37,7 +37,7 @@ const CarouselOverview = (props) => {
         <>
             <div className={classes.owlCarousel}>
                 <Slider {...settings}>
-                    {photos.map((photo, index) => (<img key={index} src={photo} />))}
+                    {photos.map((photo, index) => (<img key={index} src={photo.imgSrc} />))}
                 </Slider>
             </div>
             <div className={`container ${classes.sliderContainer}`}>
