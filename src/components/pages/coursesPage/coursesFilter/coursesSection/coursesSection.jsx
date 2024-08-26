@@ -2,12 +2,11 @@
 import { useSelector } from "react-redux";
 import classes from "./coursesSection.module.css"
 import { NavLink } from "react-router-dom";
-
+import DOMPurify from "dompurify";
 
 const CoursesSection = () => {
 
     const { difficult, education, category, duration, courses } = useSelector(state => state.filterCoursesPage)
-
 
     if (!courses) return null;
 
@@ -40,9 +39,9 @@ const CoursesSection = () => {
                                     <span>Программа</span>
                                     <div className={classes.imageInfo}>
                                         <img src={course.imgSrc} alt="" />
-                                        <div className={classes.titleInfo} dangerouslySetInnerHTML={{ "__html": course.name }}></div>
+                                        <div className={classes.titleInfo} dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(course.name) }}></div>
                                     </div>
-                                    <p dangerouslySetInnerHTML={{ "__html": course.text }}></p>
+                                    <p dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(course.text) }}></p>
                                     <span>{course.duration} месяца</span>
                                     {course.sale ? <div className={classes.sale}>{course.sale}</div> : null}
                                 </div>

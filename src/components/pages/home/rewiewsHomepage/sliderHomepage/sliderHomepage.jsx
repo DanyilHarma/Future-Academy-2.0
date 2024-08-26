@@ -11,8 +11,6 @@ const SliderHomepage = (props) => {
 
     const [positionSlider, setPositionSlider] = useState(0);
 
-    // const sliderRef = useRef(null);
-
     const settings = {
         dots: false,
         infinite: true,

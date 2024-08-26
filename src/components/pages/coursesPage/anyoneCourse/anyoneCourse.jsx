@@ -1,11 +1,14 @@
 import { useParams } from "react-router-dom";
-import classes from "./anyoneCourse.module.css"
 import { useDispatch, useSelector } from "react-redux";
 import AnyoneCourseHeader from "./coursePageParts/coursePageHeader/anyoneCourseHeader"
 import AboutPart from "./coursePageParts/aboutPart/aboutPart";
 import { useEffect } from "react";
 import { setCourseGoalData } from "../../../../redux/goalReducer";
 import { setCourseOwlText } from "../../../../redux/owlReducer";
+import CourseblockInfo from "./coursePageParts/CourseblockInfo/courseblockInfo";
+import CoursesOverviewSection from "./coursePageParts/coursesOverviewSection/coursesOverviewSection";
+import Couches from "./coursePageParts/couches/couches";
+import MyAccordion from "./coursePageParts/myAccordion/myAccordion";
 
 const AnyoneCoursesPage = () => {
 
@@ -28,6 +31,10 @@ const AnyoneCoursesPage = () => {
         <>
             <AnyoneCourseHeader course={course} />
             <AboutPart course={course} />
+            <CourseblockInfo infoData={course.infoCourse} benefitesData={course.benefitesFromTheCourse} />
+            <CoursesOverviewSection overviewInfo={course.overviewSectionData} dataPriceInfo={course} />
+            <Couches couchesData={course.couchesData} couchesBackgroundImages={course.couchesBackgroundImages} />
+            <MyAccordion accordionData={course.accordionData} />
         </>
     )
 }

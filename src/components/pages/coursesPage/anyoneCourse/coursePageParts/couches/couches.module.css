@@ -1,0 +1,139 @@
+.couchesContainer {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-color: #00093c;
+    overflow: hidden;
+    margin-bottom: 100px;
+
+    h2 {
+        position: relative;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        color: #fff;
+        z-index: 4;
+        margin-top: 70px;
+    }
+}
+
+.backgroundImageContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../../../../assets/images/images-all-courses-page/images-chess-page/Group\ 788.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    z-index: 2;
+}
+
+.couchesContainerBackgroundImages {
+    position: relative;
+    z-index: 1;
+}
+
+.couchesContainerBackgroundImages img {
+    position: absolute;
+    z-index: 3;
+}
+
+.couchesContainerBackgroundImages img:nth-child(1) {
+    top: 24pc;
+    left: -32%;
+}
+
+.couchesContainerBackgroundImages img:nth-child(2) {
+    top: 0pc;
+    left: -90px;
+    width: 130px;
+}
+
+.couchesContainerBackgroundImages img:nth-child(3) {
+    top: 26pc;
+    left: 53%;
+}
+
+.couchesContainerBackgroundImages img:nth-child(4) {
+    top: 18pc;
+    left: 92%;
+}
+
+.couchesContainerBackgroundImages img:nth-child(5) {
+    top: 5pc;
+    left: 88%;
+}
+
+.couches {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    z-index: 4;
+    margin-top: 50px;
+}
+
+.couchContent {
+    background-color: #fff;
+    width: 100%;
+    max-width: 280px;
+    padding: 20px;
+    height: 360px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: transform .3s;
+
+    h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #000;
+    }
+
+    p {
+        margin-top: -10px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: #4f4f4f;
+    }
+}
+
+.couchContent:hover {
+    transform: scale(1.1);
+}
+
+.circleGradient {
+    display: flex;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #f7941d, #27aae1);
+    padding: 10px;
+
+    img {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.circleGradient::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
