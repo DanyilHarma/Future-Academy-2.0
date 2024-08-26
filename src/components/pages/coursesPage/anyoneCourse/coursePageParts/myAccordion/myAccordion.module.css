@@ -1,0 +1,16 @@
+.accordionWrapper {
+    position: relative;
+    margin-bottom: 200px;
+
+    h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 121%;
+        color: #000;
+    }
+}
+
+.openButton {
+    margin-left: auto;
+}

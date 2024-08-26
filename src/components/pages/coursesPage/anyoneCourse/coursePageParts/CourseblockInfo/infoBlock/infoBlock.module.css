@@ -1,0 +1,44 @@
+.aboutChessContainer {
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 94%;
+        color: #000;
+        margin-bottom: 30px;
+    }
+
+    article {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 144%;
+        color: #000;
+    }
+}
+
+.chessSection {
+    margin-top: 40px;
+    margin-bottom: 70px;
+    display: flex;
+    gap: 80px;
+}
+
+.chessSectionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    img {
+        width: 100%;
+        max-width: fit-content;
+    }
+
+    span {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 143%;
+        color: #000;
+    }
+}

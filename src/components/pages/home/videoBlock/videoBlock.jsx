@@ -4,7 +4,7 @@ import SvgOne from "./svg/svgOne";
 import SvgTwo from "./svg/svgTwo"
 import SvgThree from "./svg/svgThree"
 import SvgFour from "./svg/svgFour"
-import boyImage from "../../../../assets/images/iframe-images/603123.png"
+import PosterImage from "../../../../assets/images/iframe-images/603123.png"
 import playImage from "../../../../assets/images/iframe-images/Group 779.png"
 
 const VideoBlock = (props) => {
@@ -16,6 +16,9 @@ const VideoBlock = (props) => {
         setIsPlaying(true);
     }
 
+    const posterImage = props.videoData?.iframeData?.posterImage || PosterImage;
+    const videoSrc = props.videoData?.iframeData?.videoSrc || "https://www.youtube.com/embed/1Y5n0nu98Vg?si=d8dZ5vilaINExv8x";
+
     return (
         <div className={classes.infoAboutProject}>
             <div className={classes.videoContainer}>
@@ -25,12 +28,12 @@ const VideoBlock = (props) => {
                 <SvgFour />
                 <div className={classes.video}>
                     {!isPlaying ? (<div className={classes.videoOverlay} onClick={playVideo}>
-                        <img src={boyImage} alt="" className={classes.boyImageIframe} />
+                        <img src={posterImage ? posterImage : PosterImage} alt="" className={classes.posterImageFrame} />
                         <img src={playImage} alt="" className={classes.play} />
                         <div className={classes.dark}></div>
                     </div>) : false}
                     <iframe className={classes.iframeVideo} width="560" height="315"
-                        src={`https://www.youtube.com/embed/1Y5n0nu98Vg?si=d8dZ5vilaINExv8x${isPlaying ? '&autoplay=1' : ''}`} title="YouTube video player"
+                        src={`${videoSrc ? videoSrc : "https://www.youtube.com/embed/1Y5n0nu98Vg?si=d8dZ5vilaINExv8x"}${isPlaying ? '&autoplay=1' : ''}`} title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
