@@ -10,23 +10,31 @@ import coursePageFiltersReducer from "./CoursesPageReducers/coursePageFiltersRed
 import everyCoursePageReducer from "./CoursesPageReducers/EveryCoursePageReducer/EveryCoursePageReducer";
 import owlReducer from "./owlReducer";
 import goalsReducer from "./goalReducer";
+import { initializeState } from "./CoursesPageReducers/EveryCoursePageReducer/loaderImages";
 
 let reducers = combineReducers({
     liHeader: liHeaderReducer,
     togglePopup: toggleReducer,
     coursesBlock: coursesBlockReducer,
-    everyCourse: everyCoursePageReducer,
     filterCoursesPage: coursePageFiltersReducer,
     actionSectionHomepage: actionsSectionReducer,
     reviewHomepage: reviewsHomepageReducer,
     welcomeHomepage: welcomeHomepageReducer,
+    everyCourse: everyCoursePageReducer,
     owl: owlReducer,
     goals: goalsReducer,
     footer: FooterReducer,
 })
 
-let store = createStore(reducers);
 
-window.store = store
+export const configureStore = async () => {
+    const initialState = await initializeState();
+    const store = createStore(reducers, initialState)
+    window.store = store
+    return store
+}
+// let store = createStore(reducers);
 
-export default store;
+// window.store = store
+
+// export default store;

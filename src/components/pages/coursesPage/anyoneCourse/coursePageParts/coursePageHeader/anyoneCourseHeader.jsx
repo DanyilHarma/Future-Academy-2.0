@@ -1,8 +1,10 @@
+import testImage from '../../../../../../assets/images/images-all-courses-page/images-chess-page/51.jpg';
+
 
 import classes from "./anyoneCourseHeader.module.css"
 
 const AnyoneCourseHeader = (props) => {
-
+    console.log(testImage);
     const course = props.course.header
 
     return (

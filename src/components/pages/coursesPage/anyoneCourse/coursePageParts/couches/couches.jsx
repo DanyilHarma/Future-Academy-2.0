@@ -10,7 +10,7 @@ const Couches = (props) => {
                 <div className={classes.backgroundImageContainer}></div>
                 <div className={classes.couchesContainerBackgroundImages}>
                     {props.couchesBackgroundImages.map((image, index) => (
-                        <img key={index} src={image} />
+                        <img key={index} src={image.imgSrc} />
                     ))}
                 </div>
                 <h2>Наши преподаватели</h2>
