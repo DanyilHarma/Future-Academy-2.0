@@ -1,10 +1,10 @@
 import { useDispatch, useSelector } from "react-redux"
 import classes from "./coursesPeople.module.css"
-import ForWho from "./forWho/forWho"
+import ForWho from "./forWho/forWho.jsx"
 import { useEffect, useRef, useState } from "react"
-import { changeSectionBlock } from "../../../../../redux/HomepageReducers/coursesBlockReducer"
-import useIsAlternate from "../../../../../hooks/useAlternatePaths"
-import { setCategory } from "../../../../../redux/CoursesPageReducers/coursePageFiltersReducer"
+import { changeSectionBlock } from "../../../../../redux/HomepageReducers/coursesBlockReducer.js"
+import useIsAlternate from "../../../../../hooks/useAlternatePaths.js"
+import { setCategory } from "../../../../../redux/CoursesPageReducers/coursePageFiltersReducer.js"
 
 
 const CoursesPeople = (props) => {

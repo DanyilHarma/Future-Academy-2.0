@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
-import CoursesRow from "./coursesRow/coursesRow";
+import CoursesRow from "./coursesRow/coursesRow.jsx";
 import classes from "./coursesWrapper.module.css"
-import useIsAlternate from "../../../../../hooks/useAlternatePaths";
+import useIsAlternate from "../../../../../hooks/useAlternatePaths.js";
 
 const CoursesWrapper = (props) => {
 

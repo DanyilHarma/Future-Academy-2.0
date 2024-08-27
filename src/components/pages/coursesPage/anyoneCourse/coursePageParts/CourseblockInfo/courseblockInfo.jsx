@@ -1,6 +1,6 @@
-import VideoBlock from "../../../../home/videoBlock/videoBlock";
-import ChessBenefites from "./chessBenefites/chessBenefites";
-import InfoBlock from "./infoBlock/infoBlock";
+import VideoBlock from "../../../../home/videoBlock/videoBlock.jsx";
+import ChessBenefites from "./chessBenefites/chessBenefites.jsx";
+import InfoBlock from "./infoBlock/infoBlock.jsx";
 
 const CourseblockInfo = (props) => {
 

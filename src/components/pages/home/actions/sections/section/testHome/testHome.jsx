@@ -1,5 +1,5 @@
 import classes from "./testCardHome.module.css"
-import ShadowContainer from "../shadowContainer/shadowContainer.";
+import ShadowContainer from "../shadowContainer/shadowContainer.jsx";
 import image from "../../../../../../../assets/images/section-info/Group 837.png";
 
 

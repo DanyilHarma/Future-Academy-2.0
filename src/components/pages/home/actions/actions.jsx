@@ -1,5 +1,5 @@
-import Quantity from "./quantity/quantity"
-import AllSections from "./sections/allSections"
+import Quantity from "./quantity/quantity.jsx"
+import AllSections from "./sections/allSections.jsx"
 
 
 

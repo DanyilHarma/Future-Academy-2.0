@@ -1,9 +1,9 @@
-import HeaderBig from "./headerBig/headerBig"
-import CoursesBlock from "./coursesBlock/coursesBlock"
-import VideoBlock from "./videoBlock/videoBlock";
-import Actions from "./actions/actions";
-import ReviewsHomepage from "./rewiewsHomepage/reviewHomepage";
-import WelcomeContainer from "./welcomeContainer/welcomeContainer";
+import HeaderBig from "./headerBig/headerBig.jsx"
+import CoursesBlock from "./coursesBlock/coursesBlock.jsx"
+import VideoBlock from "./videoBlock/videoBlock.jsx";
+import Actions from "./actions/actions.jsx";
+import ReviewsHomepage from "./rewiewsHomepage/reviewHomepage.jsx";
+import WelcomeContainer from "./welcomeContainer/welcomeContainer.jsx";
 
 
 const Home = (props) => {

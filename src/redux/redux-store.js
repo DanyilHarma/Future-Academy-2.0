@@ -1,16 +1,16 @@
 import { combineReducers, legacy_createStore as createStore } from "redux";
-import toggleReducer from "./togglePopupReducers"
-import liHeaderReducer from "./liHeaderReducer";
-import actionsSectionReducer from "./HomepageReducers/actionsSectionReducer";
-import reviewsHomepageReducer from "./HomepageReducers/reviewsHomepageReducer";
-import welcomeHomepageReducer from "./HomepageReducers/welcomeHomepageReducer";
-import FooterReducer from "./footerReducer";
-import coursesBlockReducer from "./HomepageReducers/coursesBlockReducer";
-import coursePageFiltersReducer from "./CoursesPageReducers/coursePageFiltersReducer";
-import everyCoursePageReducer from "./CoursesPageReducers/EveryCoursePageReducer/EveryCoursePageReducer";
-import owlReducer from "./owlReducer";
-import goalsReducer from "./goalReducer";
-import { initializeState } from "./CoursesPageReducers/EveryCoursePageReducer/loaderImages";
+import toggleReducer from "./togglePopupReducers.js"
+import liHeaderReducer from "./liHeaderReducer.js";
+import actionsSectionReducer from "./HomepageReducers/actionsSectionReducer.js";
+import reviewsHomepageReducer from "./HomepageReducers/reviewsHomepageReducer.js";
+import welcomeHomepageReducer from "./HomepageReducers/welcomeHomepageReducer.js";
+import FooterReducer from "./footerReducer.js";
+import coursesBlockReducer from "./HomepageReducers/coursesBlockReducer.js";
+import coursePageFiltersReducer from "./CoursesPageReducers/coursePageFiltersReducer.js";
+import everyCoursePageReducer from "./CoursesPageReducers/EveryCoursePageReducer/EveryCoursePageReducer.js";
+import owlReducer from "./owlReducer.js";
+import goalsReducer from "./goalReducer.js";
+import { initializeState } from "./CoursesPageReducers/EveryCoursePageReducer/loaderImages.js";
 
 let reducers = combineReducers({
     liHeader: liHeaderReducer,
@@ -27,11 +27,15 @@ let reducers = combineReducers({
 })
 
 
-export const configureStore = async () => {
-    const initialState = await initializeState();
-    const store = createStore(reducers, initialState)
-    window.store = store
-    return store
+export const configureStore = async (courseId) => {
+    if (!courseId) {
+
+        return createStore(reducers, {}); // Создаем store с пустым состоянием
+    }
+    const initialState = await initializeState(courseId);
+    const store = createStore(reducers, initialState);
+    window.store = store;
+    return store;
 }
 // let store = createStore(reducers);
 

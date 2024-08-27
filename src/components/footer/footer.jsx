@@ -2,6 +2,7 @@ import classes from "./footer.module.css"
 import ColumnsFooter from "./columnsFooter/columnsFooter";
 import { useSelector } from "react-redux";
 import SocietyFooter from "./society/societyFooter";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
 
@@ -15,7 +16,7 @@ const Footer = () => {
             <div className="container">
                 <div className={classes.footerContainer}>
                     <div className={classes.infoBlockFooter}>
-                        <a href="#"><img src={logo.imgSrc} alt="" className={classes.logoFooter} /></a>
+                        <NavLink to="#"><img src={logo.imgSrc} alt="" className={classes.logoFooter} /></NavLink>
 
                         <div className={classes.infoContactFooter}>
                             <a href="tel:+37368432044">8 800 950-33-98 </a>

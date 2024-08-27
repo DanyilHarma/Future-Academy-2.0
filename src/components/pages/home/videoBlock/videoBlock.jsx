@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import classes from "./videoBlock.module.css"
-import SvgOne from "./svg/svgOne";
-import SvgTwo from "./svg/svgTwo"
-import SvgThree from "./svg/svgThree"
-import SvgFour from "./svg/svgFour"
+import SvgOne from "./svg/svgOne.jsx";
+import SvgTwo from "./svg/svgTwo.jsx"
+import SvgThree from "./svg/svgThree.jsx"
+import SvgFour from "./svg/svgFour.jsx"
 import PosterImage from "../../../../assets/images/iframe-images/603123.png"
 import playImage from "../../../../assets/images/iframe-images/Group 779.png"
+import LazyLoad from 'react-lazyload';
 
 const VideoBlock = (props) => {
 
@@ -28,8 +29,8 @@ const VideoBlock = (props) => {
                 <SvgFour />
                 <div className={classes.video}>
                     {!isPlaying ? (<div className={classes.videoOverlay} onClick={playVideo}>
-                        <img src={posterImage ? posterImage : PosterImage} alt="" className={classes.posterImageFrame} />
-                        <img src={playImage} alt="" className={classes.play} />
+                        <LazyLoad height={440} offset={100}><img src={posterImage ? posterImage : PosterImage} alt="" className={classes.posterImageFrame} /></LazyLoad>
+                        <LazyLoad offset={100}><img src={playImage} alt="" className={classes.play} /></LazyLoad>
                         <div className={classes.dark}></div>
                     </div>) : false}
                     <iframe className={classes.iframeVideo} width="560" height="315"

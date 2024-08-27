@@ -1,6 +1,7 @@
 import { useState } from "react";
 import classes from "./carouselOverview.module.css"
 import Slider from "react-slick";
+import LazyLoad from "react-lazyload";
 
 const CarouselOverview = (props) => {
 
@@ -37,7 +38,7 @@ const CarouselOverview = (props) => {
         <>
             <div className={classes.owlCarousel}>
                 <Slider {...settings}>
-                    {photos.map((photo, index) => (<img key={index} src={photo.imgSrc} />))}
+                    {photos.map((photo, index) => (<LazyLoad key={index} offset={500}><img key={index} src={photo.imgSrc} /></LazyLoad>))}
                 </Slider>
             </div>
             <div className={`container ${classes.sliderContainer}`}>

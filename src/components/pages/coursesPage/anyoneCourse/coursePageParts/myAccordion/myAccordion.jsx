@@ -1,6 +1,6 @@
 import { useState } from "react"
 import classes from "./myAccordion.module.css"
-import { ImageBackground, AccordionContainer, ShadowGradient, ShadowGradientContainer, Accordion, TitleAccordionWrapper, TitleAccordion, AccordionParagraf } from "./myAccordion.styles"
+import { ImageBackground, AccordionContainer, ShadowGradient, ShadowGradientContainer, Accordion, TitleAccordionWrapper, TitleAccordion, AccordionParagraf } from "./myAccordion.styles.js"
 import imageBackground1 from "../../../../../../assets/images/images-all-courses-page/images-chess-page/Vector (1).png"
 import imageBackground2 from "../../../../../../assets/images/images-all-courses-page/images-chess-page/Vector (2).png"
 import imageBackground3 from "../../../../../../assets/images/images-all-courses-page/images-chess-page/Vector (3).png"
@@ -16,7 +16,7 @@ const MyAccordion = (props) => {
     const toggleAccordion = (index) => {
         setActiveIndex(activeIndex === index ? null : index)
     }
-
+    // debugger
     return (
         <div className={`container ${classes.accordionWrapper}`}>
             <ImageBackground src={imageBackground1} />

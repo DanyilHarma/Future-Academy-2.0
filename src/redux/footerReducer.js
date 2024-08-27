@@ -18,7 +18,7 @@ let initialState = {
         },
         {
             label: "Создание игр",
-            link: ""
+            link: "/coursesAllPage/gameDev"
         },
         {
             label: "Программирование",
@@ -34,7 +34,7 @@ let initialState = {
         },
         {
             label: "Шахматы",
-            link: "/main-landing/chess-page/index.html"
+            link: "/coursesAllPage/chess"
         },
         {
             label: "Блогинг",
@@ -81,7 +81,7 @@ let initialState = {
         },
         {
             label: "Разработчик мобильных приложений",
-            link: ""
+            link: "/coursesAllPage/mobileDev"
         },
         {
             label: "Блогинг",

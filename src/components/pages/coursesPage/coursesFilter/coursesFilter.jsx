@@ -1,11 +1,11 @@
 import { Route, Routes } from "react-router-dom";
-import CoursesWrapper from "../../home/coursesBlock/coursesWrapper/coursesWrapper";
-import ComplexityFilter from "./complexityFilter/complexityFilter";
+import CoursesWrapper from "../../home/coursesBlock/coursesWrapper/coursesWrapper.jsx";
+import ComplexityFilter from "./complexityFilter/complexityFilter.jsx";
 import classes from "./coursesFilter.module.css"
-import CoursesSection from "./coursesSection/coursesSection";
-import DoubleSliderFilter from "./durationFilter/durationFilter";
-import EducationFilter from "./educationFilter/educationFilter";
-import AnyoneCoursesPage from "../anyoneCourse/anyoneCourse";
+import CoursesSection from "./coursesSection/coursesSection.jsx";
+import DoubleSliderFilter from "./durationFilter/durationFilter.jsx";
+import EducationFilter from "./educationFilter/educationFilter.jsx";
+
 
 const CoursesFilter = () => {
     return (

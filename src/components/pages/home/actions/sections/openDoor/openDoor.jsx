@@ -1,5 +1,5 @@
 import classes from "./openDoor.module.css"
-import SvgDayOf from "./svgDayOf/svgDayOf";
+import SvgDayOf from "./svgDayOf/svgDayOf.jsx";
 
 
 const OpenDoor = (props) => {

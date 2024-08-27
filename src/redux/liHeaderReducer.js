@@ -23,7 +23,7 @@ let initialState = {
             isSelected: null
         },
         {
-            link: "/main-landing/all-events/index.html",
+            link: "/allEvents",
             text: "Мероприятия",
             isSelected: false
         },

@@ -28,7 +28,7 @@ let initialState = {
     duration: [1, 24],
     courses: [
         {
-            id: "DevelopMobile",
+            id: "mobileDev",
             name: `«Разработка мобильных <br> приложений»`,
             imgSrc: image,
             text: `Разработчик мобильных приложений создаёт <br> приложения, которыми 
@@ -40,7 +40,7 @@ let initialState = {
             backgroundColor: "#C7EEFF",
         },
         {
-            id: 2,
+            id: "gameDev",
             name: "«Создание игр»",
             imgSrc: image1,
             text: `Курс, который обучит вас разработке игр, включает программирование, дизайн, анимацию
@@ -77,7 +77,7 @@ let initialState = {
             backgroundColor: "#DDDDFF"
         },
         {
-            id: "cheess",
+            id: "chess",
             name: "«Шахматы»",
             imgSrc: image4,
             text: `Курс, который обучит вас шахматам, включает стратегии, тактику и решения задач.

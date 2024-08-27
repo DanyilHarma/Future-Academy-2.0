@@ -1,7 +1,7 @@
 import classes from "./coursesBlock.module.css"
-import CoursesPeople from "./coursesPeople/coursesPeople";
-import Owl from "./owl/owl";
-import CoursesWrapper from "./coursesWrapper/coursesWrapper"
+import CoursesPeople from "./coursesPeople/coursesPeople.jsx";
+import Owl from "./owl/owl.jsx";
+import CoursesWrapper from "./coursesWrapper/coursesWrapper.jsx"
 
 const CoursesBlock = (props) => {
     return (

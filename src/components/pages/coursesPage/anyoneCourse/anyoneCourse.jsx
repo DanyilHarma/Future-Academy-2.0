@@ -1,22 +1,32 @@
 import { useParams } from "react-router-dom";
-import { useDispatch, useSelector } from "react-redux";
-import AnyoneCourseHeader from "./coursePageParts/coursePageHeader/anyoneCourseHeader"
-import AboutPart from "./coursePageParts/aboutPart/aboutPart";
-import { useEffect } from "react";
-import { setCourseGoalData } from "../../../../redux/goalReducer";
-import { setCourseOwlText } from "../../../../redux/owlReducer";
-import CourseblockInfo from "./coursePageParts/CourseblockInfo/courseblockInfo";
-import CoursesOverviewSection from "./coursePageParts/coursesOverviewSection/coursesOverviewSection";
-import Couches from "./coursePageParts/couches/couches";
-import MyAccordion from "./coursePageParts/myAccordion/myAccordion";
+import { useDispatch } from "react-redux";
+import AnyoneCourseHeader from "./coursePageParts/coursePageHeader/anyoneCourseHeader.jsx"
+import AboutPart from "./coursePageParts/aboutPart/aboutPart.jsx";
+import { useEffect, useState } from "react";
+import { setCourseGoalData } from "../../../../redux/goalReducer.js";
+import { setCourseOwlText } from "../../../../redux/owlReducer.js";
+import CourseblockInfo from "./coursePageParts/CourseblockInfo/courseblockInfo.jsx";
+import CoursesOverviewSection from "./coursePageParts/coursesOverviewSection/coursesOverviewSection.jsx";
+import Couches from "./coursePageParts/couches/couches.jsx";
+import MyAccordion from "./coursePageParts/myAccordion/myAccordion.jsx";
+import { configureStore } from "../../../../redux/redux-store.js";
 
 const AnyoneCoursesPage = () => {
 
     const dispatch = useDispatch();
     const { courseId } = useParams();
-    const courses = useSelector(state => state.everyCourse);
+    const [course, setCourse] = useState(null)
 
-    const course = courses.find(c => c.id === courseId);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const store = await configureStore(courseId);
+            const courseData = store.getState().everyCourse
+            const selectedCourse = courseData.find(c => c.id === courseId);
+            setCourse(selectedCourse);
+        };
+        fetchData();
+    }, [courseId]);
 
     useEffect(() => {
         if (course && course.goalsData && Array.isArray(course.goalsData)) {
@@ -26,7 +36,11 @@ const AnyoneCoursesPage = () => {
             dispatch(setCourseOwlText(course.unionText))
         }
     }, [course, dispatch])
-    // debugger
+
+    if (!course) {
+        return <div>Загрузка...</div>;
+    }
+
     return (
         <>
             <AnyoneCourseHeader course={course} />
