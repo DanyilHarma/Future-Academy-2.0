@@ -1,6 +1,6 @@
-import SvgHeader from "./svgHeader/svgHeader";
+import SvgHeader from "./svgHeader/svgHeader.jsx";
 import classes from "./headerBig.module.css"
-import HeaderImg from "./headerImg/headerImg";
+import HeaderImg from "./headerImg/headerImg.jsx";
 
 const HeaderBig = (props) => {
     return (

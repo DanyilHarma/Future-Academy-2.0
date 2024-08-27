@@ -5,7 +5,8 @@ const useBreadcrumbs = () => {
 
     const breadcrumbsName = {
         "": "Главная",
-        "coursesAllPage": "Курсы"
+        "coursesAllPage": "Курсы",
+        "allEvents": "Мероприятия"
     }
 
     const pathnames = location.pathname.split("/").filter(x => x);

@@ -9,9 +9,12 @@ export const loadImage = async (path) => {
     }
 };
 
-export const initializeState = async () => {
+export const initializeState = async (courseId) => {
+
+    const courseData = dataImages[courseId]
+
     const headerImages = await Promise.all(
-        dataImages.chess.headerImages.map(async (data) => ({
+        courseData.headerImages.map(async (data) => ({
             imgSrc: await loadImage(data.imgSrc),
             top: data.top,
             left: data.left,
@@ -19,33 +22,33 @@ export const initializeState = async () => {
         }))
     )
 
-    const headerImageBackground = await loadImage(dataImages.chess.imageHeaderBackground);
+    const headerImageBackground = await loadImage(courseData.headerImageBackground);
 
     const goalsData = await Promise.all(
-        dataImages.chess.goalsImages.map(async (data) => ({
+        courseData.goalsImages.map(async (data) => ({
             imgSrc: await loadImage(data.imgSrc),
             goalTitle: data.goalTitle,
             goalText: data.goalText
         }))
     );
 
-    const posterImage = await loadImage(dataImages.chess.iframeData.posterImage);
+    const posterImage = await loadImage(courseData.iframeData.posterImage);
 
     const chessInfoSections = await Promise.all(
-        dataImages.chess.infoSectionsImages.map(async (data) => ({
+        courseData.infoSectionsImages.map(async (data) => ({
             imgSrc: await loadImage(data.imgSrc),
             text: data.text
         }))
     );
 
     const carouselImages = await Promise.all(
-        dataImages.chess.carouselImages.map(async (data) => ({
+        courseData.carouselImages.map(async (data) => ({
             imgSrc: await loadImage(data.imgSrc)
         }))
     );
 
     const priceImages = await Promise.all(
-        dataImages.chess.priceImages.map(async (data) => ({
+        courseData.priceImages.map(async (data) => ({
             imgSrc: await loadImage(data.imgSrc),
             top: data.top,
             left: data.left
@@ -53,7 +56,7 @@ export const initializeState = async () => {
     );
 
     const couchesData = await Promise.all(
-        dataImages.chess.couchesData.map(async (data) => ({
+        courseData.couchesData.map(async (data) => ({
             imgSrc: await loadImage(data.imgSrc),
             name: data.name,
             proffession: data.proffession
@@ -62,16 +65,16 @@ export const initializeState = async () => {
 
     const couchesBackgroundImages = await Promise.all(
 
-        dataImages.chess.couchesBackgroundImages.map(async (data) => ({
+        courseData.couchesBackgroundImages.map(async (data) => ({
             imgSrc: await loadImage(data)
         }))
 
     );
-
+    // debugger
     return {
         everyCourse: [
             {
-                id: "cheess",
+                id: "chess",
                 header: {
                     headerImages,
                     headerImageBackground,
@@ -159,6 +162,131 @@ export const initializeState = async () => {
     консультации для более глубокого изучения пропущенной темы. Таким образом, пропущенное занятие не станет
     препятствием для продолжения обучения, и ребенок сможет легко восполнить упущенное, чтобы идти в ногу с программой
     курса и эффективно продолжать свои занятия.`}
+                    ]
+                }
+            },
+            {
+                id: "mobileDev",
+                header: {
+                    headerImages,
+                    headerImageBackground,
+                    headerTitle: "Мобильная разработка",
+                    headerDescription: "Создание приложений для iOS и Android",
+                    durationOfEducation: "24 месяца",
+                    modeOfEducation: "3 раза в неделю по 3 академических часа",
+                    coursePrice: "от 6 000 ₽ в месяц"
+                },
+                unionText: "Вы научитесь создавать приложения, которые будут востребованы на рынке!",
+                goalsData,
+                infoCourse: {
+                    iframeData: {
+                        posterImage,
+                        videoSrc: "https://www.youtube.com/embed/some_video"
+                    },
+                    title: "Мобильная разработка",
+                    paragrafAboutCourse: `Курс по мобильной разработке предоставит вам все необходимые навыки для создания приложений для iOS и Android. 
+                                          Вы изучите основы программирования, разберетесь в архитектуре мобильных приложений и научитесь разрабатывать интерфейсы, 
+                                          которые будут удобны для пользователя. Особое внимание уделяется практике, что позволит вам создать полноценное приложение к концу обучения.`,
+                    chessInfoSections
+                },
+                benefitesFromTheCourse: {
+                    advantages: [
+                        "Вы научитесь разрабатывать приложения, которые будут востребованы на рынке",
+                        "Вы получите навыки работы с современными инструментами и фреймворками, такими как React Native и Swift",
+                        "Вы будете готовы к собеседованию и трудоустройству в качестве мобильного разработчика"
+                    ]
+                },
+                overviewSectionData: {
+                    title: "Курс по мобильной разработке для начинающих",
+                    offerParagraf: `Этот курс рассчитан на тех, кто хочет стать профессионалом в области мобильной разработки. 
+                                    Учебная программа построена так, чтобы максимально быстро погрузить вас в реальную работу, 
+                                    при этом не забывая о теоретических основах.`,
+                    carouselImages,
+                    contentParagraf: `В процессе обучения вы изучите язык программирования JavaScript и научитесь работать с такими инструментами, как React Native и Swift.
+                                      Программа курса включает в себя практические занятия по созданию мобильных приложений для iOS и Android, знакомство с API и сервисами, 
+                                      необходимыми для успешного функционирования приложения. В конце курса вы будете иметь готовое приложение, которое можно будет использовать 
+                                      как портфолио при трудоустройстве.`,
+                    priceImages,
+                    couchesData,
+                    couchesBackgroundImages,
+                    accordionData: [
+                        {
+                            title: "Кому подойдёт этот курс?",
+                            text: `Этот курс подходит для тех, кто хочет начать карьеру в мобильной разработке или расширить свои знания в этой области. 
+                                   Он будет полезен как новичкам, так и программистам, желающим освоить новые технологии и подходы.`
+                        },
+                        {
+                            title: "Что нужно для занятий?",
+                            text: `Для занятий вам потребуется ноутбук или компьютер с установленной операционной системой Windows, macOS или Linux. 
+                                   Рекомендуется наличие устройства iOS или Android для тестирования своих приложений. Необходима базовая подготовка в программировании.`
+                        },
+                        {
+                            title: "Как узнать расписание занятий?",
+                            text: `Расписание занятий можно узнать на нашем официальном сайте или в мобильном приложении. 
+                                   Также вы можете подписаться на рассылку, чтобы быть в курсе всех новостей и изменений в расписании.`
+                        },
+                        {
+                            title: "Что делать, если пропустил занятие?",
+                            text: `Все занятия записываются, и вы сможете просмотреть их в любое удобное время. 
+                                   Также возможны дополнительные консультации с преподавателем.`
+                        }
+                    ]
+                }
+            },
+            {
+                id: "gameDev",
+                header: {
+                    headerImages,
+                    headerImageBackground,
+                    headerTitle: "Разработка игр",
+                    headerDescription: "Создание игр для различных платформ",
+                    durationOfEducation: "12 месяца",
+                    modeOfEducation: "3 раза в неделю по 3 академических часа",
+                    coursePrice: "от 6 000 ₽ в месяц"
+                },
+                unionText: "Вы научитесь создавать игры, <br/> которые завоюют сердца игроков!",
+                goalsData,
+                infoCourse: {
+                    iframeData: {
+                        posterImage,
+                        videoSrc: "https://www.youtube.com/embed/some_video"
+                    },
+                    title: "Разработка игр",
+                    paragrafAboutCourse: `Курс по разработке игр предоставит вам все необходимые навыки для создания игр для различных платформ. Вы изучите основы программирования, разберетесь в геймдизайне и научитесь разрабатывать интерактивные и увлекательные игровые механики. Особое внимание уделяется практике, что позволит вам создать полноценную игру к концу обучения.`,
+                    chessInfoSections
+                },
+                benefitesFromTheCourse: {
+                    advantages: [
+                        "Вы научитесь разрабатывать игры, которые будут популярны среди игроков",
+                        "Вы получите навыки работы с современными инструментами и игровыми движками, такими как Unity и Unreal Engine",
+                        "Вы будете готовы к собеседованию и трудоустройству в качестве разработчика игр"
+                    ]
+                },
+                overviewSectionData: {
+                    title: "Курс по разработке игр для начинающих",
+                    offerParagraf: `Этот курс рассчитан на тех, кто хочет стать профессионалом в области разработки игр. Учебная программа построена так, чтобы максимально быстро погрузить вас в реальную работу, при этом не забывая о теоретических основах.`,
+                    carouselImages,
+                    contentParagraf: `В процессе обучения вы изучите язык программирования C# и научитесь работать с такими игровыми движками, как Unity и Unreal Engine. Программа курса включает в себя практические занятия по созданию игр для различных платформ, знакомство с API и сервисами, необходимыми для успешного функционирования игр. В конце курса вы будете иметь готовую игру, которую можно будет использовать как портфолио при трудоустройстве`,
+                    priceImages,
+                    couchesData,
+                    couchesBackgroundImages,
+                    accordionData: [
+                        {
+                            title: "Кому подойдёт этот курс?",
+                            text: `Этот курс подходит для тех, кто хочет начать карьеру в разработке игр или расширить свои знания в этой области. Он будет полезен как новичкам, так и программистам, желающим освоить новые технологии и подходы.`
+                        },
+                        {
+                            title: "Что нужно для занятий?",
+                            text: `Для занятий вам потребуется ноутбук или компьютер с установленной операционной системой Windows, macOS или Linux. Рекомендуется наличие устройства для тестирования своих игр. Необходима базовая подготовка в программировании.`
+                        },
+                        {
+                            title: "Как узнать расписание занятий?",
+                            text: `Расписание занятий можно узнать на нашем официальном сайте или в мобильном приложении. Также вы можете подписаться на рассылку, чтобы быть в курсе всех новостей и изменений в расписании.`
+                        },
+                        {
+                            title: "Что делать, если пропустил занятие?",
+                            text: `Все занятия записываются, и вы сможете просмотреть их в любое удобное время. Также возможны дополнительные консультации с преподавателем.`
+                        }
                     ]
                 }
             }

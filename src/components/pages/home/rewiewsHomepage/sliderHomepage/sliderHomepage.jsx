@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import classes from "./sliderHomepage.module.css"
 import { useSelector } from "react-redux";
-import Review from "./review/review";
+import Review from "./review/review.jsx";
 import { useState } from "react";
 
 

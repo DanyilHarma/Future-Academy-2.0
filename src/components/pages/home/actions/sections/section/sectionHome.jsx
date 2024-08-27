@@ -1,8 +1,8 @@
-import Programms from "./programmsHome/programmsHome";
+import Programms from "./programmsHome/programmsHome.jsx";
 import classes from "./sectionHome.module.css"
-import ShadowContainer from "./shadowContainer/shadowContainer.";
-import InfoCardsHome from "./infoCardHome/infoCardHome";
-import TestHome from "./testHome/testHome";
+import ShadowContainer from "./shadowContainer/shadowContainer.jsx";
+import InfoCardsHome from "./infoCardHome/infoCardHome.jsx";
+import TestHome from "./testHome/testHome.jsx";
 import { useSelector } from "react-redux";
 
 

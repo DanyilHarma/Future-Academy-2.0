@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import useBreadcrumbs from "../../hooks/useBreadcrumbs";
+import useBreadcrumbs from "../../hooks/useBreadcrumbs.js";
 import classes from "./breadcrumb.module.css"
-import { useState } from "react";
+
 
 const Breadcrumbs = () => {
     const breadcrumbs = useBreadcrumbs();

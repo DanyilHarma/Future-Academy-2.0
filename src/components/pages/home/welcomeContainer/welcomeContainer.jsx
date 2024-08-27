@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from "./welcomeContainer.module.css"
 import { useSelector } from 'react-redux';
-import WelcomeHomepage from './welcome/welcomeHomepage';
+import WelcomeHomepage from './welcome/welcomeHomepage.jsx';
 
 
 const WelcomeContainer = (props) => {

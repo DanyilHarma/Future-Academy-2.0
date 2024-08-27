@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import classes from "./complexityFilter.module.css"
-import { setDifficult } from "../../../../../redux/CoursesPageReducers/coursePageFiltersReducer";
+import { setDifficult } from "../../../../../redux/CoursesPageReducers/coursePageFiltersReducer.js";
 
 const ComplexityFilter = () => {
 

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import classes from "./popupCity.module.css"
-import TogglePopup from "./togglePopup/togglePopup";
+import TogglePopup from "./togglePopup/togglePopup.jsx";
 
 const PopupCity = (props) => {
 

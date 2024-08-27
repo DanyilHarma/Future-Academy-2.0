@@ -4,7 +4,7 @@ import { useState } from 'react';
 import 'rc-tooltip/assets/bootstrap.css';
 import 'rc-slider/assets/index.css';
 import { useDispatch } from 'react-redux';
-import { setDuration } from '../../../../../redux/CoursesPageReducers/coursePageFiltersReducer';
+import { setDuration } from '../../../../../redux/CoursesPageReducers/coursePageFiltersReducer.js';
 
 const Handle = (props) => {
     const { value, dragging, index, ...restProps } = props;

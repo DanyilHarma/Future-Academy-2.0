@@ -1,6 +1,6 @@
 import classes from "./allSections.module.css"
-import OpenDoor from "./openDoor/openDoor";
-import SectionHome from "./section/sectionHome";
+import OpenDoor from "./openDoor/openDoor.jsx";
+import SectionHome from "./section/sectionHome.jsx";
 
 
 const AllSections = (props) => {

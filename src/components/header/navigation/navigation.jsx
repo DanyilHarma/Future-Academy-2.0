@@ -1,8 +1,8 @@
 import { useDispatch, useSelector } from "react-redux"
-import ListNav from "./listNavigation/listNavigation"
-import PopupCity from "./listNavigation/popupCity/popupCity"
+import ListNav from "./listNavigation/listNavigation.jsx"
+import PopupCity from "./listNavigation/popupCity/popupCity.jsx"
 import classes from "./navigation.module.css"
-import { setIndicatorPosition } from "../../../redux/liHeaderReducer"
+import { setIndicatorPosition } from "../../../redux/liHeaderReducer.js"
 
 
 const Navigation = (props) => {

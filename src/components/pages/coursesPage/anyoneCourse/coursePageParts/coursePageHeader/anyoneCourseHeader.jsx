@@ -1,10 +1,8 @@
-import testImage from '../../../../../../assets/images/images-all-courses-page/images-chess-page/51.jpg';
-
-
+import LazyLoad from "react-lazyload";
 import classes from "./anyoneCourseHeader.module.css"
 
 const AnyoneCourseHeader = (props) => {
-    console.log(testImage);
+
     const course = props.course.header
 
     return (
@@ -45,10 +43,10 @@ const AnyoneCourseHeader = (props) => {
                         </div>
                     </div>
                     <div className={classes.headerImage}>
-                        <img src={course.headerImageBackground} alt="" />
+                        <LazyLoad height={536} offset={100}><img src={course.headerImageBackground} alt="" /></LazyLoad>
                     </div>
                 </div>
-                {course.headerImages.map((image, index) => <img className={classes.headerImages} key={index} src={image.imgSrc} style={{ top: `${image.top}`, left: `${image.left}`, width: `${image.width}` }} />)}
+                {course.headerImages.map((image, index) => <LazyLoad key={index} offset={100}> <img className={classes.headerImages} key={index} src={image.imgSrc} style={{ top: `${image.top}`, left: `${image.left}`, width: `${image.width}` }} /></LazyLoad>)}
             </div>
         </div >
     )

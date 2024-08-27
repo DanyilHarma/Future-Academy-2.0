@@ -1,4 +1,4 @@
-import Course from "./course/course";
+import Course from "./course/course.jsx";
 import classes from "./coursesRow.module.css"
 
 

@@ -1,5 +1,5 @@
-import GoalAll from "../../../../goalAll/goalAll";
-import OwlAll from "../../../../owlAll/owlAll";
+import GoalAll from "../../../../goalAll/goalAll.jsx";
+import OwlAll from "../../../../owlAll/owlAll.jsx";
 import classes from "./aboutPart.module.css"
 
 const AboutPart = (props) => {

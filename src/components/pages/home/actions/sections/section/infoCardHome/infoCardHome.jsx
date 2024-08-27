@@ -1,5 +1,5 @@
 import "./infoCardHome.css"
-import ShadowContainer from "../shadowContainer/shadowContainer.";
+import ShadowContainer from "../shadowContainer/shadowContainer.jsx";
 
 
 const InfoCardsHome = (props) => {

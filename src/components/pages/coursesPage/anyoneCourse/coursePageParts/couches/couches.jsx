@@ -1,5 +1,6 @@
 import DOMPurify from "dompurify";
 import classes from "./couches.module.css"
+import LazyLoad from "react-lazyload";
 
 
 const Couches = (props) => {
@@ -18,7 +19,7 @@ const Couches = (props) => {
                     {props.couchesData.map((couch, index) => (
                         <div key={index} className={classes.couchContent}>
                             <div className={classes.circleGradient}>
-                                <img src={couch.imgSrc} alt={couch.name} />
+                                <LazyLoad offset={500}><img src={couch.imgSrc} alt={couch.name} /></LazyLoad>
                             </div>
                             <h4>{couch.name}</h4>
                             <p dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(couch.proffession) }}></p>

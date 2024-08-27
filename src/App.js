@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header/header';
-import Home from './components/pages/home/home';
-import FormHelp from './components/formHelp/formHelp';
-import Footer from './components/footer/footer';
+import Header from './components/header/header.jsx';
+import Home from './components/pages/home/home.jsx';
+import FormHelp from './components/formHelp/formHelp.jsx';
+import Footer from './components/footer/footer.jsx';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import CoursesPageContainer from './components/pages/coursesPage/coursesPageContainer';
-import AnyoneCoursesPage from './components/pages/coursesPage/anyoneCourse/anyoneCourse';
+import CoursesPageContainer from './components/pages/coursesPage/coursesPageContainer.jsx';
+import AnyoneCoursesPage from './components/pages/coursesPage/anyoneCourse/anyoneCourse.jsx';
 
 function App(props) {
   return (
@@ -17,6 +17,7 @@ function App(props) {
         <Route path="homepage" element={<Home />} />
         <Route path="coursesAllPage/*" element={<CoursesPageContainer />} />
         <Route path="coursesAllPage/:courseId" element={<AnyoneCoursesPage />} />
+        <Route path="allEvents/*" element={<CoursesPageContainer />} />
       </Routes>
       <FormHelp />
       <Footer />

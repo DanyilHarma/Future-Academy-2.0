@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import classes from "./educationFilter.module.css"
-import { setEducation } from "../../../../../redux/CoursesPageReducers/coursePageFiltersReducer";
+import { setEducation } from "../../../../../redux/CoursesPageReducers/coursePageFiltersReducer.js";
 
 const EducationFilter = () => {
 

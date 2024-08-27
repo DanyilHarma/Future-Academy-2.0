@@ -1,8 +1,7 @@
-
 import DOMPurify from "dompurify";
 import classes from "./coursesOverviewSection.module.css"
-import CarouselOverview from "./carouselOverview/carouselOverview";
-import PriceInfo from "./priceInfo/priceInfo";
+import CarouselOverview from "./carouselOverview/carouselOverview.jsx";
+import PriceInfo from "./priceInfo/priceInfo.jsx";
 
 const CoursesOverviewSection = (props) => {
 

@@ -174,5 +174,357 @@
             "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
             "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
         ]
+    },
+    "mobileDev": {
+        "headerImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector.png",
+                "top": "10%",
+                "left": "-5%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20178.png",
+                "top": "60%",
+                "left": "-10%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+                "top": "41%",
+                "left": "35%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png",
+                "top": "84%",
+                "left": "26%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+                "top": "63%",
+                "left": "58%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+                "top": "7%",
+                "left": "65%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+                "top": "31%",
+                "left": "84%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(4).png",
+                "top": "10%",
+                "left": "103%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20182.png",
+                "top": "88%",
+                "left": "97%",
+                "width": "17%"
+            }
+        ],
+        "headerImageBackground": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png",
+        "goalsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-kotlin.png",
+                "goalTitle": "Цель 1",
+                "goalText": "Изучить основы <br/> мобильной разработки"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-android.png",
+                "goalTitle": "Цель 2",
+                "goalText": "Освоить современные <br/> инструменты и фреймворки"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-vscode.png",
+                "goalTitle": "Цель 3",
+                "goalText": "Получить практический <br/> опыт разработки приложений"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/building-skyscraper.png",
+                "goalTitle": "Цель 4",
+                "goalText": "Подготовиться к <br/> трудоустройству в IT"
+            }
+        ],
+        "iframeData": {
+            "posterImage": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png"
+        },
+        "infoSectionsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector11.png",
+                "text": "Интерактивные <br/>уроки по мобильной разработке"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group11.png",
+                "text": "Разработка приложений <br/> для iOS и Android"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group12.png",
+                "text": "Обучение <br/> разработке онлайн"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group13.png",
+                "text": "Профессиональная <br/> подготовка разработчиков"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group14.png",
+                "text": "Практические проекты <br/> и кейсы"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group15.png",
+                "text": "Менторская поддержка <br/> и обратная связь"
+            }
+        ],
+        "carouselImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2019.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2020.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2021.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2022.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/51.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/1-18877-1514363749-3752.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/images.jpg"
+            }
+        ],
+        "priceImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "top": "-15%",
+                "left": "75%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "top": "-15%",
+                "left": "90%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "top": "24%",
+                "left": "81%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "top": "20%",
+                "left": "90%"
+            }
+        ],
+        "couchesData": [
+            {
+                "name": "Алексей Иванов",
+                "proffession": "Эксперт в мобильной разработке.<br />Более 10 лет опыта создания приложений.<br />Работает в ведущих IT-компаниях.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185.png"
+            },
+            {
+                "name": "Мария Петрова",
+                "proffession": "Специалист по UX/UI дизайну.<br />Более 8 лет опыта в разработке интерфейсов.<br />Создает удобные и красивые приложения.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (1).png"
+            },
+            {
+                "name": "Иван Смирнов",
+                "proffession": "Senior разработчик.<br />Специалист по архитектуре мобильных приложений.<br />Работает с iOS и Android более 15 лет.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (2).png"
+            },
+            {
+                "name": "Елена Соколова",
+                "proffession": "Frontend разработчик.<br />Эксперт в React Native.<br />Опыт работы в стартапах и крупных проектах.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (3).png"
+            }
+        ],
+        "couchesBackgroundImages": [
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+        ]
+    },
+    "gameDev": {
+        "headerImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector.png",
+                "top": "10%",
+                "left": "-5%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20178.png",
+                "top": "60%",
+                "left": "-10%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+                "top": "41%",
+                "left": "35%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png",
+                "top": "84%",
+                "left": "26%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+                "top": "63%",
+                "left": "58%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+                "top": "7%",
+                "left": "65%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+                "top": "31%",
+                "left": "84%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(4).png",
+                "top": "10%",
+                "left": "103%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20182.png",
+                "top": "88%",
+                "left": "97%",
+                "width": "17%"
+            }
+        ],
+        "headerImageBackground": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png",
+        "goalsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-kotlin.png",
+                "goalTitle": "Цель 1",
+                "goalText": "Изучить основы <br/> разработки игр"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-android.png",
+                "goalTitle": "Цель 2",
+                "goalText": "Освоить современные <br/> игровые движки"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-vscode.png",
+                "goalTitle": "Цель 3",
+                "goalText": "Получить практический <br/> опыт создания игр"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/building-skyscraper.png",
+                "goalTitle": "Цель 4",
+                "goalText": "Подготовиться к <br/> трудоустройству в игровой индустрии"
+            }
+        ],
+        "iframeData": {
+            "posterImage": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png"
+        },
+        "infoSectionsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector11.png",
+                "text": "Интерактивные <br/>уроки по разработке игр"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group11.png",
+                "text": "Создание игр <br/> для различных платформ"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group12.png",
+                "text": "Обучение <br/> разработке игр онлайн"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group13.png",
+                "text": "Профессиональная <br/> подготовка геймдевелоперов"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group14.png",
+                "text": "Практические проекты <br/> и игровые кейсы"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group15.png",
+                "text": "Менторская поддержка <br/> и обратная связь"
+            }
+        ],
+        "carouselImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2019.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2020.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2021.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2022.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/51.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/1-18877-1514363749-3752.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/images.jpg"
+            }
+        ],
+        "priceImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "top": "-15%",
+                "left": "75%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "top": "-15%",
+                "left": "90%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "top": "24%",
+                "left": "81%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "top": "20%",
+                "left": "90%"
+            }
+        ],
+        "couchesData": [
+            {
+                "name": "Александр Павлов",
+                "proffession": "Эксперт в разработке игр.<br />Более 10 лет опыта создания игр.<br />Работает в ведущих игровых студиях.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185.png"
+            },
+            {
+                "name": "Ольга Смирнова",
+                "proffession": "Специалист по геймдизайну.<br />Более 8 лет опыта в разработке игровых механик.<br />Создает увлекательные и интерактивные игры.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (1).png"
+            },
+            {
+                "name": "Дмитрий Кузнецов",
+                "proffession": "Senior разработчик игр.<br />Специалист по движкам Unity и Unreal Engine.<br />Работает с различными платформами более 15 лет.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (2).png"
+            },
+            {
+                "name": "Екатерина Новикова",
+                "proffession": "Frontend разработчик.<br />Эксперт в создании UI для игр.<br />Опыт работы в крупных игровых проектах.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (3).png"
+            }
+        ],
+        "couchesBackgroundImages": [
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+        ]
     }
 }

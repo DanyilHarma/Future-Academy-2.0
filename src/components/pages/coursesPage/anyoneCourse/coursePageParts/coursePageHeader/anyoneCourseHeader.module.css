@@ -133,6 +133,6 @@
 
 .headerImage img {
     width: 100%;
-    height: auto;
+    height: 536px;
     object-fit: cover;
 }
