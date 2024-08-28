@@ -11,6 +11,7 @@ import everyCoursePageReducer from "./CoursesPageReducers/EveryCoursePageReducer
 import owlReducer from "./owlReducer.js";
 import goalsReducer from "./goalReducer.js";
 import { initializeState } from "./CoursesPageReducers/EveryCoursePageReducer/loaderImages.js";
+import eventsPageReducer from "./EventsPageReducers/eventsPageReducer.js";
 
 let reducers = combineReducers({
     liHeader: liHeaderReducer,
@@ -21,6 +22,7 @@ let reducers = combineReducers({
     reviewHomepage: reviewsHomepageReducer,
     welcomeHomepage: welcomeHomepageReducer,
     everyCourse: everyCoursePageReducer,
+    eventsPage: eventsPageReducer,
     owl: owlReducer,
     goals: goalsReducer,
     footer: FooterReducer,
@@ -37,6 +39,7 @@ export const configureStore = async (courseId) => {
     window.store = store;
     return store;
 }
+
 // let store = createStore(reducers);
 
 // window.store = store

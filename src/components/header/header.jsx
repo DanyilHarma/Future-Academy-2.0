@@ -9,7 +9,7 @@ import { useState } from "react";
 
 const Header = (props) => {
 
-    const [positionIndicator, setPositionIndicator] = useState(480)
+    const [positionIndicator, setPositionIndicator] = useState(470)
     const alternatePaths = ["/coursesAllPage", "/allEvents"];
     const isAlternate = useIsAlternate(alternatePaths);
 

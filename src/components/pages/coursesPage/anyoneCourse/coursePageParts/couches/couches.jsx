@@ -19,7 +19,7 @@ const Couches = (props) => {
                     {props.couchesData.map((couch, index) => (
                         <div key={index} className={classes.couchContent}>
                             <div className={classes.circleGradient}>
-                                <LazyLoad offset={500}><img src={couch.imgSrc} alt={couch.name} /></LazyLoad>
+                                <img src={couch.imgSrc} alt={couch.name} />
                             </div>
                             <h4>{couch.name}</h4>
                             <p dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(couch.proffession) }}></p>
