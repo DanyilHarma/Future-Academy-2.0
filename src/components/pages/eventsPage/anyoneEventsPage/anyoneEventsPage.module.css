@@ -1,0 +1,12 @@
+.allEvents h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+}
+
+.allEventsContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

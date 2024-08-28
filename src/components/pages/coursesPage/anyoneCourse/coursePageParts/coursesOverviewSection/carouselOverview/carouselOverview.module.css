@@ -5,6 +5,7 @@
         height: 230px;
         border-radius: 20px;
         max-width: 330px;
+        object-fit: cover;
     }
 }
 
