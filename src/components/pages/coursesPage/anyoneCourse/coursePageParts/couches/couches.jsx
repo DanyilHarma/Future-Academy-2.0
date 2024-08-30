@@ -1,6 +1,6 @@
 import DOMPurify from "dompurify";
 import classes from "./couches.module.css"
-import LazyLoad from "react-lazyload";
+
 
 
 const Couches = (props) => {
@@ -11,7 +11,7 @@ const Couches = (props) => {
                 <div className={classes.backgroundImageContainer}></div>
                 <div className={classes.couchesContainerBackgroundImages}>
                     {props.couchesBackgroundImages.map((image, index) => (
-                        <img key={index} src={image.imgSrc} />
+                        <img key={index} src={props.eventsBackgroundImages ? image : image.imgSrc} />
                     ))}
                 </div>
                 <h2>Наши преподаватели</h2>

@@ -1,6 +1,11 @@
 .eventsSections {
     display: flex;
     gap: 20px;
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
 }
 
 .gradientContainer {

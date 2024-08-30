@@ -8,6 +8,7 @@ import { Navigate, Route, Routes } from 'react-router-dom';
 import CoursesPageContainer from './components/pages/coursesPage/coursesPageContainer.jsx';
 import AnyoneCoursesPage from './components/pages/coursesPage/anyoneCourse/anyoneCourse.jsx';
 import EventsPage from './components/pages/eventsPage/eventsPage.jsx';
+import AnyoneEventsPage from './components/pages/eventsPage/anyoneEventsPage/anyoneEventsPage.jsx';
 
 function App(props) {
   return (
@@ -19,7 +20,7 @@ function App(props) {
         <Route path="coursesAllPage/*" element={<CoursesPageContainer />} />
         <Route path="coursesAllPage/:courseId" element={<AnyoneCoursesPage />} />
         <Route path="allEvents/*" element={<EventsPage />} />
-        <Route path="allEvents/:courseId" element={<EventsPage />} />
+        <Route path="allEvents/:eventId" element={<AnyoneEventsPage />} />
       </Routes>
       <FormHelp />
       <Footer />

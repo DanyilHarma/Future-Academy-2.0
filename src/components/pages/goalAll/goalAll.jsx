@@ -6,7 +6,7 @@ import LazyLoad from "react-lazyload";
 const GoalAll = (props) => {
 
     const goals = useSelector(state => state.goals.goals);
-
+    // debugger
     return (
         <div className={classes.goal}>
             {goals.map((goal, index) => (<div key={index} className={classes.goalContent}>

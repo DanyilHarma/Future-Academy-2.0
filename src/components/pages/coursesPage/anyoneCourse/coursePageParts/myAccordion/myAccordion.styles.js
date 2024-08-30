@@ -49,7 +49,7 @@ const ShadowGradientContainer = styled.div`
     transition: transform .5s, transform-origin .5s;
 
     &:hover{
-    transform: scale(1.1);
+    transform: scale(1.04);
     transform-origin: center;
     }
 
