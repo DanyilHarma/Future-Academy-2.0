@@ -44,7 +44,7 @@ const AnyoneCoursesPage = () => {
     return (
         <>
             <AnyoneCourseHeader course={course} />
-            <AboutPart course={course} />
+            <AboutPart />
             <CourseblockInfo infoData={course.infoCourse} benefitesData={course.benefitesFromTheCourse} />
             <CoursesOverviewSection overviewInfo={course.overviewSectionData} dataPriceInfo={course} />
             <Couches couchesData={course.overviewSectionData.couchesData} couchesBackgroundImages={course.overviewSectionData.couchesBackgroundImages} />

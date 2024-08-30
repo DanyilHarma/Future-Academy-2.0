@@ -14,3 +14,41 @@
 .openButton {
     margin-left: auto;
 }
+
+.programmItem {
+    display: flex;
+    margin-bottom: 20px;
+
+    .time {
+        flex: 1;
+        max-width: 150px;
+        color: #fff;
+        background-color: #4caf50;
+        padding: 10px;
+        border-radius: 8px 0 0 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .details {
+        flex: 4;
+        background-color: #e8f5e9;
+        padding: 10px 20px;
+        border-radius: 0 8px 8px 0;
+
+        h3 {
+            margin: 0 0 10px 0;
+        }
+
+        .eventProgrammText {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 186%;
+            color: #000;
+            margin-bottom: 1rem;
+        }
+    }
+}

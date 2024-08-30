@@ -4,8 +4,6 @@ import classes from "./aboutPart.module.css"
 
 const AboutPart = (props) => {
 
-    const course = props.course
-
     return (
         <section>
             <div className="container">

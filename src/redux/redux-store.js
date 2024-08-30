@@ -12,6 +12,7 @@ import owlReducer from "./owlReducer.js";
 import goalsReducer from "./goalReducer.js";
 import { initializeState } from "./CoursesPageReducers/EveryCoursePageReducer/loaderImages.js";
 import eventsPageReducer from "./EventsPageReducers/eventsPageReducer.js";
+import anyoneEventsPageReducers from "./EventsPageReducers/AnyoneEventsPagesReducers/AnyoneEventsPagesReducers.js";
 
 let reducers = combineReducers({
     liHeader: liHeaderReducer,
@@ -23,6 +24,7 @@ let reducers = combineReducers({
     welcomeHomepage: welcomeHomepageReducer,
     everyCourse: everyCoursePageReducer,
     eventsPage: eventsPageReducer,
+    anyoneEventsPage: anyoneEventsPageReducers,
     owl: owlReducer,
     goals: goalsReducer,
     footer: FooterReducer,

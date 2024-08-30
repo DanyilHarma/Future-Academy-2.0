@@ -1,0 +1,12 @@
+.aboutChessCourse {
+    margin-top: 70px;
+    position: relative;
+    margin-bottom: 160px;
+}
+
+.chessGoal {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-left: -100px;
+}
