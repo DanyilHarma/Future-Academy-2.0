@@ -9,6 +9,8 @@ import { setCourseGoalData } from "../../../../redux/goalReducer";
 import MyAccordion from "../../coursesPage/anyoneCourse/coursePageParts/myAccordion/myAccordion";
 import AnyoneEventsProgramm from "./anyoneEventsProgramm/anyoneEventsProgramm";
 import Couches from "../../coursesPage/anyoneCourse/coursePageParts/couches/couches";
+import { Carousel } from "bootstrap";
+import CarouselOverview from "../../coursesPage/anyoneCourse/coursePageParts/coursesOverviewSection/carouselOverview/carouselOverview";
 
 
 const AnyoneEventsPage = (props) => {
@@ -34,6 +36,7 @@ const AnyoneEventsPage = (props) => {
             <AnyoneEventsGoals />
             <AnyoneEventsProgramm programmData={event.programmData} />
             <Couches couchesData={event.couchesData} couchesBackgroundImages={event.couchesBackgroundImages} eventsBackgroundImages={true} />
+            <CarouselOverview />
         </>
     )
 }

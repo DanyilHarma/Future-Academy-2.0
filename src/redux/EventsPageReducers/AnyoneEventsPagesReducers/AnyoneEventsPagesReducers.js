@@ -229,7 +229,8 @@ const initialState = {
                     proffession: "Обладатель титула чемпиона страны, <br> с 15-летним опытом тренерской работы.",
                     imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Ellipse%20185%20(3).png?raw=true"
                 }
-            ]
+            ],
+            carouselImages: []
         }
     ]
 };
