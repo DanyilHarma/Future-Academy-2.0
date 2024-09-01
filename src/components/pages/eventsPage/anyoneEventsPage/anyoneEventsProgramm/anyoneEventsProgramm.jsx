@@ -1,4 +1,5 @@
 
+import DOMPurify from "dompurify";
 import MyAccordion from "../../../coursesPage/anyoneCourse/coursePageParts/myAccordion/myAccordion";
 import classes from "./anyoneEventsProgramm.module.css"
 
@@ -11,7 +12,7 @@ const AnyoneEventsProgramm = (props) => {
             <div className="container">
                 <div className={classes.eventProgramm}>
                     <h2>{`Программа мероприятия ${props.programmData.programmTitle}`}</h2>
-                    <p>{props.programmData.programmParagraf}</p>
+                    <p dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(props.programmData.programmParagraf) }}></p>
                 </div>
             </div>
             <div className={classes.programm}>

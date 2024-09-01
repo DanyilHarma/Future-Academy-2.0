@@ -9,6 +9,8 @@ import CoursesPageContainer from './components/pages/coursesPage/coursesPageCont
 import AnyoneCoursesPage from './components/pages/coursesPage/anyoneCourse/anyoneCourse.jsx';
 import EventsPage from './components/pages/eventsPage/eventsPage.jsx';
 import AnyoneEventsPage from './components/pages/eventsPage/anyoneEventsPage/anyoneEventsPage.jsx';
+import NewsPageContainer from './components/pages/news/newsPageContainer.jsx';
+
 
 function App(props) {
   return (
@@ -21,6 +23,7 @@ function App(props) {
         <Route path="coursesAllPage/:courseId" element={<AnyoneCoursesPage />} />
         <Route path="allEvents/*" element={<EventsPage />} />
         <Route path="allEvents/:eventId" element={<AnyoneEventsPage />} />
+        <Route path="news/*" element={<NewsPageContainer />} />
       </Routes>
       <FormHelp />
       <Footer />

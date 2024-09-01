@@ -28,7 +28,7 @@ let initialState = {
             isSelected: false
         },
         {
-            link: "/main-landing/news/index.html",
+            link: "/news",
             text: "Новости",
             isSelected: false
         },

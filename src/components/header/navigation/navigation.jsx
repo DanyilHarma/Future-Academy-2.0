@@ -3,6 +3,7 @@ import ListNav from "./listNavigation/listNavigation.jsx"
 import PopupCity from "./listNavigation/popupCity/popupCity.jsx"
 import classes from "./navigation.module.css"
 import { setIndicatorPosition } from "../../../redux/liHeaderReducer.js"
+import { useEffect } from "react"
 
 
 const Navigation = (props) => {
@@ -12,10 +13,21 @@ const Navigation = (props) => {
     const secondLi = useSelector(state => state.liHeader.secondLi);
     const { geoImage, arrowImage } = useSelector(state => state.liHeader.popup.imgSrc)
 
+    useEffect(() => {
+        const savedIndicator = sessionStorage.getItem("indicatorPosition");
+        if (savedIndicator) {
+            props.onIndicatorMove(savedIndicator)
+        }
+    }, [])
+
+
+
     const handlerChangePositionIndicator = (index, event) => {
-        const elementPosition = event.currentTarget.offsetLeft - 10;
+        const elementPosition = event.currentTarget.offsetLeft - 20;
         props.onIndicatorMove(elementPosition)
         dispatch(setIndicatorPosition(index))
+
+        sessionStorage.setItem("indicatorPosition", elementPosition)
     }
 
     return (

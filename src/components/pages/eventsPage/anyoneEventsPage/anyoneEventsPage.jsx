@@ -10,7 +10,7 @@ import MyAccordion from "../../coursesPage/anyoneCourse/coursePageParts/myAccord
 import AnyoneEventsProgramm from "./anyoneEventsProgramm/anyoneEventsProgramm";
 import Couches from "../../coursesPage/anyoneCourse/coursePageParts/couches/couches";
 import { Carousel } from "bootstrap";
-import CarouselOverview from "../../coursesPage/anyoneCourse/coursePageParts/coursesOverviewSection/carouselOverview/carouselOverview";
+import OverviewSection from "../../coursesPage/anyoneCourse/coursePageParts/coursesOverviewSection/overviewSection";
 
 
 const AnyoneEventsPage = (props) => {
@@ -36,7 +36,7 @@ const AnyoneEventsPage = (props) => {
             <AnyoneEventsGoals />
             <AnyoneEventsProgramm programmData={event.programmData} />
             <Couches couchesData={event.couchesData} couchesBackgroundImages={event.couchesBackgroundImages} eventsBackgroundImages={true} />
-            <CarouselOverview />
+            <OverviewSection carouselImages={event.carouselImages} title={event.overviewTitle} overviewParagraf={event.overviewParagraf} isEvent={true} />
         </>
     )
 }

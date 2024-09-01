@@ -10,10 +10,10 @@ import { useState } from "react";
 const Header = (props) => {
 
     const [positionIndicator, setPositionIndicator] = useState(470)
-    const alternatePaths = ["/coursesAllPage", "/allEvents"];
+    const alternatePaths = ["/coursesAllPage", "/allEvents", "/news"];
     const isAlternate = useIsAlternate(alternatePaths);
 
-    const handlePisitionIndicator = (position) => {
+    const handlePositionIndicator = (position) => {
         setPositionIndicator(position)
     }
 
@@ -22,7 +22,7 @@ const Header = (props) => {
             <NavLink to="homepage">
                 <img src={isAlternate ? logoLight : logo} alt="" />
             </NavLink>
-            <Navigation isAlternate={isAlternate} onIndicatorMove={handlePisitionIndicator} />
+            <Navigation isAlternate={isAlternate} onIndicatorMove={handlePositionIndicator} />
             {isAlternate ? (<hr className={classes.indicatorHeader}
                 style={{ "height": "5px", "left": `${positionIndicator}px` }} />) : null}
         </header >
