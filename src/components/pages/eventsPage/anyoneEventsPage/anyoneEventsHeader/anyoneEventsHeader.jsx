@@ -12,8 +12,8 @@ const AnyoneEventsHeader = (props) => {
                 ))}
                 <div className={classes.mainHeaderContent}>
                     <div className={classes.mainHeaderCol}>
-                        <h1>{props.headerData.headerTitle}</h1>
-                        <span>{props.headerData.headerDescription}</span>
+                        <h1 dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(props.headerData.headerTitle) }}></h1>
+                        <span dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(props.headerData.headerDescription) }}></span>
                         <div className={classes.mainHeaderInfo}>
                             {props.headerData.headerParagrafs.map((paragraf, index) => (
                                 <div key={index} dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(paragraf) }}></div>

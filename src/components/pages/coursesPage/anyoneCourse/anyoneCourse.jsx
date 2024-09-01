@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { setCourseGoalData } from "../../../../redux/goalReducer.js";
 import { setCourseOwlText } from "../../../../redux/owlReducer.js";
 import CourseblockInfo from "./coursePageParts/CourseblockInfo/courseblockInfo.jsx";
-import CoursesOverviewSection from "./coursePageParts/coursesOverviewSection/coursesOverviewSection.jsx";
+import OverviewSection from "./coursePageParts/coursesOverviewSection/overviewSection.jsx";
 import Couches from "./coursePageParts/couches/couches.jsx";
 import MyAccordion from "./coursePageParts/myAccordion/myAccordion.jsx";
 import { configureStore } from "../../../../redux/redux-store.js";
@@ -46,7 +46,7 @@ const AnyoneCoursesPage = () => {
             <AnyoneCourseHeader course={course} />
             <AboutPart />
             <CourseblockInfo infoData={course.infoCourse} benefitesData={course.benefitesFromTheCourse} />
-            <CoursesOverviewSection overviewInfo={course.overviewSectionData} dataPriceInfo={course} />
+            <OverviewSection overviewInfo={course.overviewSectionData} dataPriceInfo={course} />
             <Couches couchesData={course.overviewSectionData.couchesData} couchesBackgroundImages={course.overviewSectionData.couchesBackgroundImages} />
             <MyAccordion accordionData={course.overviewSectionData.accordionData} />
         </>

@@ -9,7 +9,7 @@ const AnyoneEventsGoals = (props) => {
         <section>
             <div className="container">
                 <div className={classes.aboutChessCourse}>
-                    <div className={classes.chessGoal}>
+                    <div className={classes.goalContainer}>
                         <OwlAll />
                         <GoalAll />
                     </div>

@@ -1,6 +1,6 @@
 .goal {
     display: flex;
-    gap: 60px;
+    gap: 30px;
 }
 
 .goalContent {
@@ -22,6 +22,7 @@
     font-weight: 700;
     font-size: 24px;
     color: #000;
+    text-align: center;
 }
 
 .goalContent span:last-of-type {
