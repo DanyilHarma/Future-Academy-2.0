@@ -8,9 +8,9 @@ const AboutPart = (props) => {
         <section>
             <div className="container">
                 <div className={classes.aboutChessCours}>
-                    <div className={classes.chessGoal}>
-                        <OwlAll />
-                        <GoalAll />
+                    <div className={props.aboutAcademy ? classes.aboutGoal : classes.chessGoal}>
+                        <OwlAll aboutAcademy={true} />
+                        <GoalAll aboutAcademy={true} />
                     </div>
                 </div>
             </div>

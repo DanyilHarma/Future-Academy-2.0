@@ -1,0 +1,27 @@
+.programmsContainer {
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 94%;
+        color: #000;
+        margin-bottom: 1rem;
+    }
+}
+
+.text {
+    border-top: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #F7941D, #27AAE1);
+    padding-top: 10px;
+    flex: 1;
+    margin-right: 10px;
+
+    span {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #000;
+    }
+}

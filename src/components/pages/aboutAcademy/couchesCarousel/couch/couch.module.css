@@ -1,0 +1,69 @@
+.couches {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    z-index: 4;
+    margin-top: 50px;
+}
+
+.couchContent {
+    background-color: #fff;
+    width: 100%;
+    max-width: 280px;
+    padding: 20px;
+    height: 360px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: transform .3s;
+
+    h4 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        color: #000;
+    }
+
+    p {
+        margin-top: -10px;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 143%;
+        text-align: center;
+        color: #4f4f4f;
+    }
+}
+
+.circleGradient {
+    display: flex;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #f7941d, #27aae1);
+    padding: 10px;
+
+    img {
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.circleGradient::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    right: 3px;
+    bottom: 3px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}

@@ -1,0 +1,14 @@
+.welcomeTitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 94%;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.welcomeInfo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}

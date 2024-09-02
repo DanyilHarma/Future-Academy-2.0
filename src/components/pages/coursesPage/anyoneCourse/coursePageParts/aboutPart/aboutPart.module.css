@@ -3,9 +3,15 @@
     position: relative;
 }
 
-.chessGoal {
+.chessGoal,
+.aboutGoal {
     margin-left: -170px;
     display: flex;
     gap: 50px;
     align-items: flex-start;
+}
+
+.aboutGoal {
+    margin-left: -100px;
+    gap: 130px;
 }

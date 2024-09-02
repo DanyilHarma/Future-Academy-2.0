@@ -17,6 +17,8 @@ const VideoBlock = (props) => {
         setIsPlaying(true);
     }
 
+
+
     const posterImage = props.videoData?.iframeData?.posterImage || PosterImage;
     const videoSrc = props.videoData?.iframeData?.videoSrc || "https://www.youtube.com/embed/1Y5n0nu98Vg?si=d8dZ5vilaINExv8x";
 

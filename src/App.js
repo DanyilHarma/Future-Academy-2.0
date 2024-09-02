@@ -10,6 +10,7 @@ import AnyoneCoursesPage from './components/pages/coursesPage/anyoneCourse/anyon
 import EventsPage from './components/pages/eventsPage/eventsPage.jsx';
 import AnyoneEventsPage from './components/pages/eventsPage/anyoneEventsPage/anyoneEventsPage.jsx';
 import NewsPageContainer from './components/pages/news/newsPageContainer.jsx';
+import AboutAcademy from './components/pages/aboutAcademy/aboutAcademy.jsx';
 
 
 function App(props) {
@@ -24,6 +25,7 @@ function App(props) {
         <Route path="allEvents/*" element={<EventsPage />} />
         <Route path="allEvents/:eventId" element={<AnyoneEventsPage />} />
         <Route path="news/*" element={<NewsPageContainer />} />
+        <Route path="/aboutAcademy" element={<AboutAcademy />} />
       </Routes>
       <FormHelp />
       <Footer />

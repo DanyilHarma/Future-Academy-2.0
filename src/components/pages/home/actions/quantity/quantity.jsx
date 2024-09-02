@@ -2,7 +2,7 @@ import { useSelector } from "react-redux"
 import classes from "./quantity.module.css"
 
 
-const Quantity = () => {
+const Quantity = (props) => {
 
     const quantityData = useSelector(state => state.actionSectionHomepage.quantity)
 
@@ -12,12 +12,12 @@ const Quantity = () => {
     </div>)
     return (
         <div className={classes.infoWrapperBottom}>
-            <h4>Актуальные знания от признанных экспертов рынка <br />
-                для новичков и практикующих специалистов.</h4>
-            <div className={classes.quantityContainer}>
+            {props.aboutPage ? null : (< h4 > Актуальные знания от признанных экспертов рынка <br />
+                для новичков и практикующих специалистов.</h4>)}
+            <div className={classes.quantityContainer} style={{ marginTop: props.aboutPage ? "100px" : null }}>
                 {quantityElem}
             </div>
-        </div>
+        </div >
     )
 }
 

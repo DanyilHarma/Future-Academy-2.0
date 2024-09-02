@@ -145,19 +145,19 @@ let initialState = {
     informations: [
         {
             label: "Об академии",
-            link: "/main-landing/about-academy/index.html"
+            link: "/aboutAcademy"
         },
         {
             label: "Мероприятия",
-            link: "/main-landing/all-events/index.html"
+            link: "/allEvents"
         },
         {
             label: "Новости",
-            link: "/main-landing/news/index.html"
+            link: "/news"
         },
         {
             label: "База знаний",
-            link: ""
+            link: "/coursesAllPage"
         },
         {
             label: "Карьера",
