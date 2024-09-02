@@ -1,0 +1,43 @@
+{
+    "contacts": [
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/Group%20158.png?raw=true",
+            "contact": "8 800 950-33-98",
+            "number": "number"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/Group%2059.png?raw=true",
+            "contact": "info@hodfutureacademy.ru"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/Union.png?raw=true",
+            "contact": "Дубоссары, ул. Дзержиного, д. 2 А"
+        }
+    ],
+    "society": [
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/vk.png?raw=true",
+            "link": ""
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/instagram.png?raw=true",
+            "link": ""
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/facebook.png?raw=true",
+            "link": ""
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/youtube.png?raw=true",
+            "link": ""
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/telegram.png?raw=true",
+            "link": ""
+        }
+    ],
+    "dzhen": {
+        "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-contacts/Group%20921.png?raw=true",
+        "link": "https://dzen.ru/academyxod"
+    }
+}

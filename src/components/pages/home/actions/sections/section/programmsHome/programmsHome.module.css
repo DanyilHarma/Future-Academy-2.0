@@ -10,24 +10,29 @@
     height: 460px;
     background-color: #C5DDFF;
     border-radius: 10px;
-}
+    text-decoration: none;
 
-.programms h4 {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 108%;
-    text-align: center;
-    color: #000;
-}
+    h4 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 108%;
+        text-align: center;
+        color: #000;
+    }
 
-.programms p {
-    text-align: center;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    color: #333;
+    p {
+        text-align: center;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #333;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .buttonProgramms {
@@ -39,16 +44,16 @@
     text-align: center;
     line-height: 42px;
     cursor: pointer;
-}
 
-.buttonProgramms span {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 186%;
-    color: #00093c;
-}
+    span {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 186%;
+        color: #00093c;
+    }
 
-.buttonProgramms svg {
-    margin-left: 5px;
+    svg {
+        margin-left: 5px;
+    }
 }

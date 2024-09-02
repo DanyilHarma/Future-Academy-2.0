@@ -1,0 +1,29 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+    padding: 30px 20px;
+    max-width: 330px;
+    height: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+    h4 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 108%;
+        text-align: center;
+        color: #000;
+    }
+}

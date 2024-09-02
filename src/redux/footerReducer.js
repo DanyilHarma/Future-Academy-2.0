@@ -165,7 +165,7 @@ let initialState = {
         },
         {
             label: "Контакты",
-            link: "/main-landing/contacts/index.html"
+            link: "/contacts"
         }
     ],
     society: [

@@ -11,22 +11,27 @@ import EventsPage from './components/pages/eventsPage/eventsPage.jsx';
 import AnyoneEventsPage from './components/pages/eventsPage/anyoneEventsPage/anyoneEventsPage.jsx';
 import NewsPageContainer from './components/pages/news/newsPageContainer.jsx';
 import AboutAcademy from './components/pages/aboutAcademy/aboutAcademy.jsx';
+import ScrollToTop from './components/scrollToTop/scrollToTop.jsx';
+import Contacts from './components/pages/contacts/contacts.jsx';
 
 
 function App(props) {
   return (
     <div className="App">
       <Header />
-      <Routes>
-        <Route path="/" element={<Navigate to="homepage" />} />
-        <Route path="homepage" element={<Home />} />
-        <Route path="coursesAllPage/*" element={<CoursesPageContainer />} />
-        <Route path="coursesAllPage/:courseId" element={<AnyoneCoursesPage />} />
-        <Route path="allEvents/*" element={<EventsPage />} />
-        <Route path="allEvents/:eventId" element={<AnyoneEventsPage />} />
-        <Route path="news/*" element={<NewsPageContainer />} />
-        <Route path="/aboutAcademy" element={<AboutAcademy />} />
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Navigate to="homepage" />} />
+          <Route path="homepage" element={<Home />} />
+          <Route path="coursesAllPage/*" element={<CoursesPageContainer />} />
+          <Route path="coursesAllPage/:courseId" element={<AnyoneCoursesPage />} />
+          <Route path="allEvents/*" element={<EventsPage />} />
+          <Route path="allEvents/:eventId" element={<AnyoneEventsPage />} />
+          <Route path="news/*" element={<NewsPageContainer />} />
+          <Route path="/aboutAcademy" element={<AboutAcademy />} />
+          <Route path="/contacts" element={<Contacts />} />
+        </Routes>
+      </ScrollToTop>
       <FormHelp />
       <Footer />
     </div>

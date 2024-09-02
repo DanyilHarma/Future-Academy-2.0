@@ -1,15 +1,16 @@
-import "./infoCardHome.css"
+import classes from "./infoCardHome.module.css"
 import ShadowContainer from "../shadowContainer/shadowContainer.jsx";
+import { NavLink } from "react-router-dom";
 
 
 const InfoCardsHome = (props) => {
     return (
 
         <ShadowContainer style={{ width: "100%", maxWidth: "320px", height: "100%", maxHeight: "220px" }}>
-            <div className={props.class} data-link={props.link}>
+            <NavLink to={props.link} className={classes.section} style={{ backgroundColor: props.backgroundColor }}>
                 <img src={props.src} alt="" />
                 <h4>{props.title}</h4>
-            </div>
+            </NavLink>
         </ShadowContainer>
 
     )
