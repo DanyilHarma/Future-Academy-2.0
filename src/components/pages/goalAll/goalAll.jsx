@@ -9,9 +9,9 @@ const GoalAll = (props) => {
     // debugger
     return (
         <div className={classes.goal}>
-            {goals.map((goal, index) => (<div key={index} className={classes.goalContent}>
+            {goals.map((goal, index) => (<div key={index} className={props.aboutAcademy ? classes.goalAboutContent : classes.goalContent}>
                 <LazyLoad key={index} offset={100}><img src={goal.imgSrc} alt="" /></LazyLoad>
-                <span dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(goal.goalTitle) }}></span>
+                {props.aboutAcademy ? null : (<span dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(goal.goalTitle) }}></span>)}
                 <span dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(goal.goalText) }}></span>
             </div>))}
         </div>

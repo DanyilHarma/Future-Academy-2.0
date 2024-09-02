@@ -1,0 +1,13 @@
+.partnersContainer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 94%;
+        color: #000;
+        margin-bottom: 40px;
+    }
+}

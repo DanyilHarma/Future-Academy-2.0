@@ -13,10 +13,11 @@ const OwlAll = (props) => {
 
     return (
         <div className={classes.containerOwl}>
-            <LazyLoad offset={100}><img src={owlImg} alt="" className={classes.owlImage} /></LazyLoad>
+            <LazyLoad offset={100}><img src={owlImg} alt="" className={props.aboutAcademy ? classes.aboutOwlImage : classes.owlImage} /></LazyLoad>
             <div className={classes.containerAboutUnion}>
-                <span className={classes.unionText} dangerouslySetInnerHTML={{ "__html": sanitizedContent }}></span>
-                <LazyLoad offset={100}><img src={unionSmall} alt="" className={classes.unionImage} /></LazyLoad>
+                {props.aboutAcademy ? (<span className={classes.unionBigText} dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(texts.bigText) }}></span>) : null}
+                <span className={props.aboutAcademy ? classes.unionAboutText : classes.unionText} dangerouslySetInnerHTML={{ "__html": sanitizedContent }}></span>
+                <LazyLoad offset={100}><img src={props.aboutAcademy ? "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Union.png?raw=true" : unionSmall} alt="" className={classes.unionImage} /></LazyLoad>
             </div>
         </div>
     )

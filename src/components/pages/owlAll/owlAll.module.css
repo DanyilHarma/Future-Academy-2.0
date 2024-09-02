@@ -11,6 +11,13 @@
     z-index: 3;
 }
 
+.aboutOwlImage {
+    position: relative;
+    top: 145px;
+    left: 130px;
+    z-index: 3;
+}
+
 .containerAboutUnion {
     position: relative;
     display: inline-block;
@@ -21,7 +28,19 @@
     z-index: 1;
 }
 
-.unionText {
+.unionBigText {
+    position: absolute;
+    top: 5%;
+    left: 8%;
+    z-index: 2;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+
+.unionText,
+.unionAboutText {
     position: absolute;
     top: 15%;
     left: 22px;
@@ -30,4 +49,9 @@
     font-weight: 500;
     font-size: 16px;
     color: #000;
+}
+
+.unionAboutText {
+    top: 50%;
+    left: 8%;
 }

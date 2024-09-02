@@ -1,0 +1,57 @@
+.aboutCreatorContainer {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 80px;
+    margin-top: 200px;
+}
+
+.creatorInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    img {
+        box-shadow: 0px 0px 14px 0px rgba(34, 60, 80, 0.2);
+        border-radius: 20px;
+    }
+}
+
+.creatorImage {
+    margin-bottom: 10px;
+}
+
+.creatorName {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+}
+
+.creatorWhoIs {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #4f4f4f;
+}
+
+.creatorParagraf {
+    margin-top: 30px;
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        color: #000;
+    }
+
+    span {
+        display: inline-block;
+        margin-top: 20px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #4f4f4f;
+    }
+
+}

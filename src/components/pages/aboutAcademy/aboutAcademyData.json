@@ -1,0 +1,242 @@
+{
+    "aboutData": {
+        "unionTitle": "Приветствуем <br> в Академии будущего<br> ХОД!",
+        "unionText": "Вам у нас понравится:)",
+        "goals": [
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector.png?raw=true",
+                "goalText": "Мы создали Академию <br>для детей, чтобы компьютер был <br> не зависимостью и игрушкой, <br> а другом на пути обучения <br> и развития."
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(1).png?raw=true",
+                "goalText": "Мы создали Академию <br> для подростков, чтобы «Кем я <br> хочу стать?» больше не был <br> самым сложным вопросом."
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(2).png?raw=true",
+                "goalText": "Мы создали Академию <br> для взрослых, чтобы у них была <br> возможность начать с чистого <br> листа и создать лучшую версию <br> себя в любом возрасте."
+            }
+        ],
+        "aboutCreatorData": {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/unsplash_KIPqvvTOC1s.png?raw=true",
+            "name": "Кумар Генеральский",
+            "whoIs": "Основатель Академии будущего ХОД",
+            "paragraf": "«Все началось с любви к шахматам. Я хотел предвидеть ход противника, хотел <br> просчитать его действия, хотел побеждать. Я не стал гением шахмат, но стратег <br> и психолог из меня неплохой» - смеется Иван Иванович. Идея открыть <br> Академию шахмат пришла к нему в 2020 году, когда в период полного локдауна <br> он вдруг вспомнил про хобби - игру в шахматы. Оказалось, что для игры в <br> шахматы сейчас и доска-то не обязательна, все есть в телефоне. Племянник <br> (сын?) Ивана Ивановича большую часть дня проводил в стрелялках на <br> планшете. <br> «Я показал ему шахматы. К июню он уже был неплохим соперником» - <br> Вскоре идея небольшой академии шахмат превратилась в план создания <br> Академии Будущего, где дети смогут учиться тому, что им нравится, а взрослые <br> попытаются изменить жизнь. Уж очень это сейчас актуально.",
+            "prescription": "Из интервью с основателем Академии Будущего Генеральским К.И."
+        },
+        "values": [
+            {
+                "id": 1,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20797.png?raw=true",
+                "text": "<span>Содержание обучения <br> должно быть актуальным, <br> а методика проверенная <br> годами.</span>"
+            },
+            {
+                "id": 2,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20801.png?raw=true",
+                "text": "<span>Педагог - прежде всего <br> личность компетентная <br> и харизматичная.</span>"
+            },
+            {
+                "id": 3,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/children%20(1).png?raw=true",
+                "text": "<span>Точка развития <br> образования - ребенок, <br> его интересы <br> и потребности</span>"
+            },
+            {
+                "id": 4,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20798.png?raw=true",
+                "text": "<span>Прогрессом правит <br> любовь к знаниям</span>"
+            },
+            {
+                "id": 5,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20800.png?raw=true",
+                "text": "<span>Технологии правят <br> миром, а человек эти <br> технологии создает</span>"
+            }
+        ],
+        "couchesCarouselData": [
+            {
+                "id": 1,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Permyakov3.jpg",
+                "name": "Сергей Безхребетов",
+                "proffession": "Выпускник Гарвардского <br> Университета. <br> Опытный разработчик с более чем 15-летним стажем работы в IT-индустрии."
+            },
+            {
+                "id": 2,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Rystamov3.jpg",
+                "name": "Гор Обреченный",
+                "proffession": "Главный инженер-разработчик в ведущей IT-компании. Обладает обширным опытом в создании крупных веб-приложений и обучении команд."
+            },
+            {
+                "id": 3,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Otdelkina4.jpg",
+                "name": "Мария Петрова",
+                "proffession": "Опытный специалист в области разработки и тестирования ПО. Работает в индустрии более 10 лет, успешно проводил множество хакатонов и семинаров."
+            },
+            {
+                "id": 4,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B04.jpg",
+                "name": "Алина Мерикова",
+                "proffession": "Молодая и перспективная программистка, недавно закончившая технический университет с отличием."
+            },
+            {
+                "id": 5,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/compressionImage/tmp/images-chess-page/Ellipse%20185%20(2).png?raw=true",
+                "name": "Анастасия Кидалова",
+                "proffession": "Выпускница Гарвардского <br> Университета. <br> Более 10 лет играет в шахматы и участвует в турнирах."
+            },
+            {
+                "id": 6,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/compressionImage/tmp/images-chess-page/Ellipse%20185%20(1).png?raw=true",
+                "name": "Михаил Сквернослов",
+                "proffession": "Мастер спорта по шахматам, <br> обучает игре более 15 лет. <br> Призер международных турниров."
+            },
+            {
+                "id": 7,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/compressionImage/tmp/images-chess-page/Ellipse%20185%20(2).png?raw=true",
+                "name": "Ольга Гнилоустная",
+                "proffession": "Международный гроссмейстер, <br> преподает шахматы более 20 лет. <br> Авторитетный тренер и стратег."
+            },
+            {
+                "id": 8,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/compressionImage/tmp/images-chess-page/Ellipse%20185%20(3).png?raw=true",
+                "name": "Максим Жалкий",
+                "proffession": "Обладатель титула чемпиона страны, <br> с 15-летним опытом тренерской работы."
+            },
+            {
+                "id": 9,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/xylyanova4.jpg.pagespeed.ic.rfIp2je1uZ.webp",
+                "name": "Наталья Кикиха",
+                "proffession": "Выпускник Гарвардского <br> Университета. <br> Опытный разработчик с более чем 15-летним стажем работы в IT-индустрии."
+            },
+            {
+                "id": 10,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/xskatova3.png.pagespeed.ic.OaN1enhd0t.webp",
+                "name": "Аэлита Мурзикова",
+                "proffession": "Главный инженер-разработчик в ведущей IT-компании. Обладает обширным опытом в создании крупных веб-приложений и обучении команд."
+            },
+            {
+                "id": 11,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/xTolchin4.png.pagespeed.ic.9lHYLb7ytz.webp",
+                "name": "Антон Чеботарев",
+                "proffession": "Опытный специалист в области разработки и тестирования ПО. Работает в индустрии более 10 лет, успешно проводил множество хакатонов и семинаров."
+            },
+            {
+                "id": 12,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Kokorina14.jpg",
+                "name": "Маруся Климова",
+                "proffession": "Опытный фронтенд-разработчик с 10-летним стажем, специалист по HTML, CSS и JavaScript."
+            },
+            {
+                "id": 13,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Makarova4.jpg",
+                "name": "Мария Магдалена",
+                "proffession": "Ведущий специалист по UX/UI дизайну с 8-летним опытом, магистр цифрового дизайна."
+            },
+            {
+                "id": 14,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/JigalkoA3.jpg",
+                "name": "Олег Майами",
+                "proffession": "Backend-разработчик с 12-летним опытом, сертифицированный специалист по AWS и облачным технологиям."
+            },
+            {
+                "id": 15,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Galeta4.jpg",
+                "name": "Цветан Параплан",
+                "proffession": "Эксперт по JavaScript-фреймворкам, 9 лет опыта, активный участник open-source проектов."
+            },
+            {
+                "id": 16,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Vlasova14.jpg",
+                "name": "Лина Кацолина",
+                "proffession": "Эксперт в области кибербезопасности с 10-летним опытом работы."
+            },
+            {
+                "id": 17,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Syprynenko4.jpg",
+                "name": "Юрий Серепило",
+                "proffession": "Разработчик мобильных приложений, специалист по UI/UX дизайну."
+            },
+            {
+                "id": 18,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Smirnova14.jpg",
+                "name": "Наталья Сумричкина",
+                "proffession": "Старший разработчик ПО, специализирующийся на искусственном интеллекте."
+            },
+            {
+                "id": 19,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Pavlov14.jpg",
+                "name": "Михаил Зилороев",
+                "proffession": "Инженер по виртуальной и дополненной реальности, опыт работы более 8 лет."
+            },
+            {
+                "id": 20,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Dednev14.jpg",
+                "name": "Ион Берулешть",
+                "proffession": "Инженер по кибербезопасности, специалист по защите данных в корпоративных сетях."
+            },
+            {
+                "id": 21,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Dementeva4.jfif",
+                "name": "Ксения Малалига",
+                "proffession": "Эксперт по киберзащите, опыт в ведущих IT-компаниях более 10 лет."
+            },
+            {
+                "id": 22,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Farnikov4.jpg",
+                "name": "Константин Киселев",
+                "proffession": "Эксперт по киберугрозам, консультант по безопасности для крупных компаний."
+            },
+            {
+                "id": 23,
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Fatieva4.jpg",
+                "name": "Ольга Винтовка",
+                "proffession": "Специалист по анализу уязвимостей, автор нескольких публикаций по кибербезопасности."
+            }
+        ],
+        "programms": [
+            "Предполагают пролонгированное обучение",
+            "Составлены с учетом возрастных и индивидуальных особенностей детей",
+            "Авторские и не имеют аналогов",
+            "Составлены на основе деятельностного и компетентностного подходов",
+            "Реализуются с помощью современных педагогических технологий",
+            " Актуальны и фундаментальны"
+        ],
+        "partners": {
+            "firstRow": [
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/tinkoff.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/alfa-bank.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/vk.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/avito.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/facebook.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/gitlab.png?raw=true"
+            ],
+            "secondRow": [
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/ok.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/rostelekom.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/sberbank.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/magnit.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/twitter.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/megafon.png?raw=true"
+            ]
+        },
+        "offers": [
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/playtime.png?raw=true",
+                "text": "Я хочу, чтобы мой ребенок был успешным",
+                "backgroundColor": "#C7EEFF"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/budget.png?raw=true",
+                "text": "Я хочу больше <br> зарабатывать",
+                "backgroundColor": "#FFE38E"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/mobile-game.png?raw=true",
+                "text": "Мой ребенок не выпускает гаджет из рук",
+                "backgroundColor": "#DDDDFF"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/it.png?raw=true",
+                "text": "Я хочу стать айтишником",
+                "backgroundColor": "#B8EFCF"
+            }
+        ]
+    }
+}
