@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Breadcrumbs from "../../breadcrumb/breadcrumb.jsx";
 import CoursesPeople from "../home/coursesBlock/coursesPeople/coursesPeople.jsx";
 import CoursesFilter from "./coursesFilter/coursesFilter.jsx";

@@ -1,12 +1,14 @@
 import classes from "./programmsHome.module.css"
 import image from "../../../../../../../assets/images/section-info/monitor.png"
+import { NavLink, useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 
 
 
 const Programms = (props) => {
     return (
-        <div className={classes.programms}>
+        <NavLink to="/coursesAllPage" className={classes.programms}>
             <img src={image} alt="" />
             <h4>Программы обучения</h4>
             <p>В списке наших курсов вы сможете найти <br /> профессию и занятие по душе, изучить новое <br /> и
@@ -19,7 +21,7 @@ const Programms = (props) => {
                         strokeLinecap="round" />
                 </svg>
             </div>
-        </div>
+        </NavLink>
     )
 }
 

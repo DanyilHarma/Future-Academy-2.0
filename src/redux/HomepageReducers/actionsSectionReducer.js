@@ -25,14 +25,14 @@ let initialState = {
         {
             imgSrc: infoCardImage1,
             title: "Новости Академии",
-            link: "/main-landing/news/index.html",
-            class: "news",
+            link: "/news",
+            backgroundColor: "#B8EFCF"
         },
         {
             imgSrc: infoCardImage2,
             title: "Мир IT",
             link: "",
-            class: "itWorld"
+            backgroundColor: "#FFEEF6"
         }
     ]
 }

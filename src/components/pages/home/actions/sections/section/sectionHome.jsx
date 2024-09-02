@@ -11,7 +11,8 @@ const SectionHome = (props) => {
 
     const infoCards = useSelector(state => state.actionSectionHomepage.infoCards)
 
-    let cardsElements = infoCards.map((card, index) => <InfoCardsHome key={index} src={card.imgSrc} title={card.title} class={card.class} link={card.link} />)
+    let cardsElements = infoCards.map((card, index) => <InfoCardsHome key={index} src={card.imgSrc} title={card.title} class={card.class} link={card.link}
+        backgroundColor={card.backgroundColor} />)
 
 
     return (
