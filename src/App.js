@@ -13,6 +13,7 @@ import NewsPageContainer from './components/pages/news/newsPageContainer.jsx';
 import AboutAcademy from './components/pages/aboutAcademy/aboutAcademy.jsx';
 import ScrollToTop from './components/scrollToTop/scrollToTop.jsx';
 import Contacts from './components/pages/contacts/contacts.jsx';
+import AuthPageContainer from './components/pages/authPage/authPageContainer.jsx';
 
 
 function App(props) {
@@ -30,6 +31,7 @@ function App(props) {
           <Route path="news/*" element={<NewsPageContainer />} />
           <Route path="/aboutAcademy" element={<AboutAcademy />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/enter" element={<AuthPageContainer />} />
         </Routes>
       </ScrollToTop>
       <FormHelp />

@@ -1,0 +1,132 @@
+.registrationForm {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputGroup {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.input {
+    width: 100%;
+    max-width: 340px;
+    height: 50px;
+    line-height: 50px !important;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #DDDFE6;
+    padding: 10px 20px;
+
+    &::placeholder {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 14px;
+        color: #4f4f4f;
+        line-height: 50px !important;
+    }
+
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    position: absolute;
+    margin-left: 10px;
+    top: -40%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) alternate-reverse both;
+    animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) alternate-reverse both;
+}
+
+@keyframes shake-horizontal {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+}
+
+@-webkit-keyframes shake-horizontal {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+}
+
+.submitButton {
+    margin-top: 10px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 186%;
+    text-align: center;
+    color: #fff;
+    background-color: #f7941d;
+    width: 100%;
+    max-width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}

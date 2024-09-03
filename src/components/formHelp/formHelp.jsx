@@ -1,11 +1,16 @@
 import classes from "./formHelp.module.css"
 import imageUnion from "../../assets/images/form-help-images/Union.png"
 import ovlBigImage from "../../assets/images/form-help-images/ovl-big.png"
+import { useLocation } from "react-router-dom"
 
 const FormHelp = () => {
 
+    const location = useLocation()
+
+    const isAuthPage = location.pathname === "/enter"
+
     return (
-        <div className="container">
+        isAuthPage ? null : (<div className="container">
             <div className={classes.formShadowContainer}>
                 <div className={classes.formHelpChoice}>
                     <img src={imageUnion} alt="" style={{ left: "19%" }} />
@@ -37,7 +42,7 @@ const FormHelp = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div>)
     )
 
 }

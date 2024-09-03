@@ -1,0 +1,50 @@
+.formTitle {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    hr:not(.indicator) {
+        width: 100%;
+        max-width: 580px;
+    }
+}
+
+.titles {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    div {
+        flex: 1;
+        max-width: 280px;
+        text-align: center;
+    }
+
+    div>span {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 16px;
+        text-align: center;
+        color: #000;
+        cursor: pointer;
+    }
+}
+
+.indicatorContainer {
+    position: relative;
+    top: 6px;
+    margin: 0 auto;
+    width: 580px;
+}
+
+.indicator {
+    position: absolute;
+    top: 62%;
+    left: -0.2%;
+    height: 5px !important;
+    width: 50%;
+    background: linear-gradient(90deg, #f7941d 0%, #27aae1 100%);
+    transition: left 0.3s ease;
+    opacity: 1 !important;
+    border: none;
+}
