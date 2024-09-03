@@ -12,7 +12,7 @@ const Header = (props) => {
     const location = useLocation()
 
     const [positionIndicator, setPositionIndicator] = useState(470)
-    const alternatePaths = ["/coursesAllPage", "/allEvents", "/news", "/contacts"];
+    const alternatePaths = ["/coursesAllPage", "/allEvents", "/news", "/contacts", "/enter"];
     const isAlternate = useIsAlternate(alternatePaths);
 
     const contacts = location.pathname === "/contacts";

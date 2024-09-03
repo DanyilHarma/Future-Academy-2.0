@@ -1,0 +1,27 @@
+.owlContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 35px;
+    top: -45px;
+
+    img:first-of-type {
+        position: absolute;
+        top: 63%;
+        left: -12%;
+    }
+}
+
+.unionText {
+    position: absolute;
+    top: 37%;
+    left: 57%;
+    transform: translate(-50%, -50%);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+    max-width: 350px;
+    width: 100%;
+}

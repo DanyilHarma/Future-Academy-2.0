@@ -45,7 +45,7 @@ let initialState = {
             text: "+37368432044"
         },
         {
-            link: "/main-landing/form-header/index.html",
+            link: "/enter",
             imgSrcSecond: {
                 darkImage: enterImage,
                 lightImage: enterImageLight
