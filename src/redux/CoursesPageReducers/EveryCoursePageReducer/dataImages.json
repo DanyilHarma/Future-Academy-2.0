@@ -2,122 +2,122 @@
     "chess": {
         "headerImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector.png?raw=true",
                 "top": "10%",
                 "left": "-5%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20178.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20178.png?raw=true",
                 "top": "60%",
                 "left": "-10%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
                 "top": "41%",
                 "left": "35%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true",
                 "top": "84%",
                 "left": "26%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
                 "top": "63%",
                 "left": "58%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
                 "top": "7%",
                 "left": "65%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
                 "top": "31%",
                 "left": "84%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(4).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(4).png?raw=true",
                 "top": "10%",
                 "left": "103%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20182.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20182.png?raw=true",
                 "top": "88%",
                 "left": "97%",
                 "width": "17%"
             }
         ],
-        "headerImageBackground": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png",
+        "headerImageBackground": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/shutterstock_2033756324.png?raw=true",
         "goalsImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group.png?raw=true",
                 "goalTitle": "Цель 1",
                 "goalText": "Привить любовь <br/> и интерес к шахматам"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group (1).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group%20(1).png?raw=true",
                 "goalTitle": "Цель 2",
                 "goalText": "Получить удовольствие <br/> от процесса игры, <br/> от факта победы <br/> в партии, от спасения"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group (2).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group%20(2).png?raw=true",
                 "goalTitle": "Цель 3",
                 "goalText": "Научить <br/> анализировать свои <br/> и чужие ошибки, <br/> учиться на них <br/> с помощью GM <br/> мирового уровня"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group (3).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group%20(3).png?raw=true",
                 "goalTitle": "Цель 4",
                 "goalText": "Получить удовольствие <br/> от процесса игры, <br/> от факта победы<br/> в партии, от спасения"
             }
         ],
         "iframeData": {
-            "posterImage": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png"
+            "posterImage": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/shutterstock_2033756324.png?raw=true"
         },
         "infoSectionsImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector11.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector11.png?raw=true",
                 "text": "Интересные уроки <br/> по шахматам"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group11.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group11.png?raw=true",
                 "text": "Шахматы для взрослых <br/> и детей"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group12.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group12.png?raw=true",
                 "text": "Обучение <br/>шахмат онлайн"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group13.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group13.png?raw=true",
                 "text": "Профессиональное <br/>обучение шахматам"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group14.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group14.png?raw=true",
                 "text": "Шахматные <br/> турниры"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group15.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group15.png?raw=true",
                 "text": "Сеанс одновременной <br/>игры с GM"
             }
         ],
         "carouselImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2019.png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/image%2019.png?raw=true"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2020.png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/image%2020.png?raw=true"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2021.png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/image%2021.png?raw=true"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2022.png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/image%2022.png?raw=true"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/51.jpg"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/images.jpg?raw=true"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/1-18877-1514363749-3752.jpg"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/1-18877-1514363749-3752.jpg?raw=true"
             },
             {
                 "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/images.jpg"
@@ -125,22 +125,22 @@
         ],
         "priceImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group32.png?raw=true",
                 "top": "-15%",
                 "left": "75%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group33.png?raw=true",
                 "top": "-15%",
                 "left": "90%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group34.png?raw=true",
                 "top": "24%",
                 "left": "81%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group35.png?raw=true",
                 "top": "20%",
                 "left": "90%"
             }
@@ -149,76 +149,76 @@
             {
                 "name": "Анастасия Кидалова",
                 "proffession": "Выпускница Гарвардского<br /> Университета.<br />Более 10 лет играет в шахматы и участвует в турнирах.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185.png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Ellipse%20185.png?raw=true"
             },
             {
                 "name": "Михаил Сквернослов",
                 "proffession": "Мастер спорта по шахматам,<br />обучает игре более 15 лет.<br />Призер международных<br /> турниров.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (1).png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Ellipse%20185%20(1).png?raw=true"
             },
             {
                 "name": "Ольга Гнилоустная",
                 "proffession": "Международный гроссмейстер,<br />преподает шахматы более 20<br /> лет.<br />Авторитетный тренер и стратег.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (2).png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Ellipse%20185%20(2).png?raw=true"
             },
             {
                 "name": "Максим Жалкий",
                 "proffession": "Обладатель титула чемпиона<br /> страны,<br />с 15-летним опытом тренерской<br /> работы.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Ellipse 185 (3).png"
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Ellipse%20185%20(3).png?raw=true"
             }
         ],
         "couchesBackgroundImages": [
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true"
         ]
     },
     "mobileDev": {
         "headerImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector.png?raw=true",
                 "top": "10%",
                 "left": "-5%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20178.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20178.png?raw=true",
                 "top": "60%",
                 "left": "-10%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
                 "top": "41%",
                 "left": "35%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true",
                 "top": "84%",
                 "left": "26%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
                 "top": "63%",
                 "left": "58%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
                 "top": "7%",
                 "left": "65%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
                 "top": "31%",
                 "left": "84%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(4).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(4).png?raw=true",
                 "top": "10%",
                 "left": "103%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20182.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20182.png?raw=true",
                 "top": "88%",
                 "left": "97%",
                 "width": "17%"
@@ -227,22 +227,22 @@
         "headerImageBackground": "https://files.oaiusercontent.com/file-zOylXgejwgp3ROYKXyyQ6cvQ?se=2024-08-28T13%3A30%3A03Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D0da6314f-0465-4e21-ba8a-ea3d6356af08.webp&sig=cOE3s%2BlFi5sHZGE7SFnmpW%2BRV%2BPVpc2oIixFBa3CQQQ%3D",
         "goalsImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-kotlin.png",
+                "imgSrc": "https://img.icons8.com/?size=96&id=ZoxjA0jZDdFZ&format=png",
                 "goalTitle": "Цель 1",
                 "goalText": "Изучить основы <br/> мобильной разработки"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-android.png",
+                "imgSrc": "https://img.icons8.com/?size=96&id=80256&format=png",
                 "goalTitle": "Цель 2",
                 "goalText": "Освоить современные <br/> инструменты и фреймворки"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/brand-vscode.png",
+                "imgSrc": "https://img.icons8.com/?size=96&id=9OGIyU8hrxW5&format=png",
                 "goalTitle": "Цель 3",
                 "goalText": "Получить практический <br/> опыт разработки приложений"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/mobileDevelopPageImages/mobileDevelopPageImages/building-skyscraper.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/1207/1207111.png",
                 "goalTitle": "Цель 4",
                 "goalText": "Подготовиться к <br/> трудоустройству в IT"
             }
@@ -252,27 +252,27 @@
         },
         "infoSectionsImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector11.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector11.png?raw=true",
                 "text": "Интерактивные <br/>уроки по мобильной разработке"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group11.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group11.png?raw=true",
                 "text": "Разработка приложений <br/> для iOS и Android"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group12.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group12.png?raw=true",
                 "text": "Обучение <br/> разработке онлайн"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group13.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group13.png?raw=true",
                 "text": "Профессиональная <br/> подготовка разработчиков"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group14.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group14.png?raw=true",
                 "text": "Практические проекты <br/> и кейсы"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group15.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group15.png?raw=true",
                 "text": "Менторская поддержка <br/> и обратная связь"
             }
         ],
@@ -301,22 +301,22 @@
         ],
         "priceImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group32.png?raw=true",
                 "top": "-15%",
                 "left": "75%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group33.png?raw=true",
                 "top": "-15%",
                 "left": "90%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group34.png?raw=true",
                 "top": "24%",
                 "left": "81%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group35.png?raw=true",
                 "top": "20%",
                 "left": "90%"
             }
@@ -344,63 +344,63 @@
             }
         ],
         "couchesBackgroundImages": [
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true"
         ]
     },
     "gameDev": {
         "headerImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector.png?raw=true",
                 "top": "10%",
                 "left": "-5%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20178.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20178.png?raw=true",
                 "top": "60%",
                 "left": "-10%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
                 "top": "41%",
                 "left": "35%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true",
                 "top": "84%",
                 "left": "26%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
                 "top": "63%",
                 "left": "58%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
                 "top": "7%",
                 "left": "65%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
                 "top": "31%",
                 "left": "84%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(4).png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(4).png?raw=true",
                 "top": "10%",
                 "left": "103%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20182.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20182.png?raw=true",
                 "top": "88%",
                 "left": "97%",
                 "width": "17%"
             }
         ],
-        "headerImageBackground": "https://files.oaiusercontent.com/file-qIFnx3IpJ8pFJLFV9qK7Bktz?se=2024-08-28T14%3A07%3A33Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D02bda6af-fbc0-4710-a8ea-d612bb384334.webp&sig=W5N3WmwsHuW%2BW60izkzjWjJRpI9t2no0tdtGuRoY/i4%3D",
+        "headerImageBackground": "https://files.oaiusercontent.com/file-3nwxA0JjK63RGFJ61ivmHLPH?se=2024-09-04T12%3A30%3A00Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D9547fd93-0bc6-4008-9de6-219ddcea1448.webp&sig=Rdy1VfXinVL0s2EHw603Lgl7O6c/rUhW9lZZOikP3YA%3D",
         "goalsImages": [
             {
                 "imgSrc": "https://cdn-icons-png.flaticon.com/128/6132/6132221.png",
@@ -424,7 +424,7 @@
             }
         ],
         "iframeData": {
-            "posterImage": "https://files.oaiusercontent.com/file-qIFnx3IpJ8pFJLFV9qK7Bktz?se=2024-08-28T14%3A07%3A33Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D02bda6af-fbc0-4710-a8ea-d612bb384334.webp&sig=W5N3WmwsHuW%2BW60izkzjWjJRpI9t2no0tdtGuRoY/i4%3D"
+            "posterImage": "https://files.oaiusercontent.com/file-3nwxA0JjK63RGFJ61ivmHLPH?se=2024-09-04T12%3A30%3A00Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D9547fd93-0bc6-4008-9de6-219ddcea1448.webp&sig=Rdy1VfXinVL0s2EHw603Lgl7O6c/rUhW9lZZOikP3YA%3D"
         },
         "infoSectionsImages": [
             {
@@ -477,22 +477,22 @@
         ],
         "priceImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group32.png?raw=true",
                 "top": "-15%",
                 "left": "75%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group33.png?raw=true",
                 "top": "-15%",
                 "left": "90%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group34.png?raw=true",
                 "top": "24%",
                 "left": "81%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group35.png?raw=true",
                 "top": "20%",
                 "left": "90%"
             }
@@ -517,6 +517,182 @@
                 "name": "Екатерина Новикова",
                 "proffession": "Frontend разработчик.<br />Эксперт в создании UI для игр.<br />Опыт работы в крупных игровых проектах.",
                 "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Fatieva4.jpg"
+            }
+        ],
+        "couchesBackgroundImages": [
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
+            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+        ]
+    },
+    "testing": {
+        "headerImages": [
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector.png?raw=true",
+                "top": "10%",
+                "left": "-5%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20178.png?raw=true",
+                "top": "60%",
+                "left": "-10%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
+                "top": "41%",
+                "left": "35%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true",
+                "top": "84%",
+                "left": "26%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
+                "top": "63%",
+                "left": "58%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
+                "top": "7%",
+                "left": "65%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
+                "top": "31%",
+                "left": "84%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(4).png?raw=true",
+                "top": "10%",
+                "left": "103%"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20182.png?raw=true",
+                "top": "88%",
+                "left": "97%",
+                "width": "17%"
+            }
+        ],
+        "headerImageBackground": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png",
+        "goalsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-1.png",
+                "goalTitle": "Цель 1",
+                "goalText": "Освоить основные <br/> методы и техники <br/> тестирования ПО"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-2.png",
+                "goalTitle": "Цель 2",
+                "goalText": "Развить навыки <br/> нахождения багов <br/> и их классификации"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-3.png",
+                "goalTitle": "Цель 3",
+                "goalText": "Научиться работать <br/> с современными <br/> инструментами автоматизации <br/> тестирования"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-4.png",
+                "goalTitle": "Цель 4",
+                "goalText": "Получить практический <br/> опыт тестирования <br/> реальных приложений <br/> с помощью лучших практик"
+            }
+        ],
+        "iframeData": {
+            "posterImage": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png"
+        },
+        "infoSectionsImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-1.png",
+                "text": "Интерактивные уроки <br/> по тестированию ПО"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-2.png",
+                "text": "Тестирование для начинающих <br/> и профессионалов"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-3.png",
+                "text": "Обучение тестированию <br/> в онлайн-формате"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-4.png",
+                "text": "Практические задания <br/> с реальными проектами"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-5.png",
+                "text": "Автоматизация тестирования <br/> и инструменты"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-6.png",
+                "text": "Профессиональная подготовка <br/> к работе тестировщиком"
+            }
+        ],
+        "carouselImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2019.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2020.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2021.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2022.png"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/51.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/1-18877-1514363749-3752.jpg"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/images.jpg"
+            }
+        ],
+        "priceImages": [
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "top": "-15%",
+                "left": "75%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "top": "-15%",
+                "left": "90%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "top": "24%",
+                "left": "81%"
+            },
+            {
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "top": "20%",
+                "left": "90%"
+            }
+        ],
+        "couchesData": [
+            {
+                "name": "Иван Петров",
+                "proffession": "Специалист по автоматизации<br />тестирования с более чем 8<br />годами опыта работы в IT.<br />Эксперт по Selenium и JUnit.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-1.png"
+            },
+            {
+                "name": "Анна Смирнова",
+                "proffession": "QA-инженер с опытом работы<br />в ведущих международных<br />компаниях.<br />Специалист по функциональному и нагрузочному тестированию.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-2.png"
+            },
+            {
+                "name": "Дмитрий Соколов",
+                "proffession": "Мастер тестирования безопасности,<br />преподаватель с 12-летним<br />опытом работы в сфере кибербезопасности.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-3.png"
+            },
+            {
+                "name": "Екатерина Иванова",
+                "proffession": "Эксперт по API-тестированию<br />и мобильным приложениям.<br />Более 7 лет преподает основы тестирования в вузах.",
+                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-4.png"
             }
         ],
         "couchesBackgroundImages": [

@@ -1,16 +1,13 @@
 import { useDispatch, useSelector } from "react-redux";
-import classes from "./anyoneEventsPage.module.css"
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
 import AnyoneEventsHeader from "./anyoneEventsHeader/anyoneEventsHeader";
-import AnyoneEventsGoals from "./anyoneEventsGoals/anyoneEventsGoals";
 import { setCourseOwlText } from "../../../../redux/owlReducer";
 import { setCourseGoalData } from "../../../../redux/goalReducer";
-import MyAccordion from "../../coursesPage/anyoneCourse/coursePageParts/myAccordion/myAccordion";
 import AnyoneEventsProgramm from "./anyoneEventsProgramm/anyoneEventsProgramm";
 import Couches from "../../coursesPage/anyoneCourse/coursePageParts/couches/couches";
-import { Carousel } from "bootstrap";
 import OverviewSection from "../../coursesPage/anyoneCourse/coursePageParts/coursesOverviewSection/overviewSection";
+import AboutPart from "../../coursesPage/anyoneCourse/coursePageParts/aboutPart/aboutPart";
 
 
 const AnyoneEventsPage = (props) => {
@@ -33,7 +30,7 @@ const AnyoneEventsPage = (props) => {
     return (
         <>
             <AnyoneEventsHeader headerData={event.header} />
-            <AnyoneEventsGoals />
+            <AboutPart />
             <AnyoneEventsProgramm programmData={event.programmData} />
             <Couches couchesData={event.couchesData} couchesBackgroundImages={event.couchesBackgroundImages} eventsBackgroundImages={true} />
             <OverviewSection carouselImages={event.carouselImages} title={event.overviewTitle} overviewParagraf={event.overviewParagraf} isEvent={true} />

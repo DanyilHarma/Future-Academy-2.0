@@ -9,7 +9,7 @@ const ColumnsFooter = () => {
     const sectionFooter = useSelector(state => state.footer)
 
     const sections = [
-        { title: "Дети", items: sectionFooter.children },
+        { title: "Детям", items: sectionFooter.children },
         { title: "Подросткам", items: sectionFooter.teenagers },
         { title: "Взрослым", items: sectionFooter.adults },
         { title: "Информация", items: sectionFooter.informations }
