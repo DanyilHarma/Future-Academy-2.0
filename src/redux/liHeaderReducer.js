@@ -33,7 +33,7 @@ let initialState = {
             isSelected: false
         },
         {
-            link: "",
+            link: "/careerPage",
             text: "Карьера",
             isSelected: false
         },

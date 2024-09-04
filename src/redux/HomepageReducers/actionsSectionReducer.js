@@ -31,7 +31,7 @@ let initialState = {
         {
             imgSrc: infoCardImage2,
             title: "Мир IT",
-            link: "",
+            link: "/aboutAcademy",
             backgroundColor: "#FFEEF6"
         }
     ]

@@ -9,23 +9,22 @@ const GoalAll = (props) => {
 
     const isCoursePage = props.pageConfig?.isCoursePage || false;
     const isEventPage = props.pageConfig?.isEventPage || false;
+    const isCareerPage = props.pageConfig?.isCareerPage || false;
     const isAboutPage = props.pageConfig?.isAboutPage || false;
 
     const getContentClass = () => {
-        return (isCoursePage || isEventPage) ? classes.goalContent : classes.goalAboutContent
+        return (isCoursePage || isEventPage || isCareerPage) ? classes.goalContent : classes.goalAboutContent
     }
 
     const getContentImages = () => {
-        return (isCoursePage || isEventPage) ? "" : classes.aboutAcademyImages
+        return (isCoursePage || isEventPage) && (!isAboutPage || !isCareerPage) ? "" : classes.aboutAcademyImages
     }
-
-
 
     return (
         <div className={classes.goal}>
             {goals.map((goal, index) => (<div key={index} className={getContentClass()}>
                 <LazyLoad key={index} offset={100}><img src={goal.imgSrc} alt="" className={getContentImages()} /></LazyLoad>
-                {(isCoursePage || isEventPage) && (<span dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(goal.goalTitle) }}></span>)}
+                {(isCoursePage || isEventPage || isCareerPage) && (<span dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(goal.goalTitle) }}></span>)}
                 <span dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(goal.goalText) }}></span>
             </div>))}
         </div>

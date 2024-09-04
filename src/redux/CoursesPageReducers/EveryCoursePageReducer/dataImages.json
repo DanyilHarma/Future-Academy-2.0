@@ -520,11 +520,11 @@
             }
         ],
         "couchesBackgroundImages": [
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true"
         ]
     },
     "testing": {
@@ -576,99 +576,99 @@
                 "width": "17%"
             }
         ],
-        "headerImageBackground": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png",
+        "headerImageBackground": "https://raw.githubusercontent.com/DanyilHarma/Future-Academy-2.0/master/src/assets/images/images-all-courses-page/coursesHeaderImage/testing.webp",
         "goalsImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-1.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/11332/11332960.png",
                 "goalTitle": "Цель 1",
                 "goalText": "Освоить основные <br/> методы и техники <br/> тестирования ПО"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-2.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/921/921564.png",
                 "goalTitle": "Цель 2",
                 "goalText": "Развить навыки <br/> нахождения багов <br/> и их классификации"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-3.png",
+                "imgSrc": "https://img.icons8.com/?size=96&id=39292&format=png",
                 "goalTitle": "Цель 3",
                 "goalText": "Научиться работать <br/> с современными <br/> инструментами автоматизации <br/> тестирования"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-icon-4.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/6041/6041289.png",
                 "goalTitle": "Цель 4",
                 "goalText": "Получить практический <br/> опыт тестирования <br/> реальных приложений <br/> с помощью лучших практик"
             }
         ],
         "iframeData": {
-            "posterImage": "https://storage.cloud.google.com/images_future_academy/images-chess-page/shutterstock_2033756324.png"
+            "posterImage": "https://raw.githubusercontent.com/DanyilHarma/Future-Academy-2.0/master/src/assets/images/images-all-courses-page/coursesHeaderImage/testing.webp"
         },
         "infoSectionsImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-1.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/7646/7646865.png",
                 "text": "Интерактивные уроки <br/> по тестированию ПО"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-2.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/4440/4440232.png",
                 "text": "Тестирование для начинающих <br/> и профессионалов"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-3.png",
+                "imgSrc": "https://cdn.iconscout.com/icon/premium/png-512-thumb/game-development-10805312-9043009.png?f=webp&w=512",
                 "text": "Обучение тестированию <br/> в онлайн-формате"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-4.png",
+                "imgSrc": "https://cdn.iconscout.com/icon/premium/png-512-thumb/gamer-10343925-8430711.png?f=webp&w=512",
                 "text": "Практические задания <br/> с реальными проектами"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-5.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/11676/11676429.png",
                 "text": "Автоматизация тестирования <br/> и инструменты"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-vector-6.png",
+                "imgSrc": "https://cdn-icons-png.flaticon.com/128/8307/8307804.png",
                 "text": "Профессиональная подготовка <br/> к работе тестировщиком"
             }
         ],
         "carouselImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2019.png"
+                "imgSrc": "data:image/jpeg;base64,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"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2020.png"
+                "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNA5srMyuaspiDCMY_KZIJQZr3oG9h8uFXSg&s"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2021.png"
+                "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd0GyaqQkQwrV4QvkcpQ_CcAaSq7KQypbC1w&s"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/image%2022.png"
+                "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHbY-62mRNVHb1hT0fjCsfDbZ8CPtNAsnFzw&s"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/51.jpg"
+                "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqxZF_6Ibx1onVvwr-7LG5fjwkJ8LjLnCgXQ&s"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/1-18877-1514363749-3752.jpg"
+                "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1o8er-euzMDy9kKSCryiZlUIryk1iAfzyWQ&s"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/images.jpg"
+                "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7nmDi46R-67mduEPaBTCupCCO3jR0QtWECw&s"
             }
         ],
         "priceImages": [
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group32.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group32.png?raw=true",
                 "top": "-15%",
                 "left": "75%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group33.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group33.png?raw=true",
                 "top": "-15%",
                 "left": "90%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group34.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group34.png?raw=true",
                 "top": "24%",
                 "left": "81%"
             },
             {
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/images-chess-page/Group35.png",
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Group35.png?raw=true",
                 "top": "20%",
                 "left": "90%"
             }
@@ -677,30 +677,30 @@
             {
                 "name": "Иван Петров",
                 "proffession": "Специалист по автоматизации<br />тестирования с более чем 8<br />годами опыта работы в IT.<br />Эксперт по Selenium и JUnit.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-1.png"
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Dednev14.jpg"
             },
             {
                 "name": "Анна Смирнова",
                 "proffession": "QA-инженер с опытом работы<br />в ведущих международных<br />компаниях.<br />Специалист по функциональному и нагрузочному тестированию.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-2.png"
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Dementeva4.jfif"
             },
             {
                 "name": "Дмитрий Соколов",
                 "proffession": "Мастер тестирования безопасности,<br />преподаватель с 12-летним<br />опытом работы в сфере кибербезопасности.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-3.png"
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Farnikov4.jpg"
             },
             {
                 "name": "Екатерина Иванова",
                 "proffession": "Эксперт по API-тестированию<br />и мобильным приложениям.<br />Более 7 лет преподает основы тестирования в вузах.",
-                "imgSrc": "https://storage.cloud.google.com/images_future_academy/software-testing-coach-4.png"
+                "imgSrc": "https://f-academy.ru/content/setup/pics/teachers/Fatieva4.jpg"
             }
         ],
         "couchesBackgroundImages": [
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20179.png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(3).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(1).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20(2).png",
-            "https://storage.cloud.google.com/images_future_academy/images-chess-page/Vector%20181.png"
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20179.png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
+            "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true"
         ]
     }
 }

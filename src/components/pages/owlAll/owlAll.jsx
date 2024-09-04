@@ -15,24 +15,25 @@ const OwlAll = (props) => {
     const isCoursePage = props.pageConfig?.isCoursePage || false;
     const isEventPage = props.pageConfig?.isEventPage || false;
     const isAboutPage = props.pageConfig?.isAboutPage || false;
+    const isCareerPage = props.pageConfig?.isCareerPage || false;
 
     const getOwlClass = () => {
-        return (isCoursePage || isEventPage) ? classes.owlImage : classes.aboutOwlImage
+        return (isCoursePage || isEventPage || isCareerPage) ? classes.owlImage : classes.aboutOwlImage
     }
 
     const getUnionClass = () => {
-        return (isCoursePage || isEventPage) ? classes.unionText : classes.unionAboutText
+        return (isCoursePage || isEventPage || isCareerPage) ? classes.unionText : classes.unionAboutText
     }
 
     const getUnionImage = () => {
-        return (isCoursePage || isEventPage) && !isAboutPage ? unionSmall : "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Union.png?raw=true"
+        return (isCoursePage || isEventPage || isCareerPage) && !isAboutPage ? unionSmall : "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Union.png?raw=true"
     }
 
     return (
         <div className={classes.containerOwl}>
             <LazyLoad offset={100}><img src={owlImg} alt="" className={getOwlClass()} /></LazyLoad>
             <div className={classes.containerAboutUnion}>
-                {(isCoursePage || isEventPage) && !isAboutPage ? null : (<span className={classes.unionBigText} dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(texts.bigText) }}></span>)}
+                {(isCoursePage || isEventPage || isCareerPage) && !isAboutPage ? null : (<span className={classes.unionBigText} dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(texts.bigText) }}></span>)}
                 <span className={getUnionClass()} dangerouslySetInnerHTML={{ "__html": sanitizedContent }}></span>
                 <LazyLoad offset={100}><img src={getUnionImage()} alt="" className={classes.unionImage} /></LazyLoad>
             </div>
