@@ -13,7 +13,7 @@ let initialState = {
     ,
     children: [
         {
-            label: "Робототехника",
+            label: "Тестировщик ПО",
             link: ""
         },
         {
@@ -41,19 +41,7 @@ let initialState = {
             link: ""
         },
         {
-            label: "Создание игр",
-            link: ""
-        },
-        {
-            label: "Программирование",
-            link: ""
-        },
-        {
-            label: "Мультимедиа",
-            link: ""
-        },
-        {
-            label: "Шашки",
+            label: "Анлийский язык",
             link: ""
         }
     ]
@@ -64,15 +52,11 @@ let initialState = {
             link: ""
         },
         {
-            label: "Прикладное программирование",
+            label: "3-D моделирование и дизайн",
             link: ""
         },
         {
-            label: "Графическое моделирование",
-            link: ""
-        },
-        {
-            label: "Game Development",
+            label: "Создание игр",
             link: ""
         },
         {
@@ -88,19 +72,11 @@ let initialState = {
             link: ""
         },
         {
-            label: "Создание игр",
-            link: ""
-        },
-        {
             label: "Программирование",
             link: ""
         },
         {
             label: "Мультимедиа",
-            link: ""
-        },
-        {
-            label: "Чапаев",
             link: ""
         }
     ],
@@ -114,15 +90,15 @@ let initialState = {
             link: ""
         },
         {
-            label: "Графический Дизайн",
+            label: "3-D моделирование и дизайн",
             link: ""
         },
         {
-            label: "Тестировщик ПО",
+            label: "Робототехника",
             link: ""
         },
         {
-            label: "Интернет Маркетинг",
+            label: "Иностранные языки",
             link: ""
         },
         {

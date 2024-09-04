@@ -1,16 +1,24 @@
+import { useLocation } from "react-router-dom";
 import GoalAll from "../../../../goalAll/goalAll.jsx";
 import OwlAll from "../../../../owlAll/owlAll.jsx";
 import classes from "./aboutPart.module.css"
 
 const AboutPart = (props) => {
+    const location = useLocation();
+
+    const pageConfig = {
+        isCoursePage: location.pathname.startsWith("/coursesAllPage"),
+        isEventPage: location.pathname.startsWith("/allEvents"),
+        isAboutPage: location.pathname === "/aboutAcademy"
+    }
 
     return (
         <section>
             <div className="container">
-                <div className={classes.aboutChessCours}>
-                    <div className={props.aboutAcademy ? classes.aboutGoal : classes.chessGoal}>
-                        <OwlAll aboutAcademy={true} />
-                        <GoalAll aboutAcademy={true} />
+                <div className={classes.aboutCours}>
+                    <div className={pageConfig.isAboutPage ? classes.aboutGoal : classes.goal}>
+                        <OwlAll pageConfig={pageConfig} />
+                        <GoalAll pageConfig={pageConfig} />
                     </div>
                 </div>
             </div>

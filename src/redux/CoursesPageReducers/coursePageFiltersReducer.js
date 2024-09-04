@@ -9,17 +9,12 @@ import image7 from "../../assets/images/images-all-courses-page/free-icon-blog-3
 import image8 from "../../assets/images/images-all-courses-page/soft-skills.png"
 import image9 from "../../assets/images/images-all-courses-page/free-icon-exam-895984.png"
 import image10 from "../../assets/images/images-all-courses-page/free-icon-foreign-language-7177941.png"
-import image11 from "../../assets/images/images-all-courses-page/free-icon-sensory-10655739.png"
-import image12 from "../../assets/images/images-all-courses-page/free-icon-computer-6258887.png"
 import image13 from "../../assets/images/images-all-courses-page/free-icon-programming-4861897.png"
 
 const SET_DIFFICULT = "SET_DIFFICULT";
 const SET_EDUCATION = "SET_EDUCATION";
 const SET_CATEGORY = "SET_CATEGORY";
 const SET_DURATION = "SET_DURATION";
-
-
-
 
 let initialState = {
     difficult: "all",
@@ -28,6 +23,17 @@ let initialState = {
     duration: [1, 24],
     courses: [
         {
+            id: "testing",
+            name: `«Тестировщик ПО»`,
+            imgSrc: "https://cdn-icons-png.flaticon.com/128/5958/5958925.png",
+            text: `Тестировщик ПО обеспечивает качество программных продуктов, находя ошибки  и проверяя их работоспособность.`,
+            difficult: "user",
+            education: "profession",
+            category: ["children"],
+            duration: 12,
+            backgroundColor: "#B8EFCF",
+        },
+        {
             id: "mobileDev",
             name: `«Разработка мобильных <br> приложений»`,
             imgSrc: image,
@@ -35,7 +41,7 @@ let initialState = {
             люди ежедневно пользуются<br>на смартфонах, умных часах и планшетах.`,
             difficult: "cheater",
             education: "profession",
-            category: ["children", "teenager", "adult"],
+            category: ["teenager"],
             duration: 24,
             backgroundColor: "#C7EEFF",
         },
@@ -47,7 +53,7 @@ let initialState = {
                         и звук. Разработан профессионалами индустрии.`,
             difficult: "cheater",
             education: "profession",
-            category: ["children", "teenager", "adult"],
+            category: ["children", "teenager"],
             duration: 12,
             sale: "-10%",
             backgroundColor: "#FFCE94"
@@ -60,7 +66,7 @@ let initialState = {
                                     сайтов. Разработан профессионалами отрасли.`,
             difficult: "proffessional",
             education: "profession",
-            category: "children",
+            category: "teenager",
             duration: 6,
             backgroundColor: "#FFE38E"
         },
@@ -72,7 +78,7 @@ let initialState = {
                                     и графики. Разработан профессионалами индустрии.`,
             difficult: "newbie",
             education: "profession",
-            category: "children",
+            category: ["children", "teenager"],
             duration: 6,
             backgroundColor: "#DDDDFF"
         },
@@ -84,7 +90,7 @@ let initialState = {
                                     Разработан опытными шахматистами.`,
             difficult: "newbie",
             education: "course",
-            category: ["children", "teenager", "adult"],
+            category: ["children"],
             duration: 3,
             sale: "-10%",
             backgroundColor: "#B8EFCF",
@@ -110,7 +116,7 @@ let initialState = {
                                     и аудирование. Разработан опытными лингвистами.`,
             difficult: "newbie",
             education: "course",
-            category: ["children", "teenager", "adult"],
+            category: ["children"],
             duration: 12,
             backgroundColor: "#C5DDFF"
         },
@@ -122,7 +128,7 @@ let initialState = {
                                     монетизацию. Разработан успешными блогерами.`,
             difficult: "newbie",
             education: "course",
-            category: ["children", "teenager", "adult"],
+            category: ["children", "teenager"],
             duration: 1,
             backgroundColor: "#FFE9A8"
         },
@@ -159,45 +165,88 @@ let initialState = {
                                     работу в команде.Разработан профессионалами.`,
             difficult: "user",
             education: "course",
-            category: ["children", "teenager", "adult"],
+            category: ["adult"],
             duration: 24,
             backgroundColor: "#C5DDFF"
         },
         {
             id: 12,
-            name: "«Интенсивы»",
-            imgSrc: image11,
-            text: `Курс, который обучит вас софт - скиллами, включает коммуникацию, управление временем и
-                                    работу в команде.Разработан профессионалами.`,
-            difficult: "proffessional",
-            education: "course",
-            category: ["teenager", "adult"],
-            duration: 1,
-            backgroundColor: "#FFE9A8"
-        },
-        {
-            id: 13,
-            name: "«Мастер классы»",
-            imgSrc: image12,
-            text: `Вы сможете принять участия в мастер - классах, на которых будут присутствовать лучшие специалисты своего дела и набираться у них опыта.`,
-            difficult: "proffessional",
-            education: "course",
-            category: ["teenager", "adult"],
-            duration: 6,
-            backgroundColor: "#DDDDFF"
-        },
-        {
-            id: 14,
             name: "«Программирование»",
             imgSrc: image13,
             text: `Курс, который обучит вас программированию, включает основы, структуры данных и разработку приложений.Разработан опытными разработчиками.`,
             difficult: "user",
             education: "profession",
-            category: ["teenager", "adult"],
+            category: ["children", "teenager", "adult"],
             duration: 8,
             sale: "-10%",
             backgroundColor: "#FFEEF6"
         },
+        {
+            id: 13,
+            name: "«Разработчик игр на Unity»",
+            imgSrc: "https://cdn-icons-png.flaticon.com/128/5969/5969346.png",
+            text: `Изучите создание игр на Unity с нуля. Программирование, физика, анимация и дизайн уровней - все это станет частью вашего пути .`,
+            difficult: "user",
+            education: "profession",
+            category: ["adult"],
+            duration: 12,
+            backgroundColor: "#9370DB"
+        },
+        {
+            id: 14,
+            name: "«Разработка ПО»",
+            imgSrc: "https://cdn-icons-png.flaticon.com/128/9104/9104596.png",
+            text: `Овладейте основами разработки программного обеспечения. Программирование, тестирование и создание приложений - всё это будет частью вашего обучения.`,
+            difficult: "proffessional",
+            education: "profession",
+            category: ["adult"],
+            duration: 16,
+            backgroundColor: "#ADD8E6"
+        },
+        {
+            id: 15,
+            name: "«Робототехника»",
+            imgSrc: "https://cdn-icons-png.flaticon.com/128/1693/1693746.png",
+            text: `Изучите основы создания и программирования роботов. Конструирование, сенсоры и программирование автоматизированных систем станут частью вашего обучения.`,
+            difficult: "proffessional",
+            education: "profession",
+            category: ["adult"],
+            duration: 16,
+            backgroundColor: "#B0E0E6"
+        },
+        {
+            id: 16,
+            name: "«Java-разработчик»",
+            imgSrc: "https://cdn-icons-png.flaticon.com/128/14/14427.png",
+            text: `Освойте язык программирования Java. Работа с базами данных, разработка веб-приложений и объектно-ориентированное программирование - всё это станет частью вашего пути.`,
+            difficult: "user",
+            education: "profession",
+            category: ["adult"],
+            duration: 20,
+            backgroundColor: "#FFCC99"
+        },
+        {
+            id: 16,
+            name: "«Python–разработчик»",
+            imgSrc: "https://cdn-icons-png.flaticon.com/128/1822/1822921.png",
+            text: `Освойте язык программирования Python. Изучите основы работы с данными, веб-разработку и автоматизацию задач - всё это станет частью вашего обучения.`,
+            difficult: "user",
+            education: "profession",
+            category: ["adult"],
+            duration: 12,
+            backgroundColor: "#FFE4B5"
+        },
+        {
+            id: 16,
+            name: "«iOS–разработчик»",
+            imgSrc: "https://cdn-icons-png.flaticon.com/128/1241/1241013.png",
+            text: `Изучите разработку приложений для iOS с использованием Swift. Научитесь создавать современные мобильные приложения для iPhone и iPad.`,
+            difficult: "user",
+            education: "profession",
+            category: ["adult"],
+            duration: 12,
+            backgroundColor: "#B0C4DE"
+        }
     ]
 
 }

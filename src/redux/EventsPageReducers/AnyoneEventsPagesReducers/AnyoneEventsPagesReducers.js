@@ -1062,6 +1062,617 @@ const initialState = {
                 { imgSrc: "https://sun9-8.userapi.com/impg/rRVEInEtdLs2N6QTirUyCM48iNJi-qIlnj01sg/WvY866-xq58.jpg?size=807x538&quality=95&sign=af40a278298591dbf14ef5e415246cc1&c_uniq_tag=rSAUpq8b4UEFcIXwpw5SN29R4jtag-UdgWdjKx1CzTU&type=album" }
             ]
         },
+        {
+            id: "itInnovation",
+            couchesBackgroundImages: [
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20179.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(3).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(1).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(2).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20181.png?raw=true"
+            ],
+            overviewTitle: "Фотографии с прошлых мероприятий",
+            overviewParagraf: "Узнайте, как проходили наши прошлые мероприятия: посмотрите яркие фотографии, запечатлевшие увлекательные моменты, радость побед и живое общение участников и тренеров.",
+            header: {
+                headerImages: [
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(3).png?raw=true",
+                        top: "1%",
+                        left: "-5%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20178.png?raw=true",
+                        top: "60%",
+                        left: "-10%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(1).png?raw=true",
+                        top: "55%",
+                        left: "35%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20181.png?raw=true",
+                        top: "84%",
+                        left: "26%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(4).png?raw=true",
+                        top: "10%",
+                        left: "103%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20182.png?raw=true",
+                        top: "88%",
+                        left: "97%",
+                        width: "17%"
+                    }
+                ],
+                headerBackgroundImage: "https://raw.githubusercontent.com/DanyilHarma/Future-Academy-2.0/master/src/assets/images/images-events/day-of-it-innovation/DALL%C2%B7E%202024-06-18%2000.06.33.webp",
+                headerTitle: "День IT инноваций",
+                headerDescription: "Будущее технологий начинается здесь.",
+                headerParagrafs: [
+                    "Выступления ведущих <br> IT-экспертов и новаторов.",
+                    "Уникальные мастер-классы и <br> воркшопы от лидеров <br> индустрии.",
+                    "Возможность наладить связи <br> с профессионалами и <br> единомышленниками."
+                ]
+            },
+            goals: {
+                unionText: "Как только вы начнете-уже не сможете остановиться!",
+                goal: [
+                    { imgSrc: "https://cdn-icons-png.flaticon.com/128/4170/4170616.png", goalTitle: "Ведущие эксперты <br> IT-отрасли", goalText: "Получите ценные знания <br> и инсайты от признанных лидеров <br> индустрии на нашем мероприятии." },
+                    { imgSrc: "https://cdn-icons-png.flaticon.com/128/17646/17646429.png", goalTitle: "Интерактивные <br> мастер-классы", goalText: "Участвуйте в практических <br> занятиях, где сможете сразу <br> применить полученные <br> знания и навыки." },
+                    { imgSrc: "https://cdn-icons-png.flaticon.com/128/11703/11703495.png", goalTitle: "Нетворкинг и <br> обмен опытом", goalText: "Расширьте свой круг общения, <br> познакомьтесь с коллегами и наладьте <br> полезные контакты." }
+                ]
+            },
+            programmData: {
+                programmTitle: `Программа мероприятия "День IT инноваций"`,
+                programmParagraf: `Наше событие предлагает насыщенную программу, включающую выступления ведущих экспертов IT-индустрии,
+                интерактивные мастер-классы и уникальные возможности для нетворкинга. Участвуйте в обсуждениях новейших
+                технологий и обмене опытом с коллегами.`,
+                accordionData: [
+                    {
+                        dayTitle: "День первый",
+                        events: [
+                            {
+                                time: "10:00 - 11:30",
+                                title: "Открытие мероприятия и приветственное слово",
+                                text: "Вступительное слово от организаторов и ключевых спикеров. Обзор программы и целей мероприятия."
+                            },
+                            {
+                                time: "11:30 - 13:00",
+                                title: "Панельная дискуссия: Будущее IT-инноваций",
+                                text: "Ведущие эксперты обсудят перспективы развития IT-технологий и инноваций."
+                            },
+                            {
+                                time: "13:00 - 14:00",
+                                title: "Обеденный перерыв",
+                                text: "Время для отдыха и неформального общения."
+                            },
+                            {
+                                time: "14:00 - 15:30",
+                                title: "Мастер-класс: Искусственный интеллект в реальных проектах",
+                                text: "Практическое занятие по использованию ИИ в различных сферах деятельности."
+                            },
+                            {
+                                time: "15:30 - 17:00",
+                                title: "Круглый стол: Кибербезопасность и защита данных",
+                                text: "Эксперты поделятся опытом и обсудят актуальные вопросы кибербезопасности."
+                            },
+                            {
+                                time: "17:00 - 18:00",
+                                title: "Сессия вопросов и ответов",
+                                text: "Возможность задать вопросы спикерам и обсудить интересующие темы."
+                            },
+                            {
+                                time: "18:00 - 19:00",
+                                title: "Networking-сессия",
+                                text: "Время для неформального общения и обмена контактами среди участников."
+                            }
+                        ]
+                    },
+                    {
+                        dayTitle: "День второй",
+                        events: [
+                            {
+                                time: "10:00 - 11:30",
+                                title: "Презентация новых IT-продуктов и решений",
+                                text: "Компании представят свои новейшие разработки и инновационные продукты."
+                            },
+                            {
+                                time: "11:30 - 13:00",
+                                title: "Мастер-класс: Разработка мобильных приложений",
+                                text: "Практическое занятие по созданию мобильных приложений с использованием современных технологий."
+                            },
+                            {
+                                time: "13:00 - 14:00",
+                                title: "Обеденный перерыв",
+                                text: "Возможность обсудить утренние сессии и обменяться идеями."
+                            },
+                            {
+                                time: "14:00 - 15:30",
+                                title: "Воркшоп: Виртуальная и дополненная реальность",
+                                text: "Практическое занятие по использованию VR и AR в различных проектах."
+                            },
+                            {
+                                time: "15:30 - 17:00",
+                                title: "Заключительная панельная дискуссия",
+                                text: "Подведение итогов мероприятия и обсуждение ключевых выводов."
+                            },
+                            {
+                                time: "17:15 - 18:00",
+                                title: "Закрытие мероприятия и фуршет",
+                                text: "Время для неформального общения, обмена контактами и подведения итогов в неформальной обстановке."
+                            },
+                            {
+                                time: "18:00 - 20:00",
+                                title: "Вечеринка на закрытии",
+                                text: "Заключительное мероприятие с музыкой, напитками и возможностью расслабиться после насыщенного дня."
+                            }
+                        ]
+                    }
+                ]
+            },
+            couchesData: [
+                {
+                    name: "Лина Кацолина",
+                    proffession: "Эксперт в области кибербезопасности с 10-летним опытом работы.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Vlasova14.jpg"
+                },
+                {
+                    name: "Юрий Серепило",
+                    proffession: "Разработчик мобильных приложений, специалист по UI/UX дизайну.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Syprynenko4.jpg"
+                },
+                {
+                    name: "Наталья Сумричкина",
+                    proffession: "Старший разработчик ПО, специализирующийся на искусственном интеллекте.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Smirnova14.jpg"
+                },
+                {
+                    name: "Михаил Зилороев",
+                    proffession: "Инженер по виртуальной и дополненной реальности, опыт работы более 8 лет.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Pavlov14.jpg"
+                }
+            ],
+            carouselImages: [
+                { imgSrc: "https://sun1-1.userapi.com/c841620/v841620308/35a20/p6QMACvzlHw.jpg" },
+                { imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9ywG57qz5YrWTRhnZcChuDDoiFJjDbcK5g&s" },
+                { imgSrc: "https://www.timacad.ru/uploads/media/cache/image_sm_resize/uploads/images/20240313/b_img65f1c8a43d36d2.28616322.jpg" },
+                { imgSrc: "https://apkpro.ru/upload/resize_cache/iblock/45d/708_408_2/oa85xk6d8xivw4qne7mjmerhjetu9ny5.jpg" },
+                { imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWFALhI_2dUwdbL_BoVvmqD2WZPHc8mks1dA&s" },
+                { imgSrc: "https://cybergarden.ru/images/gallery/3.jpg" },
+                { imgSrc: "https://sun9-8.userapi.com/impg/rRVEInEtdLs2N6QTirUyCM48iNJi-qIlnj01sg/WvY866-xq58.jpg?size=807x538&quality=95&sign=af40a278298591dbf14ef5e415246cc1&c_uniq_tag=rSAUpq8b4UEFcIXwpw5SN29R4jtag-UdgWdjKx1CzTU&type=album" }
+            ]
+        },
+        {
+            id: "creativeCoding",
+            couchesBackgroundImages: [
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20179.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(3).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(1).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(2).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20181.png?raw=true"
+            ],
+            overviewTitle: "Фотографии с прошлых мероприятий",
+            overviewParagraf: "Узнайте, как проходили наши прошлые мероприятия: посмотрите яркие фотографии, запечатлевшие увлекательные моменты, радость побед и живое общение участников и тренеров.",
+            header: {
+                headerImages: [
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(3).png?raw=true",
+                        top: "1%",
+                        left: "-5%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20178.png?raw=true",
+                        top: "60%",
+                        left: "-10%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(1).png?raw=true",
+                        top: "55%",
+                        left: "35%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20181.png?raw=true",
+                        top: "84%",
+                        left: "26%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(4).png?raw=true",
+                        top: "10%",
+                        left: "103%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20182.png?raw=true",
+                        top: "88%",
+                        left: "97%",
+                        width: "17%"
+                    }
+                ],
+                headerBackgroundImage: "https://raw.githubusercontent.com/DanyilHarma/Future-Academy-2.0/master/src/assets/images/images-events/creative-coding/DALL%C2%B7E%202024-06-18%2000.41.57.webp",
+                headerTitle: "Креативный кодинг",
+                headerDescription: "Создай код, который вдохновляет.",
+                headerParagrafs: [
+                    "Развитие творческих <br> навыков программирования",
+                    "Уникальные мастер-классы <br> от экспертов индустрии.",
+                    "Возможность создания <br> проектов в команде."
+                ]
+            },
+            goals: {
+                unionText: "Как только вы начнете-уже не сможете остановиться!",
+                goal: [
+                    {
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/3950/3950815.png",
+                        goalTitle: "Вдохновение через код",
+                        goalText: "Программирование как искусство. Узнай, как творческий подход может улучшить твои навыки."
+                    },
+                    {
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/10822/10822332.png",
+                        goalTitle: "Практические занятия",
+                        goalText: "Программирование как искусство. Узнай, как творческий подход может улучшить твои навыки."
+                    },
+                    {
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/1534/1534938.png",
+                        goalTitle: "Командная <br> работа",
+                        goalText: "Сотрудничество и обмен идеями. Найди единомышленников и создайте вместе что-то невероятное."
+                    }
+                ]
+            },
+            programmData: {
+                programmTitle: `Программа мероприятия "Креативный кодинг"`,
+                programmParagraf: `Этот интенсив по креативному кодингу объединяет программирование и творчество. Участники смогут развить
+                свои навыки, создавая уникальные и вдохновляющие проекты. Мастер-классы и воркшопы помогут применить
+                новые знания на практике.`,
+                accordionData: [
+                    {
+                        dayTitle: "День первый",
+                        events: [
+                            {
+                                time: "10:00 - 10:30",
+                                title: "Открытие мероприятия: Знакомство с программой и участниками.",
+                                text: "Участники познакомятся с расписанием мероприятия и друг с другом."
+                            },
+                            {
+                                time: "10:30 - 11:30",
+                                title: "Лекция: Введение в креативный кодинг и его возможности.",
+                                text: "Основные концепции и примеры использования креативного кодинга."
+                            },
+                            {
+                                time: "11:30 - 13:00",
+                                title: "Мастер-класс: Основы визуального программирования",
+                                text: "Практическое занятие по созданию простых визуальных проектов."
+                            },
+                            {
+                                time: "13:00 - 14:00",
+                                title: "Обеденный перерыв: Нетворкинг и обсуждение идей.",
+                                text: "Практическое занятие по использованию ИИ в различных сферах деятельности."
+                            },
+                            {
+                                time: "14:00 - 16:00",
+                                title: "Практическая сессия: Создание первого проекта.",
+                                text: "Участники создадут свой первый проект под руководством наставников."
+                            },
+                            {
+                                time: "16:00 - 17:00",
+                                title: "Лекция: Примеры успешных креативных проектов.",
+                                text: "Рассмотрение примеров успешных проектов для вдохновения."
+                            },
+                            {
+                                time: "17:00 - 18:00",
+                                title: "Завершение дня: Обзор выполненных проектов и план на второй день.",
+                                text: "Обсуждение выполненных работ и планирование следующего дня."
+                            }
+                        ]
+                    },
+                    {
+                        dayTitle: "День второй",
+                        events: [
+                            {
+                                time: "10:00 - 11:00",
+                                title: "Лекция: Углубление в сложные техники креативного кодинга.",
+                                text: "Подробный разбор сложных техник и их применение."
+                            },
+                            {
+                                time: "11:00 - 13:00",
+                                title: "Воркшоп: Работа с интерактивными и анимационными элементами.",
+                                text: "Практическое занятие по созданию интерактивных и анимационных элементов."
+                            },
+                            {
+                                time: "13:00 - 14:00",
+                                title: "Обеденный перерыв",
+                                text: "Возможность обсудить утренние сессии и обменяться идеями."
+                            },
+                            {
+                                time: "14:00 - 16:00",
+                                title: "Практическая сессия: Разработка группового проекта.",
+                                text: "Участники объединятся в группы для совместной разработки проекта."
+                            },
+                            {
+                                time: "16:00 - 17:00",
+                                title: "Лекция: Презентация проектов и обратная связь.",
+                                text: "Презентация готовых проектов и получение обратной связи от наставников."
+                            },
+                            {
+                                time: "17:00 - 18:00",
+                                title: "Закрытие мероприятия: Подведение итогов и награждение лучших работ.",
+                                text: "Подведение итогов мероприятия и награждение участников за лучшие проекты."
+                            }
+                        ]
+                    }
+                ]
+            },
+            couchesData: [
+                {
+                    name: "Ксения Малалига",
+                    proffession: "Эксперт по киберзащите, опыт в ведущих IT-компаниях более 10 лет.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Dementeva4.jfif"
+                },
+                {
+                    name: "Константин Киселев",
+                    proffession: "Эксперт по киберугрозам, консультант по безопасности для крупных компаний.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Farnikov4.jpg"
+                },
+                {
+                    name: "Цветан Параплан",
+                    proffession: "Эксперт по JavaScript-фреймворкам, 9 лет опыта, активный участник open-source проектов.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Galeta4.jpg"
+                },
+                {
+                    name: "Алина Мерикова",
+                    proffession: "Молодая и перспективная программистка, недавно закончившая технический университет с отличием.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/%D0%9C%D0%B5%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%D0%B04.jpg"
+                }
+            ],
+            carouselImages: [
+                { imgSrc: "https://sun1-1.userapi.com/c841620/v841620308/35a20/p6QMACvzlHw.jpg" },
+                { imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9ywG57qz5YrWTRhnZcChuDDoiFJjDbcK5g&s" },
+                { imgSrc: "https://www.timacad.ru/uploads/media/cache/image_sm_resize/uploads/images/20240313/b_img65f1c8a43d36d2.28616322.jpg" },
+                { imgSrc: "https://apkpro.ru/upload/resize_cache/iblock/45d/708_408_2/oa85xk6d8xivw4qne7mjmerhjetu9ny5.jpg" },
+                { imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWFALhI_2dUwdbL_BoVvmqD2WZPHc8mks1dA&s" },
+                { imgSrc: "https://cybergarden.ru/images/gallery/3.jpg" },
+                { imgSrc: "https://sun9-8.userapi.com/impg/rRVEInEtdLs2N6QTirUyCM48iNJi-qIlnj01sg/WvY866-xq58.jpg?size=807x538&quality=95&sign=af40a278298591dbf14ef5e415246cc1&c_uniq_tag=rSAUpq8b4UEFcIXwpw5SN29R4jtag-UdgWdjKx1CzTU&type=album" }
+            ]
+        },
+        {
+            id: "designIntensive",
+            couchesBackgroundImages: [
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20179.png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(3).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(1).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(2).png?raw=true",
+                "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20181.png?raw=true"
+            ],
+            overviewTitle: "Фотографии с прошлых мероприятий",
+            overviewParagraf: "Узнайте, как проходили наши прошлые мероприятия: посмотрите яркие фотографии, запечатлевшие увлекательные моменты, радость побед и живое общение участников и тренеров.",
+            header: {
+                headerImages: [
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(3).png?raw=true",
+                        top: "1%",
+                        left: "-5%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20178.png?raw=true",
+                        top: "60%",
+                        left: "-10%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(1).png?raw=true",
+                        top: "55%",
+                        left: "35%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20181.png?raw=true",
+                        top: "84%",
+                        left: "26%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20(4).png?raw=true",
+                        top: "10%",
+                        left: "103%"
+                    },
+                    {
+                        imgSrc: "https://github.com/DanyilHarma/Future-Academy/blob/master/images/images-chess-page/Vector%20182.png?raw=true",
+                        top: "88%",
+                        left: "97%",
+                        width: "17%"
+                    }
+                ],
+                headerBackgroundImage: "https://raw.githubusercontent.com/DanyilHarma/Future-Academy-2.0/master/src/assets/images/images-events/design-intensive/DALL%C2%B7E%202024-06-18%2013.19.32%20.webp",
+                headerTitle: "Дизайн-интенсив",
+                headerDescription: "Развивай свои дизайнерские навыки!",
+                headerParagrafs: [
+                    "Практические занятия с <br> опытными дизайнерами.",
+                    "Углубленное изучение <br> новейших трендов дизайна.",
+                    "Творческие задания <br> для каждого участника."
+                ]
+            },
+            goals: {
+                unionText: "Как только вы начнете-уже не сможете остановиться!",
+                goal: [
+                    {
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/17646/17646429.png",
+                        goalTitle: "Интерактивные <br> мастер-классы",
+                        goalText: "Узнайте о лучших практиках <br> и секретах дизайна от <br> профессионалов."
+                    },
+                    {
+                        imgSrc: "https://cdn-icons-png.freepik.com/256/17643/17643589.png?semt=ais_hybrid",
+                        goalTitle: "Обучение современным <br> инструментам",
+                        goalText: "Освойте новейшие программы <br> и инструменты для создания <br> впечатляющих дизайнов."
+                    },
+                    {
+                        imgSrc: "https://cdn-icons-png.flaticon.com/128/15355/15355751.png",
+                        goalTitle: "Творческая <br> атмосфера",
+                        goalText: "Погрузитесь в атмосферу <br> креативности и вдохновения <br> на нашем интенсиве."
+                    }
+                ]
+            },
+            programmData: {
+                programmTitle: `Программа мероприятия "Дизайн-интенсив"`,
+                programmParagraf: `На <strong>Дизайн-интенсиве</strong> вы сможете углубиться в мир дизайна, освоить современные инструменты
+                и методики, а также развить свои творческие способности. Программа мероприятия рассчитана на два
+                насыщенных дня, полных практических занятий, мастер-классов и творческих сессий. Вы узнаете о последних
+                трендах и техниках в дизайне, поработаете над реальными проектами и получите ценные советы от экспертов.`,
+                accordionData: [
+                    {
+                        dayTitle: "День первый",
+                        events: [
+                            {
+                                time: "09:00 - 10:00",
+                                title: "Регистрация участников",
+                                text: "Участники проходят регистрацию и получают необходимые материалы для работы."
+                            },
+                            {
+                                time: "10:00 - 11:00",
+                                title: "Вступительное слово и знакомство",
+                                text: "Организаторы приветствуют участников и рассказывают о программе мероприятия."
+                            },
+                            {
+                                time: "11:00 - 13:00",
+                                title: "Мастер-класс: Основы графического дизайна",
+                                text: "Эксперт рассказывает о ключевых принципах и техниках графического дизайна."
+                            },
+                            {
+                                time: "13:00 - 14:00",
+                                title: "Обеденный перерыв",
+                                text: "Участники могут отдохнуть и пообщаться за обедом."
+                            },
+                            {
+                                time: "14:00 - 16:00",
+                                title: "Практическое занятие: Создание логотипа",
+                                text: "Участники разрабатывают логотипы под руководством опытного дизайнера."
+                            },
+                            {
+                                time: "16:00 - 18:00",
+                                title: "Работа в группах: Разработка брендбука",
+                                text: "Командная работа по созданию брендбука для вымышленной компании."
+                            },
+                            {
+                                time: "18:00 - 19:00",
+                                title: "Ответы на вопросы и обсуждение результатов",
+                                text: "Обсуждение итогов дня, ответы на вопросы и обратная связь от преподавателей."
+                            }
+                        ]
+                    },
+                    {
+                        dayTitle: "День второй",
+                        events: [
+                            {
+                                time: "09:00 - 10:00",
+                                title: "Утренняя разминка и творческие упражнения",
+                                text: "Творческая разминка и упражнения для пробуждения креативности."
+                            },
+                            {
+                                time: "10:00 - 12:00",
+                                title: "Мастер-класс: Веб-дизайн и пользовательский интерфейс",
+                                text: "Обучение современным подходам к веб-дизайну и созданию UI."
+                            },
+                            {
+                                time: "12:00 - 13:00",
+                                title: "Практическое занятие: Прототипирование сайта",
+                                text: "Практическое занятие по созданию прототипов веб-сайтов."
+                            },
+                            {
+                                time: "13:00 - 14:00",
+                                title: "Обеденный перерыв",
+                                text: "Обед для всех участников в специально организованной зоне питания."
+                            },
+                            {
+                                time: "14:00 - 16:00",
+                                title: "Работа над проектами: Разработка сайта",
+                                text: "Участники разрабатывают дизайн сайта под руководством наставников."
+                            },
+                            {
+                                time: "16:00 - 18:00",
+                                title: "Индивидуальные консультации и рекомендации",
+                                text: "Личные консультации с преподавателями по проектам участников."
+                            },
+                            {
+                                time: "18:00 - 19:00",
+                                title: "Ответы на вопросы и обсуждение результатов",
+                                text: "Обсуждение итогов дня, ответы на вопросы и обратная связь от преподавателей."
+                            }
+                        ]
+                    },
+                    {
+                        dayTitle: "День третий",
+                        events: [
+                            {
+                                time: "09:00 - 10:00",
+                                title: "Утренняя зарядка и настрой на день",
+                                text: "Участники проводят зарядку и настраиваются на продуктивный день."
+                            },
+                            {
+                                time: "10:00 - 12:00",
+                                title: "Мастер-класс: Анимация и взаимодействие в дизайне",
+                                text: "Обучение методам создания анимации и интерактивных элементов в дизайне."
+                            },
+                            {
+                                time: "12:00 - 13:00",
+                                title: "Практическое занятие: Анимация интерфейсов",
+                                text: "Практическое занятие по созданию анимаций для интерфейсов."
+                            },
+                            {
+                                time: "13:00 - 14:00",
+                                title: "Обеденный перерыв",
+                                text: "Обед в ресторане мероприятия. Свободное время для общения и отдыха."
+                            },
+                            {
+                                time: "14:00 - 16:00",
+                                title: "Работа над проектами: Финальная доработка",
+                                text: "Участники завершают свои проекты под руководством наставников."
+                            },
+                            {
+                                time: "16:00 - 17:00",
+                                title: "Индивидуальные консультации и демонстрация работ",
+                                text: "Личные консультации с преподавателями и демонстрация готовых работ."
+                            },
+                            {
+                                time: "17:00 - 18:00",
+                                title: "Фуршет",
+                                text: "Вкусный фуршет для всех участников, возможность расслабиться и пообщаться в неформальной обстановке."
+                            },
+                            {
+                                time: "18:00 - 21:00",
+                                title: "Вечеринка",
+                                text: "Вечеринка в честь завершения мероприятия, музыка, развлечения и отличное настроение."
+                            }
+                        ]
+                    }
+                ]
+            },
+            couchesData: [
+                {
+                    name: "Маруся Климова",
+                    proffession: "Опытный фронтенд-разработчик с 10-летним стажем, специалист по HTML, CSS и JavaScript.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Kokorina14.jpg"
+                },
+                {
+                    name: "Мария Магдалена",
+                    proffession: "Ведущий специалист по UX/UI дизайну с 8-летним опытом, магистр цифрового дизайна.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Makarova4.jpg"
+                },
+                {
+                    name: "Олег Майами",
+                    proffession: "Backend-разработчик с 12-летним опытом, сертифицированный специалист по AWS и облачным технологиям.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/JigalkoA3.jpg"
+                },
+                {
+                    name: "Цветан Параплан",
+                    proffession: "Эксперт по JavaScript-фреймворкам, 9 лет опыта, активный участник open-source проектов.",
+                    imgSrc: "https://f-academy.ru/content/setup/pics/teachers/Galeta4.jpg"
+                }
+            ],
+            carouselImages: [
+                { imgSrc: "https://sun1-1.userapi.com/c841620/v841620308/35a20/p6QMACvzlHw.jpg" },
+                { imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa9ywG57qz5YrWTRhnZcChuDDoiFJjDbcK5g&s" },
+                { imgSrc: "https://www.timacad.ru/uploads/media/cache/image_sm_resize/uploads/images/20240313/b_img65f1c8a43d36d2.28616322.jpg" },
+                { imgSrc: "https://apkpro.ru/upload/resize_cache/iblock/45d/708_408_2/oa85xk6d8xivw4qne7mjmerhjetu9ny5.jpg" },
+                { imgSrc: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWFALhI_2dUwdbL_BoVvmqD2WZPHc8mks1dA&s" },
+                { imgSrc: "https://cybergarden.ru/images/gallery/3.jpg" },
+                { imgSrc: "https://sun9-8.userapi.com/impg/rRVEInEtdLs2N6QTirUyCM48iNJi-qIlnj01sg/WvY866-xq58.jpg?size=807x538&quality=95&sign=af40a278298591dbf14ef5e415246cc1&c_uniq_tag=rSAUpq8b4UEFcIXwpw5SN29R4jtag-UdgWdjKx1CzTU&type=album" }
+            ]
+        }
     ]
 };
 const anyoneEventsPageReducers = (state = initialState, action) => {

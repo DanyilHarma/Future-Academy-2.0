@@ -5,10 +5,6 @@ import SocietyFooter from "./society/societyFooter";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => {
-
-    // const societyImages = useSelector(state => state.footer.society)
-    // const logo = useSelector(state => state.footer.logo)
-
     const { society: societyImages, logo } = useSelector(state => state.footer)
 
     return (
