@@ -1,4 +1,5 @@
-.headerMain {
+.headerMain,
+.headerMainCareer {
     position: relative;
     overflow: visible;
     padding-right: 100px;
@@ -6,7 +7,9 @@
     margin-bottom: 20px;
 }
 
-
+.headerMainCareer {
+    background-color: #00093c;
+}
 
 .headerMain::before,
 .headerMain::after {
@@ -41,23 +44,61 @@
     text-align: center;
 }
 
-.headerContent h1 {
+.homeTitle {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 36px;
     color: #fff;
+
+    span:first-of-type {
+        position: absolute;
+        top: 66%;
+        left: 22%;
+    }
+
+    span:last-of-type {
+        position: absolute;
+        top: 101%;
+        left: 22%;
+    }
 }
 
-.headerContent h1 span:first-of-type {
-    position: absolute;
-    top: 66%;
-    left: 22%;
+.careerTitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+
+    span:first-of-type {
+        position: absolute;
+        top: 70%;
+        left: 22%;
+    }
+
+    span:last-of-type {
+        position: absolute;
+        top: 110%;
+        left: 22%;
+        font-size: 20px;
+    }
 }
 
-.headerContent h1 span:last-of-type {
+.questionButton {
     position: absolute;
-    top: 101%;
+    top: 175%;
     left: 22%;
+    background-color: #f7941d;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 285px;
+    height: 50px;
+    line-height: 48px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
 }
 
 .headerContent p {

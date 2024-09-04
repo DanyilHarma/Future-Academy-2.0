@@ -9,6 +9,7 @@ const AboutPart = (props) => {
     const pageConfig = {
         isCoursePage: location.pathname.startsWith("/coursesAllPage"),
         isEventPage: location.pathname.startsWith("/allEvents"),
+        isCareerPage: location.pathname.startsWith("/careerPage"),
         isAboutPage: location.pathname === "/aboutAcademy"
     }
 

@@ -1,0 +1,22 @@
+{
+    "aboutPart": {
+        "unionText": "С нами вы найдете работу,о которой мечтали!",
+        "goalsData": [
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector.png?raw=true",
+                "goalTitle": "Навыки для успешной карьеры",
+                "goalText": "Овладейте ключевыми навыками, <br/> которые помогут вам <br/> начать или продвинуться <br/> в профессиональной сфере."
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(1).png?raw=true",
+                "goalTitle": "Практический опыт и обучение",
+                "goalText": "Получите реальные знания <br/> и опыт, применимые <br/> в различных профессиональных <br/> областях."
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(2).png?raw=true",
+                "goalTitle": "Поддержка и карьерное развитие",
+                "goalText": "Воспользуйтесь возможностями <br/> карьерного роста и <br/> поддержкой экспертов <br/> в процессе вашего развития."
+            }
+        ]
+    }
+}

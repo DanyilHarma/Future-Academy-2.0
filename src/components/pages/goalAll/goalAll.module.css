@@ -16,6 +16,11 @@
         object-fit: contain;
     }
 
+    .aboutAcademyImages {
+        width: 26px;
+        height: 41px;
+    }
+
     span {
         font-family: var(--font-family);
         font-weight: 700;

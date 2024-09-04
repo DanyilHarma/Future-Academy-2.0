@@ -2,17 +2,21 @@ import classes from "./footer.module.css"
 import ColumnsFooter from "./columnsFooter/columnsFooter";
 import { useSelector } from "react-redux";
 import SocietyFooter from "./society/societyFooter";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Footer = () => {
     const { society: societyImages, logo } = useSelector(state => state.footer)
+
+    const location = useLocation();
+
+    const isAuthPage = location.pathname === "/enter";
 
     return (
         <footer>
             <div className="container">
                 <div className={classes.footerContainer}>
                     <div className={classes.infoBlockFooter}>
-                        <NavLink to="#"><img src={logo.imgSrc} alt="" className={classes.logoFooter} /></NavLink>
+                        <NavLink to="#" style={{ marginTop: isAuthPage ? "60px" : "155px" }}><img src={logo.imgSrc} alt="" className={classes.logoFooter} /></NavLink>
 
                         <div className={classes.infoContactFooter}>
                             <a href="tel:+37368432044">8 800 950-33-98 </a>
