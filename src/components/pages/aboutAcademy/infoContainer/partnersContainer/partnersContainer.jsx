@@ -7,7 +7,7 @@ const PartnersContainer = (props) => {
 
     return (
         <div className={classes.partnersContainer}>
-            <h2>Наши партнеры</h2>
+            <h2>{props.isCareerPage ? "Компании где уже работают наши клиенты" : "Наши партнеры"}</h2>
             <Partners rows={firstRow} first={true} />
             <Partners rows={secondRow} />
         </div>

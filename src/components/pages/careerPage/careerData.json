@@ -1,46 +1,113 @@
 {
-    "aboutPart": {
-        "unionText": "С нами вы найдете работу,о которой мечтали!",
-        "goalsData": [
-            {
-                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector.png?raw=true",
-                "goalTitle": "Навыки для успешной карьеры",
-                "goalText": "Овладейте ключевыми навыками, <br/> которые помогут вам <br/> начать или продвинуться <br/> в профессиональной сфере."
-            },
-            {
-                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(1).png?raw=true",
-                "goalTitle": "Практический опыт и обучение",
-                "goalText": "Получите реальные знания <br/> и опыт, применимые <br/> в различных профессиональных <br/> областях."
-            },
-            {
-                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(2).png?raw=true",
-                "goalTitle": "Поддержка и карьерное развитие",
-                "goalText": "Воспользуйтесь возможностями <br/> карьерного роста и <br/> поддержкой экспертов <br/> в процессе вашего развития."
-            }
-        ],
-        "advantagesFA": {
-            "title": "Почему вы точно найдете работу с ХОД Future Academy",
-            "text": "Мы предоставляем нашим студентам не только теоретические знания, но и реальные практические навыки, востребованные на рынке труда. Наша академия активно сотрудничает с ведущими компаниями в различных областях, помогая студентам находить стажировки и рабочие места. Благодаря сильной программе подготовки и поддержке наставников, большинство наших выпускников успешно трудоустраиваются в течение первых месяцев после окончания курсов."
+    "unionText": "С нами вы найдете работу,о которой мечтали!",
+    "goalsData": [
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector.png?raw=true",
+            "goalTitle": "Навыки для успешной карьеры",
+            "goalText": "Овладейте ключевыми навыками, <br/> которые помогут вам <br/> начать или продвинуться <br/> в профессиональной сфере."
         },
-        "employmentPathData": {
-            "title": "Ваш путь к трудоустройству",
-            "paths": [
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(1).png?raw=true",
+            "goalTitle": "Практический опыт и обучение",
+            "goalText": "Получите реальные знания <br/> и опыт, применимые <br/> в различных профессиональных <br/> областях."
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Vector%20(2).png?raw=true",
+            "goalTitle": "Поддержка и карьерное развитие",
+            "goalText": "Воспользуйтесь возможностями <br/> карьерного роста и <br/> поддержкой экспертов <br/> в процессе вашего развития."
+        }
+    ],
+    "advantagesFA": {
+        "title": "Почему вы точно найдете работу с ХОД Future Academy",
+        "text": "Мы предоставляем нашим студентам не только теоретические знания, но и реальные практические навыки, востребованные на рынке труда. Наша академия активно сотрудничает с ведущими компаниями в различных областях, помогая студентам находить стажировки и рабочие места. Благодаря сильной программе подготовки и поддержке наставников, большинство наших выпускников успешно трудоустраиваются в течение первых месяцев после окончания курсов."
+    },
+    "employmentPathData": {
+        "title": "Ваш путь к трудоустройству",
+        "paths": [
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/header-images/Vector.png?raw=true",
+                "text": "Освойте востребованные профессии  и навыки под руководством опытных наставников, используя актуальные учебные материалы и практические задания.",
+                "imgSrcBackground": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/careerPageImages/one.png?raw=true"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/header-images/Vector%20(2).png?raw=true",
+                "text": "Реализуйте практические проекты, которые войдут в ваше портфолио и помогут продемонстрировать ваши знания потенциальным работодателям.",
+                "imgSrcBackground": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/careerPageImages/two.png?raw=true"
+            },
+            {
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/header-images/Vector%20(1).png?raw=true",
+                "text": "Получите помощь в составлении резюме, подготовке к собеседованию и доступ к нашим партнерским программам для успешного трудоустройства.",
+                "imgSrcBackground": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/careerPageImages/three.png?raw=true"
+            }
+        ]
+    },
+    "activeVacanciesData": {
+        "title": "Примеры активных вакансий",
+        "vacancies": {
+            "firstRow": [
                 {
-                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/header-images/Vector.png?raw=true",
-                    "text": "Освойте востребованные профессии и навыки под руководством опытных наставников, используя актуальные учебные материалы и практические задания.",
-                    "imgSrcBackground": ""
+                    "name": "Веб-разработчик",
+                    "description": "Разработка и поддержка веб-сайтов и веб-приложений, работа с фронтенд и бэкенд технологиями.Куча работы ждет вас!",
+                    "salary": "от 80 000 ₽ в месяц",
+                    "backgroundColor": "#FFE38E",
+                    "link": ""
                 },
                 {
-                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/header-images/Vector%20(2).png?raw=true",
-                    "text": "Реализуйте практические проекты, которые войдут в ваше портфолио и помогут продемонстрировать ваши знания потенциальным работодателям.",
-                    "imgSrcBackground": ""
+                    "name": "Python-разработчик",
+                    "description": "Разработка программного обеспечения на языке Python, включая автоматизацию, анализ данных и веб-разработку.",
+                    "salary": "от 100 000 ₽ в месяц",
+                    "backgroundColor": "#FFE4B5",
+                    "link": ""
                 },
                 {
-                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/header-images/Vector%20(1).png?raw=true",
-                    "text": "Получите помощь в составлении резюме, подготовке к собеседованию и доступ к нашим партнерским программам для успешного трудоустройства.",
-                    "imgSrcBackground": ""
+                    "name": "Java-разработчик",
+                    "description": "Разработка корпоративных решений и приложений на Java, работа с базами данных и микросервисной архитектурой.",
+                    "salary": "от 120 000 ₽ в месяц",
+                    "backgroundColor": "#FFCC99",
+                    "link": ""
+                }
+            ],
+            "secondRow": [
+                {
+                    "name": "IOS-разработчик",
+                    "description": "Разработка мобильных приложений для iOS, работа с Swift и Objective-C, интеграция с различными API.",
+                    "salary": "от 130 000 ₽ в месяц",
+                    "backgroundColor": "#B0C4DE",
+                    "link": ""
+                },
+                {
+                    "name": "Графический дизайнер",
+                    "description": "Создание визуальных концепций для брендов, разработка макетов для печати и цифровых платформ.",
+                    "salary": "от 70 000 ₽ в месяц",
+                    "backgroundColor": "#C7EEFF",
+                    "link": ""
                 }
             ]
         }
+    },
+    "valuesData": {
+        "title": "Помогаем с трудоустройством",
+        "values": [
+            {
+                "id": 1,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20797.png?raw=true",
+                "text": "<span>Передовой подход <br> к образовательному<br> процессу.</span>"
+            },
+            {
+                "id": 2,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20801.png?raw=true",
+                "text": "<span>Непрерывное <br>усовершенствование<br> и пополнение базы курсов</span>"
+            },
+            {
+                "id": 3,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/children%20(1).png?raw=true",
+                "text": "<span>Только практикующие<br> преподаватели.</span>"
+            },
+            {
+                "id": 4,
+                "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20798.png?raw=true",
+                "text": "<span>Спопровождение на всех <br>этапах.От начала обучения<br> до трудоустройства</span>"
+            }
+        ]
     }
 }
