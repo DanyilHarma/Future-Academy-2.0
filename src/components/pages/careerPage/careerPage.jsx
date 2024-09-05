@@ -6,6 +6,8 @@ import { useDispatch } from "react-redux";
 import careerData from "./careerData.json"
 import { setCourseGoalData } from "../../../redux/goalReducer";
 import { setCourseOwlText } from "../../../redux/owlReducer";
+import AdvantagesFA from "./advantagesFA/advantagesFA";
+import EmploymentPath from "./employmentPath/employmentPath";
 
 const CareerPage = () => {
 
@@ -26,8 +28,11 @@ const CareerPage = () => {
         <div>
             <HeaderBig />
             <AboutPart />
+            <AdvantagesFA advantagesData={career.aboutPart.advantagesFA} />
+            <EmploymentPath />
         </div>
     )
+
 }
 
 export default CareerPage; 
