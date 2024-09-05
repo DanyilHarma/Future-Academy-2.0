@@ -14,7 +14,7 @@ let initialState = {
     children: [
         {
             label: "Тестировщик ПО",
-            link: ""
+            link: "/coursesAllPage/testing"
         },
         {
             label: "Создание игр",
@@ -137,7 +137,7 @@ let initialState = {
         },
         {
             label: "Карьера",
-            link: ""
+            link: "/careerPage"
         },
         {
             label: "Контакты",
