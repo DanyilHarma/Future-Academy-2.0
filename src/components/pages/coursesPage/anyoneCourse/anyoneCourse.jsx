@@ -10,12 +10,15 @@ import OverviewSection from "./coursePageParts/coursesOverviewSection/overviewSe
 import Couches from "./coursePageParts/couches/couches.jsx";
 import MyAccordion from "./coursePageParts/myAccordion/myAccordion.jsx";
 import { configureStore } from "../../../../redux/redux-store.js";
+import SalaryContainer from "./coursePageParts/salaryPart/salaryContainer.jsx";
+import YourFutureContainer from "./coursePageParts/yourFutureContainer/yourFutureContainer.jsx";
 
 const AnyoneCoursesPage = () => {
 
     const dispatch = useDispatch();
     const { courseId } = useParams();
     const [course, setCourse] = useState(null)
+
 
 
     useEffect(() => {
@@ -40,14 +43,17 @@ const AnyoneCoursesPage = () => {
     if (!course) {
         return <div>Загрузка...</div>;
     }
+    const isProffession = course.type === "profession";
 
     return (
         <>
             <AnyoneCourseHeader course={course} />
             <AboutPart />
             <CourseblockInfo infoData={course.infoCourse} benefitesData={course.benefitesFromTheCourse} />
+            {isProffession && (<SalaryContainer salaryData={course.overviewSectionData.salaryData} />)}
             <OverviewSection overviewInfo={course.overviewSectionData} dataPriceInfo={course} />
             <Couches couchesData={course.overviewSectionData.couchesData} couchesBackgroundImages={course.overviewSectionData.couchesBackgroundImages} />
+            {isProffession && (<YourFutureContainer yourFutureData={course.overviewSectionData.yourFutureData} />)}
             <MyAccordion accordionData={course.overviewSectionData.accordionData} />
         </>
     )

@@ -1,0 +1,24 @@
+{
+    "values": [
+        {
+            "id": 1,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/welcome-images/Group%20797.png?raw=true",
+            "text": "Передовой подход<br> к образовательному <br>процессу"
+        },
+        {
+            "id": 2,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/welcome-images/Group%20798.png?raw=true",
+            "text": "Непрерывное<br>усовершенствование <br>и пополнение базы курсов"
+        },
+        {
+            "id": 3,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/welcome-images/Group%20800.png?raw=true",
+            "text": "Только практикующие <br>преподаватели"
+        },
+        {
+            "id": 4,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/welcome-images/Group%20801.png?raw=true",
+            "text": "Сопровождение на всех<br>этапах. От начала обучения<br>до трудоустройства"
+        }
+    ]
+}

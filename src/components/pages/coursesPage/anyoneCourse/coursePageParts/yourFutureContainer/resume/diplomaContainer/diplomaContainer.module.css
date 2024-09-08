@@ -1,0 +1,25 @@
+.diplomaWrapper {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.diplomaText {
+
+    h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: #00093c;
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 162%;
+        color: #000;
+    }
+}
