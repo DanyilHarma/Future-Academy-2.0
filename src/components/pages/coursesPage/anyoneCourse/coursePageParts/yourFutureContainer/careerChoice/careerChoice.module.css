@@ -1,0 +1,61 @@
+.careerChoiceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 121%;
+        color: #000;
+    }
+}
+
+.careerChoiceWrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+    padding: 15px 20px;
+
+    h5 {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 24px;
+        color: #00093c;
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #4f4f4f;
+    }
+
+    span:first-of-type {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        color: #00093c;
+    }
+
+    span:last-of-type {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 28px;
+        color: #00093c;
+    }
+}
+
+.income,
+.choiceDescription {
+    display: flex;
+    flex-direction: column;
+}

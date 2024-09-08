@@ -1,0 +1,30 @@
+.salaryContainer {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 94%;
+        color: #000;
+        margin-bottom: 30px;
+    }
+
+}
+
+.valuesContainer {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.valuesTitle {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 94%;
+    color: #000;
+    margin-bottom: 70px;
+}

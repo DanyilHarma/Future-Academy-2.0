@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Breadcrumbs from "../../breadcrumb/breadcrumb.jsx";
 import CoursesPeople from "../home/coursesBlock/coursesPeople/coursesPeople.jsx";
 import CoursesFilter from "./coursesFilter/coursesFilter.jsx";
@@ -6,6 +5,9 @@ import classes from "./coursesPageContainer.module.css"
 
 
 const CoursesPageContainer = () => {
+
+
+
     return (
         <div className={`container ${classes.allCourses}`}>
             <Breadcrumbs />

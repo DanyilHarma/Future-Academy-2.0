@@ -1,0 +1,104 @@
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 121%;
+        color: #000;
+    }
+}
+
+.resumeWrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1296px;
+    height: 100%;
+    max-height: 100%;
+    padding: 20px 25px 20px 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.resumeWrapper::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -2;
+    border-radius: 17px;
+    padding: 2px;
+    background: linear-gradient(to right, #F7941D, #27AAE1);
+}
+
+.resumeHeader {
+    display: flex;
+    gap: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #F7941D, #27AAE1);
+}
+
+.circleGradient {
+    display: flex;
+    position: relative;
+    width: 96px;
+    height: 96px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #f7941d, #27aae1);
+    padding: 5px;
+
+    img {
+        position: relative;
+        z-index: 2;
+        width: 86px;
+        height: 86px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.circleGradient::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.userInfo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 15px;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        span:first-of-type {
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 12px;
+            color: #000;
+        }
+
+        span:last-of-type {
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 189%;
+            color: #00093c;
+        }
+    }
+}
