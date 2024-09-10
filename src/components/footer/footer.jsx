@@ -10,13 +10,14 @@ const Footer = () => {
     const location = useLocation();
 
     const isAuthPage = location.pathname === "/enter";
+    const isTestPage = location.pathname === "/test";
 
     return (
         <footer>
             <div className="container">
                 <div className={classes.footerContainer}>
                     <div className={classes.infoBlockFooter}>
-                        <NavLink to="#" style={{ marginTop: isAuthPage ? "60px" : "155px" }}><img src={logo.imgSrc} alt="" className={classes.logoFooter} /></NavLink>
+                        <NavLink to="#" style={{ marginTop: (isAuthPage || isTestPage) ? "60px" : "155px" }}><img src={logo.imgSrc} alt="" className={classes.logoFooter} /></NavLink>
 
                         <div className={classes.infoContactFooter}>
                             <a href="tel:+37368432044">8 800 950-33-98 </a>

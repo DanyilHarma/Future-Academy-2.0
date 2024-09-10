@@ -12,10 +12,11 @@ const Header = (props) => {
     const location = useLocation()
 
     const [positionIndicator, setPositionIndicator] = useState(470)
-    const alternatePaths = ["/coursesAllPage", "/allEvents", "/news", "/contacts", "/enter"];
+    const alternatePaths = ["/coursesAllPage", "/allEvents", "/news", "/contacts", "/enter", "/test"];
     const isAlternate = useIsAlternate(alternatePaths);
 
     const contacts = location.pathname === "/contacts";
+    const testPage = location.pathname === "/test";
 
     const handlePositionIndicator = (position) => {
         setPositionIndicator(position)
@@ -27,7 +28,7 @@ const Header = (props) => {
                 <img src={isAlternate ? logoLight : logo} alt="" />
             </NavLink>
             <Navigation isAlternate={isAlternate} onIndicatorMove={handlePositionIndicator} />
-            {isAlternate && !contacts ? (<hr className={classes.indicatorHeader}
+            {isAlternate && (!contacts && !testPage) ? (<hr className={classes.indicatorHeader}
                 style={{ "height": "5px", "left": `${positionIndicator}px` }} />) : null}
         </header >
     )

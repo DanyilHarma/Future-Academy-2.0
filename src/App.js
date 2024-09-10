@@ -15,6 +15,7 @@ import ScrollToTop from './components/scrollToTop/scrollToTop.jsx';
 import Contacts from './components/pages/contacts/contacts.jsx';
 import AuthPageContainer from './components/pages/authPage/authPageContainer.jsx';
 import CareerPage from './components/pages/careerPage/careerPage.jsx';
+import TestPage from './components/pages/testPage/testPage.jsx';
 
 
 function App(props) {
@@ -34,6 +35,7 @@ function App(props) {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/enter" element={<AuthPageContainer />} />
           <Route path="/careerPage" element={<CareerPage />} />
+          <Route path="/test" element={<TestPage />} />
         </Routes>
       </ScrollToTop>
       <FormHelp />
