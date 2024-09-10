@@ -41,7 +41,7 @@ let initialState = {
 
     secondLi: [
         {
-            link: "+37368432044",
+            link: "tel:+37368432044",
             text: "+37368432044"
         },
         {

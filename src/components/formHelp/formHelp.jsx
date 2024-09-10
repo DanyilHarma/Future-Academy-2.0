@@ -1,15 +1,19 @@
 import classes from "./formHelp.module.css"
 import imageUnion from "../../assets/images/form-help-images/Union.png"
 import ovlBigImage from "../../assets/images/form-help-images/ovl-big.png"
+
 import { useLocation } from "react-router-dom"
 import formHelpData from "./formHelpData.json"
 import DOMPurify from "dompurify"
 
-const FormHelp = () => {
+
+
+const FormHelp = (props) => {
 
     const location = useLocation()
 
     const isAuthPage = location.pathname === "/enter"
+    const isTestPage = location.pathname === "/test"
     const isContactsPage = location.pathname === "/contacts"
     const isCareerPage = location.pathname === "/careerPage"
 
@@ -25,9 +29,9 @@ const FormHelp = () => {
 
 
     return (
-        isAuthPage ? null : (<div className="container">
+        (isAuthPage || isTestPage) ? null : (<div className="container">
             <div className={classes.formShadowContainer}>
-                <div className={classes.formHelpChoice}>
+                <div className={classes.formHelpChoice} style={{ marginTop: props.isPopupFormHelp ? "0px" : "150px" }}>
                     <img src={imageUnion} alt="" style={{ left: "19%" }} />
                     <div className={classes.unionFormText}>
                         <div dangerouslySetInnerHTML={{ "__html": DOMPurify.sanitize(formHelpTitle) }}></div>

@@ -1,3 +1,18 @@
+.overlayFormHelp {
+    position: fixed;
+    padding: 40px;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1180px;
+    height: 270px;
+    background-color: #fff;
+    border-radius: 20px;
+
+    img {
+        position: absolute;
+    }
+}
+
 .formShadowContainer {
     position: relative;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
