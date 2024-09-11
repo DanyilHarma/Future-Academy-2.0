@@ -16,6 +16,7 @@ import Contacts from './components/pages/contacts/contacts.jsx';
 import AuthPageContainer from './components/pages/authPage/authPageContainer.jsx';
 import CareerPage from './components/pages/careerPage/careerPage.jsx';
 import TestPage from './components/pages/testPage/testPage.jsx';
+import SummerCampPageContainer from './components/pages/summerCampPageContainer/summerCampPageContainer.jsx';
 
 
 function App(props) {
@@ -36,6 +37,7 @@ function App(props) {
           <Route path="/enter" element={<AuthPageContainer />} />
           <Route path="/careerPage" element={<CareerPage />} />
           <Route path="/test" element={<TestPage />} />
+          <Route path="/summerCamp" element={<SummerCampPageContainer />} />
         </Routes>
       </ScrollToTop>
       <FormHelp />

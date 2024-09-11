@@ -43,7 +43,6 @@ const CareerPage = () => {
             <div className="container">
                 <h2 className={classes.valuesTitle}>{career.valuesData.title}</h2>
                 <div className={classes.valuesContainer}>
-
                     {valuesElement}
                 </div>
             </div>
