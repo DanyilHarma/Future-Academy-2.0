@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import classes from "./openDoor.module.css"
 import SvgDayOf from "./svgDayOf/svgDayOf.jsx";
 
@@ -7,11 +8,11 @@ const OpenDoor = (props) => {
         <div className={classes.dayOfOpenDoor}>
             <SvgDayOf />
             <div className={classes.textDayOf}>
-                <span>День открытых дверей</span>
-                <p>Приглашаем всех желающих на бесплатную экскурсию <br />
-                    в мир востребованных профессий и полезных навыков</p>
+                <span>Открытие летнего лагеря</span>
+                <p>Приглашаем всех желающих на отдых и развитие <br />
+                    в наш летний лагерь,атмосфера и знания обеспечены!</p>
             </div>
-            <div className={classes.buttonDayOfContainer}>
+            <NavLink to="/summerCamp" className={classes.buttonDayOfContainer}>
                 <div className={classes.buttonDayOf}>
                     <span>Записаться </span>
                     <svg width="10" height="13" viewBox="0 0 10 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,7 +20,7 @@ const OpenDoor = (props) => {
                             strokeLinecap="round" />
                     </svg>
                 </div>
-            </div>
+            </NavLink>
         </div>
     )
 }

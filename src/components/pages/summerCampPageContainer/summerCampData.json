@@ -1,0 +1,30 @@
+{
+    "ImagesheaderLeft": [
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20178.png?raw=true",
+            "top": "60%",
+            "left": "-15%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20181.png?raw=true",
+            "top": "84%",
+            "left": "28%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(2).png?raw=true",
+            "top": "75%",
+            "left": "35%",
+            "width": "50px"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(1).png?raw=true",
+            "top": "40%",
+            "left": "35%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
+            "top": "58%",
+            "left": "50%"
+        },
+    ]
+}
