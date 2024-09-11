@@ -8,6 +8,7 @@
 
 .headerImages {
     position: absolute;
+    z-index: 1;
 }
 
 .headerMain::before,

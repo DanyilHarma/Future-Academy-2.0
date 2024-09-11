@@ -1,5 +1,5 @@
 {
-    "ImagesheaderLeft": [
+    "Imagesheader": [
         {
             "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20178.png?raw=true",
             "top": "60%",
@@ -26,5 +26,10 @@
             "top": "58%",
             "left": "50%"
         },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/girl.png?raw=true",
+            "top": "12%",
+            "left": "52%"
+        }
     ]
 }

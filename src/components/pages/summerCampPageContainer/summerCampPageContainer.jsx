@@ -5,7 +5,7 @@ import classes from "./summerCampPageContainer.module.css"
 const SummerCampPageContainer = () => {
     return (
         <>
-            <HeaderBigCamp headerImages={data.ImagesheaderLeft} />
+            <HeaderBigCamp headerImages={data.Imagesheader} />
         </>
     )
 }
