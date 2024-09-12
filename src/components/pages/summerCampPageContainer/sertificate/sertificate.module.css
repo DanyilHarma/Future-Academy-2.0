@@ -1,0 +1,26 @@
+.sertificateContainer {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+
+.sertificateText {
+    margin-top: 50px;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 128%;
+        color: #00093c;
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 180%;
+        color: #000;
+    }
+}

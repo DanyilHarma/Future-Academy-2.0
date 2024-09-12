@@ -4,7 +4,7 @@ import CarouselOverview from "./carouselOverview/carouselOverview.jsx";
 import PriceInfo from "./priceInfo/priceInfo.jsx";
 
 const OverviewSection = (props) => {
-    // debugger
+
     return (
         <>
             <div className="container">

@@ -10,7 +10,8 @@ const AboutPart = (props) => {
         isCoursePage: location.pathname.startsWith("/coursesAllPage"),
         isEventPage: location.pathname.startsWith("/allEvents"),
         isCareerPage: location.pathname.startsWith("/careerPage"),
-        isAboutPage: location.pathname === "/aboutAcademy"
+        isAboutPage: location.pathname === "/aboutAcademy",
+        isCampPage: location.pathname === "/summerCamp"
     }
 
     return (

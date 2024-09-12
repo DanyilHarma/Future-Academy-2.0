@@ -2,8 +2,6 @@ import { useState } from "react";
 import classes from "./headerBigCamp.module.css"
 import ModalFormHelp from "../../../formHelp/modalFormHelp/modalFormHelp";
 import FormHelp from "../../../formHelp/formHelp";
-import HeaderImg from "../../home/headerBig/headerImg/headerImg";
-import LazyLoad from "react-lazyload";
 
 const HeaderBigCamp = (props) => {
     const [popup, setPopup] = useState(false);
@@ -48,7 +46,10 @@ const HeaderBigCamp = (props) => {
                                 </div>
                             </div>
                         </div>
-                        {props.headerImages.map((image, index) => <img className={classes.headerImages} key={index} src={image.imgSrc} style={{ top: `${image.top}`, left: `${image.left}`, width: `${image.width}` }} />)}
+                        {props.headerImages.map((image, index) => <img className={classes.headerImages} key={index} src={image.imgSrc} style={{
+                            top: `${image.top}`, left: `${image.left}`, height: `${image.height}`, objectFit: `${image.objectFit}`,
+                            width: `${image.width}`, maxWidth: `${image.maxWidth}`, zIndex: `${image.zIndex}`
+                        }} />)}
                     </div>
                 </div >
             </div>

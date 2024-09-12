@@ -1,0 +1,16 @@
+.dayPlanContainer {
+    position: relative;
+    margin-top: 150px;
+    gap: 25px;
+    display: flex;
+}
+
+.dayPlan {
+    position: absolute;
+    font-size: 150px;
+    color: #e8e9ef;
+    opacity: 0.6;
+    top: -113px;
+    left: 200px;
+    font-weight: 700;
+}
