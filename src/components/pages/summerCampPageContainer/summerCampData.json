@@ -32,7 +32,7 @@
             "left": "52%"
         },
         {
-            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Group.png?raw=true",
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/05003926633a38a5794725849efc416c5bedb468/Group%20996.png?raw=true",
             "top": "5%",
             "left": "62%"
         },
@@ -200,5 +200,50 @@
             ],
             "halfDayPlan": []
         }
-    }
+    },
+    "carouselImages": [
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/unsplash_EhTcC9sYXsw.png?raw=true"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/unsplash_SYTO3xs06fU.png?raw=true"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/unsplash_glRqyWJgUeY.png?raw=true"
+        },
+        {
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdDRzd9i98dXDcjA5fphGocrHNViIwhOYfgQ&s"
+        },
+        {
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuPOSANt5lhU2De2mHtJXjnEg5D66w9c88OA&s"
+        },
+        {
+            "imgSrc": "https://opis-cdn.tinkoffjournal.ru/mercury/it-summer-camps-4.wnq5vn.jpg"
+        },
+        {
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIrpnBaBEqi59grli1g_bDiwceIRLQLp-idQ&s"
+        }
+    ],
+    "principle": [
+        {
+            "id": 1,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20797.png?raw=true",
+            "text": "<span>Передовой подход<br> к образовательному <br>процессу</span>"
+        },
+        {
+            "id": 2,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20798.png?raw=true",
+            "text": "<span>Непрерывное<br> усовершенствование <br>и пополнение базы курсов</span>"
+        },
+        {
+            "id": 3,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20800.png?raw=true",
+            "text": "<span>Только практикующие<br> преподаватели</span>"
+        },
+        {
+            "id": 4,
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-about-page/Group%20801.png?raw=true",
+            "text": "<span>Сопровождение на всех<br> этапах. От начала обучения<br> до трудоустройства</span>"
+        }
+    ]
 }

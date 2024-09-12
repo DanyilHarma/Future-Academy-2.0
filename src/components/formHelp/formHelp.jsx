@@ -16,16 +16,20 @@ const FormHelp = (props) => {
     const isTestPage = location.pathname === "/test"
     const isContactsPage = location.pathname === "/contacts"
     const isCareerPage = location.pathname === "/careerPage"
+    const isSummerCumpPage = location.pathname === "/summerCamp"
+
 
     const formHelpTitle =
         isContactsPage ? formHelpData.contactsPage.title
             : isCareerPage ? formHelpData.careerPage.title
-                : formHelpData.allPages.title;
+                : isSummerCumpPage ? formHelpData.summerCampPage.title
+                    : formHelpData.allPages.title;
 
     const formHelpText =
         isContactsPage ? formHelpData.contactsPage.text
             : isCareerPage ? formHelpData.careerPage.text
-                : formHelpData.allPages.text
+                : isSummerCumpPage ? formHelpData.summerCampPage.text
+                    : formHelpData.allPages.text
 
 
     return (

@@ -1,0 +1,44 @@
+.carouselPrincipleContainer {
+    margin-top: 70px;
+}
+
+.carouselInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    h3 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 94%;
+        text-align: center;
+        color: #00093c;
+    }
+
+    p {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 144%;
+        text-align: center;
+        color: #000;
+    }
+}
+
+.welcomeTitle {
+    margin-top: 100px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 94%;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.welcomeInfo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
