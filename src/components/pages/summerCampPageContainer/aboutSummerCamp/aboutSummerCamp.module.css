@@ -1,0 +1,5 @@
+.aboutCampContainer {
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+}

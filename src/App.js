@@ -19,7 +19,7 @@ import TestPage from './components/pages/testPage/testPage.jsx';
 import SummerCampPageContainer from './components/pages/summerCampPageContainer/summerCampPageContainer.jsx';
 
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <Header />

@@ -1,0 +1,29 @@
+.shiftDayColumnWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.shiftDay {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    span {
+        display: inline-block;
+        min-width: 95px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 222%;
+        color: #fff;
+    }
+
+    hr {
+        border: none;
+        opacity: 1;
+        height: 2px;
+        background: linear-gradient(to right, #F7941D, #27AAE1);
+        margin: 0;
+        width: 50px;
+    }
+}

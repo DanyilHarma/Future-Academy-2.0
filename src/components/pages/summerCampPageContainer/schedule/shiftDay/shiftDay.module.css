@@ -1,0 +1,40 @@
+.shiftDayContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.blueScheduleContainer {
+    background-color: #00093c;
+    height: 380px;
+    padding: 40px 0;
+
+    h2 {
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        color: #fff;
+    }
+}
+
+.shiftDayColumnContainer {
+    display: flex;
+    gap: 100px;
+}
+
+.trialLessonButton {
+    background-color: #f7941d;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 180px;
+    height: 50px;
+    line-height: 48px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}

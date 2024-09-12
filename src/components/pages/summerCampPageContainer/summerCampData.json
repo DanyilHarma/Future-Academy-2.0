@@ -30,6 +30,175 @@
             "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/girl.png?raw=true",
             "top": "12%",
             "left": "52%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Group.png?raw=true",
+            "top": "5%",
+            "left": "62%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Group%20(1).png?raw=true",
+            "top": "24%",
+            "left": "70%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Group%20(2).png?raw=true",
+            "top": "47%",
+            "left": "69%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Group%20(3).png?raw=true",
+            "top": "80%",
+            "left": "73%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Group%20997.png?raw=true",
+            "top": "60%",
+            "left": "80%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/boy.png?raw=true",
+            "top": "4%",
+            "left": "83%",
+            "maxWidth": "455px",
+            "height": "100%",
+            "objectFit": "cover",
+            "zIndex": 2
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Group%20995.png?raw=true",
+            "top": "7%",
+            "left": "87%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/1001001.png?raw=true",
+            "top": "65%",
+            "left": "105%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/1001001.png?raw=true",
+            "top": "13%",
+            "left": "82%",
+            "maxWidth": "3%"
+        },
+        {
+            "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/images-all-courses-page/images-chess-page/Vector%20(3).png?raw=true",
+            "top": "58%",
+            "left": "50%"
         }
-    ]
+    ],
+    "aboutSummerCampData": {
+        "unionText": "С нами у детей будет <br> продуктивное IT-лето,полное инересного и полезного.",
+        "firstCol": [
+            "Программирование",
+            "Робототехника",
+            "3-D моделлирование",
+            "Создание игр",
+            "Анимация"
+        ],
+        "secondCol": [
+            "Шахматы",
+            "Блогинг",
+            "Прогулки",
+            "Игровые активности",
+            "Английский язык"
+        ]
+    },
+    "schedulesData": {
+        "blueScheduleData": {
+            "firstCol": {
+                "start": [
+                    "30.05.2022",
+                    "13.06.2022",
+                    "27.06.2022"
+                ],
+                "finish": [
+                    "10.06.2022",
+                    "24.06.2022",
+                    "08.07.2022"
+                ]
+            },
+            "secondCol": {
+                "start": [
+                    "11.07.2022",
+                    "25.07.2022",
+                    "08.08.2022"
+                ],
+                "finish": [
+                    "22.07.2022",
+                    "05.08.2022",
+                    "19.08.2022"
+                ]
+            }
+        },
+        "dayPlanData": {
+            "allDayPlan": [
+                {
+                    "start": "08:30",
+                    "finish": "09:00",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Vector.png?raw=true",
+                    "text": "Сбор детей, утренняя зарядка"
+                },
+                {
+                    "start": "9:00",
+                    "finish": "9:40",
+                    "start1": "9:50",
+                    "finish1": "10:30",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Vector%20(2).png?raw=true",
+                    "text": "IT-урок"
+                },
+                {
+                    "start": "10:30",
+                    "finish": "10:40",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Union.png?raw=true",
+                    "text": "Перекус (чай, снеки)"
+                },
+                {
+                    "start": "10:40",
+                    "finish": "11:20",
+                    "start1": "11:20",
+                    "finish1": "12:10",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Vector%20(2).png?raw=true",
+                    "text": "IT-урок"
+                },
+                {
+                    "start": "12:20",
+                    "finish": "13:00",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Vector%20(2).png?raw=true",
+                    "text": "Занятие по английскому языку или шахматам"
+                },
+                {
+                    "start": "13:00",
+                    "finish": "14:00",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Union%20(1).png?raw=true",
+                    "text": "Обед в кафе"
+                },
+                {
+                    "start": "14:00",
+                    "finish": "15:00",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Union%20(2).png?raw=true",
+                    "text": "Прогулка, игры на свежем воздухе"
+                },
+                {
+                    "start": "15:00",
+                    "finish": "16:00",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Union%20(3).png?raw=true",
+                    "text": "Тренинговое занятие по развитию различных soft skills"
+                },
+                {
+                    "start": "16:00",
+                    "finish": "17:00",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Union%20(2).png?raw=true",
+                    "text": "Настольные игры, общение, проектная деятельность"
+                },
+                {
+                    "start": "17:00",
+                    "finish": "18:00",
+                    "imgSrc": "https://github.com/DanyilHarma/Future-Academy-2.0/blob/master/src/assets/images/summerCampImages/Vector.png?raw=true",
+                    "text": "Лёгкая разминка, уход детей домой"
+                }
+            ],
+            "halfDayPlan": []
+        }
+    }
 }
